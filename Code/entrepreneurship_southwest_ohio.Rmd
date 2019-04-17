@@ -172,4 +172,4 @@ write.csv(websiteTable, file = "../Data/CleanedOhioWebsites.csv", row.names = F)
 
 
 # Domain Histories
-Based on Section (1), we know have the domain names for approximately 83450 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from 
+Based on Section (1), we know have the domain names for approximately 83450 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the [Wayback Machine API](https://web.archive.org/).
