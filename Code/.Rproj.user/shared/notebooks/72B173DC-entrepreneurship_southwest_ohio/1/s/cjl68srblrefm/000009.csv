@@ -1,0 +1,5 @@
+"0","write.csv(top100sites_cincy, ""../Results/topcincy.csv"")
+"
+"2","Error in write.table(top100sites_cincy, ""../Results/topcincy.csv"", col.names = NA,  : 
+  unimplemented type 'list' in 'EncodeElement'
+"

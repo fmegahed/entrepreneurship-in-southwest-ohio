@@ -1,0 +1,1417 @@
+ZIP,City,County,Type
+43001,Alexandria,Licking,Standard
+43002,Amlin,Franklin,P.O. Box
+43003,Ashley,Delaware,Standard
+43004,Blacklick,Franklin,Standard
+43005,Bladensburg,Knox,P.O. Box
+43006,Brinkhaven,Knox,Standard
+43007,Broadway,Union,P.O. Box
+43008,Buckeye Lake,Licking,P.O. Box
+43009,Cable,Champaign,Standard
+43010,Catawba,Clark,P.O. Box
+43011,Centerburg,Knox,Standard
+43013,Croton,Licking,Standard
+43014,Danville,Knox,Standard
+43015,Delaware,Delaware,Standard
+43016,Dublin,Franklin,Standard
+43017,Dublin,Franklin,Standard
+43018,Etna,Licking,P.O. Box
+43019,Fredericktown,Knox,Standard
+43021,Galena,Delaware,Standard
+43022,Gambier,Knox,Standard
+43023,Granville,Licking,Standard
+43025,Hebron,Licking,Standard
+43026,Hilliard,Franklin,Standard
+43027,Homer,Licking,P.O. Box
+43028,Howard,Knox,Standard
+43029,Irwin,Union,Standard
+43030,Jacksontown,Licking,P.O. Box
+43031,Johnstown,Licking,Standard
+43032,Kilbourne,Delaware,P.O. Box
+43033,Kirkersville,Licking,P.O. Box
+43035,Lewis Center,Delaware,Standard
+43036,Magnetic Springs,Union,P.O. Box
+43037,Martinsburg,Knox,Standard
+43040,Marysville,Union,Standard
+43041,Marysville,Union,Unique
+43044,Mechanicsburg,Champaign,Standard
+43045,Milford Center,Union,Standard
+43046,Millersport,Fairfield,Standard
+43047,Mingo,Champaign,P.O. Box
+43048,Mount Liberty,Knox,P.O. Box
+43050,Mount Vernon,Knox,Standard
+43054,New Albany,Franklin,Standard
+43055,Newark,Licking,Standard
+43056,Heath,Licking,Standard
+43058,Newark,Licking,P.O. Box
+43060,North Lewisburg,Champaign,Standard
+43061,Ostrander,Delaware,Standard
+43062,Pataskala,Licking,Standard
+43064,Plain City,Madison,Standard
+43065,Powell,Delaware,Standard
+43066,Radnor,Delaware,Standard
+43067,Raymond,Union,Standard
+43068,Reynoldsburg,Franklin,Standard
+43069,Reynoldsburg,Franklin,Unique
+43070,Rosewood,Champaign,P.O. Box
+43071,Saint Louisville,Licking,Standard
+43072,Saint Paris,Champaign,Standard
+43073,Summit Station,Licking,P.O. Box
+43074,Sunbury,Delaware,Standard
+43076,Thornville,Perry,Standard
+43077,Unionville Center,Union,P.O. Box
+43078,Urbana,Champaign,Standard
+43080,Utica,Licking,Standard
+43081,Westerville,Franklin,Standard
+43082,Westerville,Delaware,Standard
+43083,Westville,Champaign,P.O. Box
+43084,Woodstock,Champaign,Standard
+43085,Columbus,Franklin,Standard
+43086,Westerville,Franklin,P.O. Box
+43093,Newark,Licking,Unique
+43101,Adelphi,Ross,P.O. Box
+43102,Amanda,Fairfield,Standard
+43103,Ashville,Pickaway,Standard
+43105,Baltimore,Fairfield,Standard
+43106,Bloomingburg,Fayette,Standard
+43107,Hideaway Hls,Fairfield,Standard
+43107,Bremen,Fairfield,Standard
+43109,Brice,Franklin,P.O. Box
+43110,Canal Winchester,Franklin,Standard
+43111,Carbon Hill,Hocking,P.O. Box
+43112,Carroll,Fairfield,Standard
+43113,Circleville,Pickaway,Standard
+43115,Clarksburg,Ross,Standard
+43116,Commercial Point,Pickaway,Standard
+43117,Derby,Pickaway,P.O. Box
+43119,Galloway,Franklin,Standard
+43123,Grove City,Franklin,Standard
+43125,Groveport,Franklin,Standard
+43126,Harrisburg,Franklin,P.O. Box
+43127,Haydenville,Hocking,P.O. Box
+43128,Jeffersonville,Fayette,Standard
+43130,Lancaster,Fairfield,Standard
+43135,Laurelville,Hocking,Standard
+43136,Lithopolis,Fairfield,Standard
+43137,Lockbourne,Franklin,Standard
+43138,Logan,Hocking,Standard
+43140,London,Madison,Standard
+43142,Milledgeville,Fayette,P.O. Box
+43143,Mount Sterling,Madison,Standard
+43144,Murray City,Hocking,P.O. Box
+43145,New Holland,Pickaway,Standard
+43146,Orient,Pickaway,Standard
+43147,Pickerington,Fairfield,Standard
+43148,Pleasantville,Fairfield,Standard
+43149,Rockbridge,Hocking,Standard
+43150,Rushville,Fairfield,Standard
+43151,Sedalia,Madison,P.O. Box
+43152,South Bloomingville,Hocking,Standard
+43153,South Solon,Madison,Standard
+43154,Stoutsville,Fairfield,Standard
+43155,Sugar Grove,Fairfield,Standard
+43156,Tarlton,Pickaway,P.O. Box
+43157,Thurston,Fairfield,P.O. Box
+43158,Union Furnace,Hocking,P.O. Box
+43160,Washington Court House,Fayette,Standard
+43162,West Jefferson,Madison,Standard
+43164,Williamsport,Pickaway,Standard
+43194,Lockbourne,Franklin,Unique
+43195,Groveport,Franklin,Unique
+43199,Groveport,Franklin,Unique
+43201,Columbus,Franklin,Standard
+43202,Columbus,Franklin,Standard
+43203,Columbus,Franklin,Standard
+43204,Columbus,Franklin,Standard
+43205,Columbus,Franklin,Standard
+43206,Columbus,Franklin,Standard
+43207,Columbus,Franklin,Standard
+43209,Columbus,Franklin,Standard
+43210,Columbus,Franklin,Standard
+43211,Columbus,Franklin,Standard
+43212,Columbus,Franklin,Standard
+43213,Columbus,Franklin,Standard
+43214,Columbus,Franklin,Standard
+43215,Columbus,Franklin,Standard
+43216,Columbus,Franklin,P.O. Box
+43217,Columbus,Franklin,Standard
+43218,Columbus,Franklin,P.O. Box
+43219,Columbus,Franklin,Standard
+43220,Columbus,Franklin,Standard
+43221,Columbus,Franklin,Standard
+43222,Columbus,Franklin,Standard
+43223,Columbus,Franklin,Standard
+43224,Columbus,Franklin,Standard
+43226,Columbus,Franklin,P.O. Box
+43227,Columbus,Franklin,Standard
+43228,Columbus,Franklin,Standard
+43229,Columbus,Franklin,Standard
+43230,Columbus,Franklin,Standard
+43231,Columbus,Franklin,Standard
+43232,Columbus,Franklin,Standard
+43234,Columbus,Franklin,P.O. Box
+43235,Columbus,Franklin,Standard
+43236,Columbus,Franklin,P.O. Box
+43240,Columbus,Delaware,Standard
+43251,Columbus,Franklin,Unique
+43260,Columbus,Franklin,Unique
+43266,Columbus,Franklin,Unique
+43268,Columbus,Franklin,Unique
+43270,Columbus,Franklin,Unique
+43271,Columbus,Franklin,Unique
+43272,Columbus,Franklin,Unique
+43279,Columbus,Franklin,Unique
+43287,Columbus,Franklin,Unique
+43291,Columbus,Franklin,Unique
+43301,Marion,Marion,P.O. Box
+43302,Marion,Marion,Standard
+43310,Belle Center,Logan,Standard
+43311,Bellefontaine,Logan,Standard
+43314,Caledonia,Marion,Standard
+43315,Cardington,Morrow,Standard
+43316,Carey,Wyandot,Standard
+43317,Chesterville,Morrow,P.O. Box
+43318,De Graff,Logan,Standard
+43319,East Liberty,Logan,Standard
+43320,Edison,Morrow,Standard
+43321,Fulton,Morrow,Standard
+43322,Green Camp,Marion,P.O. Box
+43323,Harpster,Wyandot,Standard
+43324,Huntsville,Logan,Standard
+43325,Iberia,Morrow,P.O. Box
+43326,Kenton,Hardin,Standard
+43330,Kirby,Wyandot,P.O. Box
+43331,Lakeview,Logan,Standard
+43332,La Rue,Marion,Standard
+43333,Lewistown,Logan,Standard
+43334,Marengo,Morrow,Standard
+43335,Martel,Marion,P.O. Box
+43336,Middleburg,Logan,P.O. Box
+43337,Morral,Marion,Standard
+43338,Mount Gilead,Morrow,Standard
+43340,Mount Victory,Hardin,Standard
+43341,New Bloomington,Marion,Standard
+43342,Prospect,Marion,Standard
+43343,Quincy,Logan,Standard
+43344,Richwood,Union,Standard
+43345,Ridgeway,Hardin,Standard
+43346,Roundhead,Hardin,P.O. Box
+43347,Rushsylvania,Logan,Standard
+43348,Russells Point,Logan,Standard
+43349,Shauck,Morrow,P.O. Box
+43350,Sparta,Morrow,P.O. Box
+43351,Upper Sandusky,Wyandot,Standard
+43356,Waldo,Marion,Standard
+43357,West Liberty,Logan,Standard
+43358,West Mansfield,Logan,Standard
+43359,Wharton,Wyandot,Standard
+43360,Zanesfield,Logan,Standard
+43402,Bowling Green,Wood,Standard
+43403,Bowling Green,Wood,Unique
+43406,Bradner,Wood,Standard
+43407,Burgoon,Sandusky,Standard
+43408,Clay Center,Ottawa,P.O. Box
+43410,Clyde,Sandusky,Standard
+43412,Curtice,Ottawa,Standard
+43413,Cygnet,Wood,Standard
+43414,Dunbridge,Wood,P.O. Box
+43416,Elmore,Ottawa,Standard
+43420,Fremont,Sandusky,Standard
+43430,Genoa,Ottawa,Standard
+43431,Gibsonburg,Sandusky,Standard
+43432,Graytown,Ottawa,Standard
+43433,Gypsum,Ottawa,P.O. Box
+43434,Harbor View,Lucas,P.O. Box
+43435,Helena,Sandusky,Standard
+43436,Isle Saint George,Ottawa,Standard
+43437,Jerry City,Wood,P.O. Box
+43438,Kelleys Island,Erie,P.O. Box
+43439,Lacarne,Ottawa,P.O. Box
+43440,Lakeside Marblehead,Ottawa,Standard
+43441,Lemoyne,Wood,P.O. Box
+43442,Lindsey,Sandusky,Standard
+43443,Luckey,Wood,Standard
+43445,Martin,Ottawa,Standard
+43446,Middle Bass,Ottawa,P.O. Box
+43447,Millbury,Wood,Standard
+43449,Oak Harbor,Ottawa,Standard
+43450,Pemberville,Wood,Standard
+43451,Portage,Wood,Standard
+43452,Port Clinton,Ottawa,Standard
+43456,Put In Bay,Ottawa,P.O. Box
+43457,Risingsun,Wood,Standard
+43458,Rocky Ridge,Ottawa,P.O. Box
+43460,Rossford,Wood,Standard
+43462,Rudolph,Wood,Standard
+43463,Stony Ridge,Wood,P.O. Box
+43464,Vickery,Sandusky,Standard
+43465,Walbridge,Wood,Standard
+43466,Wayne,Wood,Standard
+43467,West Millgrove,Wood,P.O. Box
+43468,Williston,Ottawa,P.O. Box
+43469,Woodville,Sandusky,Standard
+43501,Alvordton,Williams,Standard
+43502,Archbold,Fulton,Standard
+43504,Berkey,Lucas,Standard
+43505,Blakeslee,Williams,P.O. Box
+43506,Bryan,Williams,Standard
+43510,Colton,Henry,P.O. Box
+43511,Custar,Wood,Standard
+43512,Defiance,Defiance,Standard
+43515,Delta,Fulton,Standard
+43516,Deshler,Henry,Standard
+43517,Edgerton,Williams,Standard
+43518,Edon,Williams,Standard
+43519,Evansport,Defiance,P.O. Box
+43520,Farmer,Defiance,P.O. Box
+43521,Fayette,Fulton,Standard
+43522,Grand Rapids,Wood,Standard
+43523,Grelton,Henry,P.O. Box
+43524,Hamler,Henry,Standard
+43525,Haskins,Wood,Standard
+43526,Hicksville,Defiance,Standard
+43527,Holgate,Henry,Standard
+43528,Holland,Lucas,Standard
+43529,Hoytville,Wood,P.O. Box
+43530,Jewell,Defiance,P.O. Box
+43531,Kunkle,Williams,P.O. Box
+43532,Liberty Center,Henry,Standard
+43533,Lyons,Fulton,Standard
+43534,Mc Clure,Henry,Standard
+43535,Malinta,Henry,Standard
+43536,Mark Center,Defiance,Standard
+43537,Maumee,Lucas,Standard
+43540,Metamora,Fulton,Standard
+43541,Milton Center,Wood,Standard
+43542,Monclova,Lucas,Standard
+43543,Montpelier,Williams,Standard
+43545,Napoleon,Henry,Standard
+43547,Neapolis,Lucas,P.O. Box
+43548,New Bavaria,Henry,Standard
+43549,Ney,Defiance,Standard
+43550,Okolona,Henry,P.O. Box
+43551,Perrysburg,Wood,Standard
+43552,Perrysburg,Wood,P.O. Box
+43553,Pettisville,Fulton,P.O. Box
+43554,Pioneer,Williams,Standard
+43555,Ridgeville Corners,Henry,P.O. Box
+43556,Sherwood,Defiance,Standard
+43557,Stryker,Williams,Standard
+43558,Swanton,Fulton,Standard
+43560,Sylvania,Lucas,Standard
+43565,Tontogany,Wood,P.O. Box
+43566,Waterville,Lucas,Standard
+43567,Wauseon,Fulton,Standard
+43569,Weston,Wood,Standard
+43570,West Unity,Williams,Standard
+43571,Whitehouse,Lucas,Standard
+43601,Toledo,Lucas,Standard
+43603,Toledo,Lucas,P.O. Box
+43604,Toledo,Lucas,Standard
+43605,Toledo,Lucas,Standard
+43606,Toledo,Lucas,Standard
+43607,Toledo,Lucas,Standard
+43608,Toledo,Lucas,Standard
+43609,Toledo,Lucas,Standard
+43610,Toledo,Lucas,Standard
+43611,Toledo,Lucas,Standard
+43612,Toledo,Lucas,Standard
+43613,Toledo,Lucas,Standard
+43614,Toledo,Lucas,Standard
+43615,Toledo,Lucas,Standard
+43616,Oregon,Lucas,Standard
+43617,Toledo,Lucas,Standard
+43619,Northwood,Wood,Standard
+43620,Toledo,Lucas,Standard
+43623,Toledo,Lucas,Standard
+43635,Toledo,Lucas,P.O. Box
+43652,Toledo,Lucas,Unique
+43654,Toledo,Wood,Unique
+43656,Toledo,Lucas,Unique
+43657,Toledo,Lucas,Unique
+43659,Toledo,Lucas,Unique
+43660,Toledo,Lucas,Unique
+43661,Toledo,Lucas,Unique
+43666,Toledo,Lucas,Unique
+43667,Toledo,Lucas,Unique
+43681,Toledo,Lucas,Unique
+43682,Toledo,Lucas,Unique
+43697,Toledo,Lucas,P.O. Box
+43699,Toledo,Lucas,P.O. Box
+43701,Zanesville,Muskingum,Standard
+43702,Zanesville,Muskingum,P.O. Box
+43711,Ava,Noble,P.O. Box
+43713,Barnesville,Belmont,Standard
+43716,Beallsville,Monroe,Standard
+43717,Belle Valley,Noble,P.O. Box
+43718,Belmont,Belmont,Standard
+43719,Bethesda,Belmont,Standard
+43720,Blue Rock,Muskingum,Standard
+43721,Brownsville,Licking,P.O. Box
+43722,Buffalo,Guernsey,P.O. Box
+43723,Byesville,Guernsey,Standard
+43724,Caldwell,Noble,Standard
+43725,Cambridge,Guernsey,Standard
+43727,Chandlersville,Muskingum,Standard
+43728,Chesterhill,Morgan,Standard
+43730,Corning,Perry,Standard
+43731,Crooksville,Perry,Standard
+43732,Cumberland,Guernsey,Standard
+43733,Derwent,Guernsey,P.O. Box
+43734,Duncan Falls,Muskingum,Standard
+43735,East Fultonham,Muskingum,P.O. Box
+43736,Fairview,Guernsey,P.O. Box
+43738,Fultonham,Muskingum,P.O. Box
+43739,Glenford,Perry,Standard
+43740,Gratiot,Licking,P.O. Box
+43746,Hopewell,Muskingum,Standard
+43747,Jerusalem,Monroe,Standard
+43748,Junction City,Perry,Standard
+43749,Kimbolton,Guernsey,Standard
+43750,Kipling,Guernsey,P.O. Box
+43752,Laings,Monroe,P.O. Box
+43754,Lewisville,Monroe,Standard
+43755,Lore City,Guernsey,Standard
+43756,Mcconnelsville,Morgan,Standard
+43757,Malaga,Monroe,P.O. Box
+43758,Malta,Morgan,Standard
+43759,Morristown,Belmont,P.O. Box
+43760,Mount Perry,Perry,Standard
+43761,Moxahala,Perry,P.O. Box
+43762,New Concord,Muskingum,Standard
+43764,New Lexington,Perry,Standard
+43766,New Straitsville,Perry,Standard
+43767,Norwich,Muskingum,Standard
+43768,Old Washington,Guernsey,P.O. Box
+43771,Philo,Muskingum,Standard
+43772,Pleasant City,Guernsey,Standard
+43773,Quaker City,Guernsey,Standard
+43777,Roseville,Muskingum,Standard
+43778,Salesville,Guernsey,Standard
+43779,Sarahsville,Noble,Standard
+43780,Senecaville,Guernsey,Standard
+43782,Shawnee,Perry,Standard
+43783,Somerset,Perry,Standard
+43786,Stafford,Monroe,P.O. Box
+43787,Stockport,Morgan,Standard
+43788,Summerfield,Noble,Standard
+43791,White Cottage,Muskingum,P.O. Box
+43793,Woodsfield,Monroe,Standard
+43802,Adamsville,Muskingum,Standard
+43803,Bakersville,Coshocton,P.O. Box
+43804,Baltic,Tuscarawas,Standard
+43805,Blissfield,Coshocton,P.O. Box
+43811,Conesville,Coshocton,Standard
+43812,Coshocton,Coshocton,Standard
+43821,Dresden,Muskingum,Standard
+43822,Frazeysburg,Muskingum,Standard
+43824,Fresno,Coshocton,Standard
+43828,Keene,Coshocton,P.O. Box
+43830,Nashport,Muskingum,Standard
+43832,Newcomerstown,Tuscarawas,Standard
+43836,Plainfield,Coshocton,P.O. Box
+43837,Port Washington,Tuscarawas,Standard
+43840,Stone Creek,Tuscarawas,Standard
+43842,Trinway,Muskingum,P.O. Box
+43843,Walhonding,Coshocton,Standard
+43844,Warsaw,Coshocton,Standard
+43845,West Lafayette,Coshocton,Standard
+43901,Adena,Jefferson,Standard
+43902,Alledonia,Belmont,Standard
+43903,Amsterdam,Jefferson,Standard
+43905,Barton,Belmont,P.O. Box
+43906,Bellaire,Belmont,Standard
+43907,Cadiz,Harrison,Standard
+43908,Bergholz,Jefferson,Standard
+43909,Blaine,Belmont,P.O. Box
+43910,Bloomingdale,Jefferson,Standard
+43912,Bridgeport,Belmont,Standard
+43913,Brilliant,Jefferson,Standard
+43914,Cameron,Monroe,P.O. Box
+43915,Clarington,Monroe,Standard
+43916,Colerain,Belmont,P.O. Box
+43917,Dillonvale,Jefferson,Standard
+43920,East Liverpool,Columbiana,Standard
+43925,East Springfield,Jefferson,P.O. Box
+43926,Empire,Jefferson,P.O. Box
+43927,Fairpoint,Belmont,P.O. Box
+43928,Glencoe,Belmont,P.O. Box
+43930,Hammondsville,Jefferson,Standard
+43931,Hannibal,Monroe,P.O. Box
+43932,Irondale,Jefferson,Standard
+43933,Jacobsburg,Belmont,Standard
+43934,Lansing,Belmont,P.O. Box
+43935,Martins Ferry,Belmont,Standard
+43937,Maynard,Belmont,P.O. Box
+43938,Mingo Junction,Jefferson,Standard
+43939,Mount Pleasant,Jefferson,P.O. Box
+43940,Neffs,Belmont,P.O. Box
+43941,Piney Fork,Jefferson,P.O. Box
+43942,Powhatan Point,Belmont,Standard
+43943,Rayland,Jefferson,Standard
+43944,Richmond,Jefferson,Standard
+43945,Salineville,Columbiana,Standard
+43946,Sardis,Monroe,Standard
+43947,Shadyside,Belmont,Standard
+43948,Smithfield,Jefferson,P.O. Box
+43950,Saint Clairsville,Belmont,Standard
+43951,Lafferty,Belmont,P.O. Box
+43952,Steubenville,Jefferson,Standard
+43953,Steubenville,Jefferson,Standard
+43961,Stratton,Jefferson,P.O. Box
+43962,Summitville,Columbiana,P.O. Box
+43963,Tiltonsville,Jefferson,Standard
+43964,Toronto,Jefferson,Standard
+43967,Warnock,Belmont,P.O. Box
+43968,Wellsville,Columbiana,Standard
+43970,Wolf Run,Jefferson,P.O. Box
+43971,Yorkville,Jefferson,Standard
+43972,Bannock,Belmont,P.O. Box
+43973,Freeport,Harrison,Standard
+43974,Harrisville,Harrison,P.O. Box
+43976,Hopedale,Harrison,Standard
+43977,Flushing,Belmont,Standard
+43981,New Athens,Harrison,P.O. Box
+43983,Piedmont,Belmont,Standard
+43984,New Rumley,Harrison,P.O. Box
+43985,Holloway,Belmont,P.O. Box
+43986,Jewett,Harrison,Standard
+43988,Scio,Harrison,Standard
+44001,Amherst,Lorain,Standard
+44003,Andover,Ashtabula,Standard
+44004,Ashtabula,Ashtabula,Standard
+44005,Ashtabula,Ashtabula,P.O. Box
+44010,Austinburg,Ashtabula,Standard
+44011,Avon,Lorain,Standard
+44012,Avon Lake,Lorain,Standard
+44017,Berea,Cuyahoga,Standard
+44021,Burton,Geauga,Standard
+44022,Chagrin Falls,Cuyahoga,Standard
+44023,Chagrin Falls,Geauga,Standard
+44024,Chardon,Geauga,Standard
+44026,Chesterland,Geauga,Standard
+44028,Columbia Station,Lorain,Standard
+44030,Conneaut,Ashtabula,Standard
+44032,Dorset,Ashtabula,Standard
+44033,East Claridon,Geauga,P.O. Box
+44035,Elyria,Lorain,Standard
+44036,Elyria,Lorain,P.O. Box
+44039,North Ridgeville,Lorain,Standard
+44040,Gates Mills,Cuyahoga,Standard
+44041,Geneva,Ashtabula,Standard
+44044,Grafton,Lorain,Standard
+44045,Grand River,Lake,P.O. Box
+44046,Huntsburg,Geauga,Standard
+44047,Jefferson,Ashtabula,Standard
+44048,Kingsville,Ashtabula,Standard
+44049,Kipton,Lorain,P.O. Box
+44050,Lagrange,Lorain,Standard
+44052,Lorain,Lorain,Standard
+44053,Lorain,Lorain,Standard
+44054,Sheffield Lake,Lorain,Standard
+44055,Lorain,Lorain,Standard
+44056,Macedonia,Summit,Standard
+44057,Madison,Lake,Standard
+44060,Mentor,Lake,Standard
+44061,Mentor,Lake,P.O. Box
+44062,Middlefield,Geauga,Standard
+44064,Montville,Geauga,Standard
+44065,Newbury,Geauga,Standard
+44067,Northfield,Summit,Standard
+44068,North Kingsville,Ashtabula,P.O. Box
+44070,North Olmsted,Cuyahoga,Standard
+44072,Novelty,Geauga,Standard
+44073,Novelty,Geauga,Unique
+44074,Oberlin,Lorain,Standard
+44076,Orwell,Ashtabula,Standard
+44077,Painesville,Lake,Standard
+44080,Parkman,Geauga,P.O. Box
+44081,Perry,Lake,Standard
+44082,Pierpont,Ashtabula,Standard
+44084,Rock Creek,Ashtabula,Standard
+44085,Rome,Ashtabula,Standard
+44086,Thompson,Geauga,Standard
+44087,Twinsburg,Summit,Standard
+44088,Unionville,Ashtabula,P.O. Box
+44089,Vermilion,Erie,Standard
+44090,Wellington,Lorain,Standard
+44092,Wickliffe,Lake,Standard
+44093,Williamsfield,Ashtabula,Standard
+44094,Willoughby,Lake,Standard
+44095,Eastlake,Lake,Standard
+44096,Willoughby,Lake,P.O. Box
+44097,Eastlake,Lake,P.O. Box
+44099,Windsor,Ashtabula,Standard
+44101,Cleveland,Cuyahoga,P.O. Box
+44102,Cleveland,Cuyahoga,Standard
+44103,Cleveland,Cuyahoga,Standard
+44104,Cleveland,Cuyahoga,Standard
+44105,Cleveland,Cuyahoga,Standard
+44106,Cleveland,Cuyahoga,Standard
+44107,Lakewood,Cuyahoga,Standard
+44108,Cleveland,Cuyahoga,Standard
+44109,Cleveland,Cuyahoga,Standard
+44110,Cleveland,Cuyahoga,Standard
+44111,Cleveland,Cuyahoga,Standard
+44112,Cleveland,Cuyahoga,Standard
+44113,Cleveland,Cuyahoga,Standard
+44114,Cleveland,Cuyahoga,Standard
+44115,Cleveland,Cuyahoga,Standard
+44116,Rocky River,Cuyahoga,Standard
+44117,Euclid,Cuyahoga,Standard
+44118,Cleveland,Cuyahoga,Standard
+44119,Cleveland,Cuyahoga,Standard
+44120,Cleveland,Cuyahoga,Standard
+44121,Cleveland,Cuyahoga,Standard
+44122,Beachwood,Cuyahoga,Standard
+44123,Euclid,Cuyahoga,Standard
+44124,Cleveland,Cuyahoga,Standard
+44125,Cleveland,Cuyahoga,Standard
+44126,Cleveland,Cuyahoga,Standard
+44127,Cleveland,Cuyahoga,Standard
+44128,Cleveland,Cuyahoga,Standard
+44129,Cleveland,Cuyahoga,Standard
+44130,Cleveland,Cuyahoga,Standard
+44131,Independence,Cuyahoga,Standard
+44132,Euclid,Cuyahoga,Standard
+44133,North Royalton,Cuyahoga,Standard
+44134,Cleveland,Cuyahoga,Standard
+44135,Cleveland,Cuyahoga,Standard
+44136,Strongsville,Cuyahoga,Standard
+44137,Maple Heights,Cuyahoga,Standard
+44138,Olmsted Falls,Cuyahoga,Standard
+44139,Solon,Cuyahoga,Standard
+44140,Bay Village,Cuyahoga,Standard
+44141,Brecksville,Cuyahoga,Standard
+44142,Brookpark,Cuyahoga,Standard
+44143,Cleveland,Cuyahoga,Standard
+44144,Cleveland,Cuyahoga,Standard
+44145,Westlake,Cuyahoga,Standard
+44146,Bedford,Cuyahoga,Standard
+44147,Broadview Heights,Cuyahoga,Standard
+44149,Strongsville,Cuyahoga,Standard
+44181,Cleveland,Cuyahoga,P.O. Box
+44188,Cleveland,Cuyahoga,Unique
+44190,Cleveland,Cuyahoga,Unique
+44191,Cleveland,Cuyahoga,Unique
+44192,Cleveland,Cuyahoga,Unique
+44193,Cleveland,Cuyahoga,Unique
+44194,Cleveland,Cuyahoga,Unique
+44195,Cleveland,Cuyahoga,Unique
+44197,Cleveland,Cuyahoga,Unique
+44198,Cleveland,Cuyahoga,Unique
+44199,Cleveland,Cuyahoga,P.O. Box
+44201,Atwater,Portage,Standard
+44202,Aurora,Portage,Standard
+44203,Barberton,Summit,Standard
+44210,Bath,Summit,P.O. Box
+44211,Brady Lake,Portage,P.O. Box
+44212,Brunswick,Medina,Standard
+44214,Burbank,Wayne,Standard
+44215,Chippewa Lake,Medina,Standard
+44216,Clinton,Summit,Standard
+44217,Creston,Wayne,Standard
+44221,Cuyahoga Falls,Summit,Standard
+44222,Cuyahoga Falls,Summit,P.O. Box
+44223,Cuyahoga Falls,Summit,Standard
+44224,Stow,Summit,Standard
+44230,Doylestown,Wayne,Standard
+44231,Garrettsville,Portage,Standard
+44232,Green,Summit,P.O. Box
+44233,Hinckley,Medina,Standard
+44234,Hiram,Portage,Standard
+44235,Homerville,Medina,Standard
+44236,Hudson,Summit,Standard
+44237,Hudson,Summit,Unique
+44240,Kent,Portage,Standard
+44241,Streetsboro,Portage,Standard
+44242,Kent,Portage,Unique
+44243,Kent,Portage,Standard
+44250,Lakemore,Summit,P.O. Box
+44251,Westfield Center,Medina,P.O. Box
+44253,Litchfield,Medina,Standard
+44254,Lodi,Medina,Standard
+44255,Mantua,Portage,Standard
+44256,Medina,Medina,Standard
+44258,Medina,Medina,P.O. Box
+44260,Mogadore,Portage,Standard
+44262,Munroe Falls,Summit,Standard
+44264,Peninsula,Summit,Standard
+44265,Randolph,Portage,P.O. Box
+44266,Ravenna,Portage,Standard
+44270,Rittman,Wayne,Standard
+44272,Rootstown,Portage,Standard
+44273,Seville,Medina,Standard
+44274,Sharon Center,Medina,P.O. Box
+44275,Spencer,Medina,Standard
+44276,Sterling,Wayne,Standard
+44278,Tallmadge,Summit,Standard
+44280,Valley City,Medina,Standard
+44281,Wadsworth,Medina,Standard
+44282,Wadsworth,Medina,P.O. Box
+44285,Wayland,Portage,P.O. Box
+44286,Richfield,Summit,Standard
+44287,West Salem,Wayne,Standard
+44288,Windham,Portage,Standard
+44301,Akron,Summit,Standard
+44302,Akron,Summit,Standard
+44303,Akron,Summit,Standard
+44304,Akron,Summit,Standard
+44305,Akron,Summit,Standard
+44306,Akron,Summit,Standard
+44307,Akron,Summit,Standard
+44308,Akron,Summit,Standard
+44309,Akron,Summit,P.O. Box
+44310,Akron,Summit,Standard
+44311,Akron,Summit,Standard
+44312,Akron,Summit,Standard
+44313,Akron,Summit,Standard
+44314,Akron,Summit,Standard
+44315,Akron,Summit,Unique
+44316,Akron,Summit,Unique
+44317,Akron,Summit,Unique
+44319,Akron,Summit,Standard
+44320,Akron,Summit,Standard
+44321,Akron,Summit,Standard
+44325,Akron,Summit,Unique
+44326,Akron,Summit,Unique
+44328,Akron,Summit,Unique
+44333,Akron,Summit,Standard
+44334,Fairlawn,Summit,P.O. Box
+44372,Akron,Summit,P.O. Box
+44396,Akron,Summit,Unique
+44398,Akron,Summit,Unique
+44401,Berlin Center,Mahoning,Standard
+44402,Bristolville,Trumbull,Standard
+44403,Brookfield,Trumbull,Standard
+44404,Burghill,Trumbull,Standard
+44405,Campbell,Mahoning,Standard
+44406,Canfield,Mahoning,Standard
+44408,Columbiana,Columbiana,Standard
+44410,Cortland,Trumbull,Standard
+44411,Deerfield,Portage,Standard
+44412,Diamond,Portage,Standard
+44413,East Palestine,Columbiana,Standard
+44415,Elkton,Columbiana,P.O. Box
+44416,Ellsworth,Mahoning,P.O. Box
+44417,Farmdale,Trumbull,Standard
+44418,Fowler,Trumbull,Standard
+44420,Girard,Trumbull,Standard
+44422,Greenford,Mahoning,P.O. Box
+44423,Hanoverton,Columbiana,Standard
+44424,Hartford,Trumbull,P.O. Box
+44425,Hubbard,Trumbull,Standard
+44427,Kensington,Columbiana,Standard
+44428,Kinsman,Trumbull,Standard
+44429,Lake Milton,Mahoning,Standard
+44430,Leavittsburg,Trumbull,Standard
+44431,Leetonia,Columbiana,Standard
+44432,Lisbon,Columbiana,Standard
+44436,Lowellville,Mahoning,Standard
+44437,Mc Donald,Trumbull,Standard
+44438,Masury,Trumbull,Standard
+44439,Mesopotamia,Trumbull,P.O. Box
+44440,Mineral Ridge,Trumbull,Standard
+44441,Negley,Columbiana,Standard
+44442,New Middletown,Mahoning,Standard
+44443,New Springfield,Mahoning,Standard
+44444,Newton Falls,Trumbull,Standard
+44445,New Waterford,Columbiana,Standard
+44446,Niles,Trumbull,Standard
+44449,North Benton,Portage,Standard
+44450,North Bloomfield,Trumbull,Standard
+44451,North Jackson,Mahoning,Standard
+44452,North Lima,Mahoning,Standard
+44453,Orangeville,Trumbull,P.O. Box
+44454,Petersburg,Mahoning,Standard
+44455,Rogers,Columbiana,Standard
+44460,Salem,Columbiana,Standard
+44470,Southington,Trumbull,Standard
+44471,Struthers,Mahoning,Standard
+44473,Vienna,Trumbull,Standard
+44481,Warren,Trumbull,Standard
+44482,Warren,Trumbull,P.O. Box
+44483,Warren,Trumbull,Standard
+44484,Warren,Trumbull,Standard
+44485,Warren,Trumbull,Standard
+44486,Warren,Trumbull,Unique
+44490,Washingtonville,Columbiana,Standard
+44491,West Farmington,Trumbull,Standard
+44492,West Point,Columbiana,P.O. Box
+44493,Winona,Columbiana,P.O. Box
+44501,Youngstown,Mahoning,P.O. Box
+44502,Youngstown,Mahoning,Standard
+44503,Youngstown,Mahoning,Standard
+44504,Youngstown,Mahoning,Standard
+44505,Youngstown,Mahoning,Standard
+44506,Youngstown,Mahoning,Standard
+44507,Youngstown,Mahoning,Standard
+44509,Youngstown,Mahoning,Standard
+44510,Youngstown,Mahoning,Standard
+44511,Youngstown,Mahoning,Standard
+44512,Youngstown,Mahoning,Standard
+44513,Youngstown,Mahoning,P.O. Box
+44514,Youngstown,Mahoning,Standard
+44515,Youngstown,Mahoning,Standard
+44555,Youngstown,Mahoning,Unique
+44601,Alliance,Stark,Standard
+44606,Apple Creek,Wayne,Standard
+44607,Augusta,Carroll,P.O. Box
+44608,Beach City,Stark,Standard
+44609,Beloit,Mahoning,Standard
+44610,Berlin,Holmes,P.O. Box
+44611,Big Prairie,Holmes,Standard
+44612,Bolivar,Tuscarawas,Standard
+44613,Brewster,Stark,Standard
+44614,Canal Fulton,Stark,Standard
+44615,Carrollton,Carroll,Standard
+44617,Charm,Holmes,P.O. Box
+44618,Dalton,Wayne,Standard
+44619,Damascus,Mahoning,P.O. Box
+44620,Dellroy,Carroll,Standard
+44621,Dennison,Tuscarawas,Standard
+44622,Dover,Tuscarawas,Standard
+44624,Dundee,Tuscarawas,Standard
+44625,East Rochester,Columbiana,Standard
+44626,East Sparta,Stark,Standard
+44627,Fredericksburg,Wayne,Standard
+44628,Glenmont,Holmes,Standard
+44629,Gnadenhutten,Tuscarawas,Standard
+44630,Greentown,Stark,P.O. Box
+44632,Hartville,Stark,Standard
+44633,Holmesville,Holmes,Standard
+44634,Homeworth,Columbiana,Standard
+44636,Kidron,Wayne,P.O. Box
+44637,Killbuck,Holmes,Standard
+44638,Lakeville,Holmes,Standard
+44639,Leesville,Carroll,P.O. Box
+44640,Limaville,Stark,P.O. Box
+44641,Louisville,Stark,Standard
+44643,Magnolia,Stark,Standard
+44644,Malvern,Carroll,Standard
+44645,Marshallville,Wayne,Standard
+44646,Massillon,Stark,Standard
+44647,Massillon,Stark,Standard
+44648,Massillon,Stark,P.O. Box
+44650,Maximo,Stark,P.O. Box
+44651,Mechanicstown,Carroll,Standard
+44652,Middlebranch,Stark,P.O. Box
+44653,Midvale,Tuscarawas,P.O. Box
+44654,Millersburg,Holmes,Standard
+44656,Mineral City,Tuscarawas,Standard
+44657,Minerva,Stark,Standard
+44659,Mount Eaton,Wayne,P.O. Box
+44660,Mount Hope,Holmes,P.O. Box
+44661,Nashville,Holmes,P.O. Box
+44662,Navarre,Stark,Standard
+44663,New Philadelphia,Tuscarawas,Standard
+44665,North Georgetown,Columbiana,P.O. Box
+44666,North Lawrence,Stark,Standard
+44667,Orrville,Wayne,Standard
+44669,Paris,Stark,Standard
+44670,Robertsville,Stark,P.O. Box
+44671,Sandyville,Tuscarawas,P.O. Box
+44672,Sebring,Mahoning,Standard
+44675,Sherrodsville,Carroll,Standard
+44676,Shreve,Wayne,Standard
+44677,Smithville,Wayne,Standard
+44678,Somerdale,Tuscarawas,P.O. Box
+44679,Stillwater,Tuscarawas,P.O. Box
+44680,Strasburg,Tuscarawas,Standard
+44681,Sugarcreek,Tuscarawas,Standard
+44682,Tuscarawas,Tuscarawas,P.O. Box
+44683,Uhrichsville,Tuscarawas,Standard
+44685,Uniontown,Stark,Standard
+44687,Walnut Creek,Holmes,P.O. Box
+44688,Waynesburg,Stark,Standard
+44689,Wilmot,Stark,Standard
+44690,Winesburg,Holmes,P.O. Box
+44691,Wooster,Wayne,Standard
+44693,Deersville,Harrison,P.O. Box
+44695,Bowerston,Harrison,Standard
+44697,Zoar,Tuscarawas,P.O. Box
+44699,Tippecanoe,Harrison,Standard
+44701,Canton,Stark,P.O. Box
+44702,Canton,Stark,Standard
+44703,Canton,Stark,Standard
+44704,Canton,Stark,Standard
+44705,Canton,Stark,Standard
+44706,Canton,Stark,Standard
+44707,Canton,Stark,Standard
+44708,Canton,Stark,Standard
+44709,Canton,Stark,Standard
+44710,Canton,Stark,Standard
+44711,Canton,Stark,P.O. Box
+44714,Canton,Stark,Standard
+44718,Canton,Stark,Standard
+44720,North Canton,Stark,Standard
+44721,Canton,Stark,Standard
+44730,East Canton,Stark,Standard
+44735,Canton,Stark,P.O. Box
+44750,Canton,Stark,Unique
+44767,Canton,Stark,Unique
+44799,Canton,Stark,Unique
+44802,Alvada,Seneca,Standard
+44804,Arcadia,Hancock,Standard
+44805,Ashland,Ashland,Standard
+44807,Attica,Seneca,Standard
+44809,Bascom,Seneca,P.O. Box
+44811,Bellevue,Huron,Standard
+44813,Bellville,Richland,Standard
+44814,Berlin Heights,Erie,Standard
+44815,Bettsville,Seneca,P.O. Box
+44816,Birmingham,Erie,P.O. Box
+44817,Bloomdale,Wood,Standard
+44818,Bloomville,Seneca,Standard
+44820,Bucyrus,Crawford,Standard
+44822,Butler,Richland,Standard
+44824,Castalia,Erie,Standard
+44825,Chatfield,Crawford,P.O. Box
+44826,Collins,Huron,Standard
+44827,Crestline,Crawford,Standard
+44828,Flat Rock,Seneca,P.O. Box
+44830,Fostoria,Seneca,Standard
+44833,Galion,Crawford,Standard
+44836,Green Springs,Seneca,Standard
+44837,Greenwich,Huron,Standard
+44838,Hayesville,Ashland,P.O. Box
+44839,Huron,Erie,Standard
+44840,Jeromesville,Ashland,Standard
+44841,Kansas,Seneca,Standard
+44842,Loudonville,Ashland,Standard
+44843,Lucas,Richland,Standard
+44844,Mc Cutchenville,Wyandot,Standard
+44845,Melmore,Seneca,P.O. Box
+44846,Milan,Erie,Standard
+44847,Monroeville,Huron,Standard
+44848,Nankin,Ashland,P.O. Box
+44849,Nevada,Wyandot,Standard
+44850,New Haven,Huron,P.O. Box
+44851,New London,Huron,Standard
+44853,New Riegel,Seneca,Standard
+44854,New Washington,Crawford,Standard
+44855,North Fairfield,Huron,Standard
+44856,North Robinson,Crawford,P.O. Box
+44857,Norwalk,Huron,Standard
+44859,Nova,Ashland,Standard
+44860,Oceola,Crawford,P.O. Box
+44861,Old Fort,Seneca,P.O. Box
+44862,Ontario,Richland,P.O. Box
+44864,Perrysville,Ashland,Standard
+44865,Plymouth,Huron,Standard
+44866,Polk,Ashland,Standard
+44867,Republic,Seneca,Standard
+44870,Sandusky,Erie,Standard
+44871,Sandusky,Erie,P.O. Box
+44874,Savannah,Ashland,P.O. Box
+44875,Shelby,Richland,Standard
+44878,Shiloh,Richland,Standard
+44880,Sullivan,Ashland,Standard
+44881,Sulphur Springs,Crawford,P.O. Box
+44882,Sycamore,Wyandot,Standard
+44883,Tiffin,Seneca,Standard
+44887,Tiro,Crawford,Standard
+44888,Willard,Huron,Unique
+44889,Wakeman,Huron,Standard
+44890,Willard,Huron,Standard
+44901,Mansfield,Richland,P.O. Box
+44902,Mansfield,Richland,Standard
+44903,Mansfield,Richland,Standard
+44904,Mansfield,Richland,Standard
+44905,Mansfield,Richland,Standard
+44906,Mansfield,Richland,Standard
+44907,Mansfield,Richland,Standard
+45001,Addyston,Hamilton,P.O. Box
+45002,Cleves,Hamilton,Standard
+45003,College Corner,Butler,Standard
+45004,Collinsville,Butler,P.O. Box
+45005,Franklin,Warren,Standard
+45011,Hamilton,Butler,Standard
+45012,Hamilton,Butler,P.O. Box
+45013,Hamilton,Butler,Standard
+45014,Fairfield,Butler,Standard
+45015,Hamilton,Butler,Standard
+45018,Fairfield,Butler,P.O. Box
+45030,Harrison,Hamilton,Standard
+45032,Harveysburg,Warren,P.O. Box
+45033,Hooven,Hamilton,P.O. Box
+45034,Kings Mills,Warren,Standard
+45036,Lebanon,Warren,Standard
+45039,Maineville,Warren,Standard
+45040,Mason,Warren,Standard
+45041,Miamitown,Hamilton,P.O. Box
+45042,Middletown,Butler,Standard
+45044,Middletown,Butler,Standard
+45050,Monroe,Butler,Standard
+45051,Mount Saint Joseph,Hamilton,Standard
+45052,North Bend,Hamilton,Standard
+45053,Okeana,Butler,Standard
+45054,Oregonia,Warren,Standard
+45055,Overpeck,Butler,P.O. Box
+45056,Oxford,Butler,Standard
+45061,Ross,Butler,P.O. Box
+45062,Seven Mile,Butler,P.O. Box
+45063,Shandon,Butler,P.O. Box
+45064,Somerville,Butler,Standard
+45065,South Lebanon,Warren,Standard
+45066,Springboro,Warren,Standard
+45067,Trenton,Butler,Standard
+45068,Waynesville,Warren,Standard
+45069,West Chester,Butler,Standard
+45070,West Elkton,Preble,P.O. Box
+45071,West Chester,Butler,P.O. Box
+45101,Aberdeen,Brown,Standard
+45102,Amelia,Clermont,Standard
+45103,Batavia,Clermont,Standard
+45105,Bentonville,Adams,P.O. Box
+45106,Bethel,Clermont,Standard
+45107,Blanchester,Clinton,Standard
+45111,Camp Dennison,Hamilton,Standard
+45112,Chilo,Clermont,P.O. Box
+45113,Clarksville,Clinton,Standard
+45114,Cuba,Clinton,P.O. Box
+45115,Decatur,Brown,P.O. Box
+45118,Fayetteville,Brown,Standard
+45119,Feesburg,Brown,P.O. Box
+45120,Felicity,Clermont,Standard
+45121,Georgetown,Brown,Standard
+45122,Goshen,Clermont,Standard
+45123,Greenfield,Highland,Standard
+45130,Hamersville,Brown,Standard
+45131,Higginsport,Brown,P.O. Box
+45132,Highland,Highland,P.O. Box
+45133,Hillsboro,Highland,Standard
+45135,Leesburg,Highland,Standard
+45140,Loveland,Clermont,Standard
+45142,Lynchburg,Highland,Standard
+45144,Manchester,Adams,Standard
+45146,Martinsville,Clinton,Standard
+45147,Miamiville,Clermont,P.O. Box
+45148,Midland,Clinton,Standard
+45150,Milford,Clermont,Standard
+45152,Morrow,Warren,Standard
+45153,Moscow,Clermont,Standard
+45154,Mount Orab,Brown,Standard
+45155,Mowrystown,Highland,P.O. Box
+45156,Neville,Clermont,P.O. Box
+45157,New Richmond,Clermont,Standard
+45158,Newtonsville,Clermont,P.O. Box
+45159,New Vienna,Clinton,Standard
+45160,Owensville,Clermont,Standard
+45162,Pleasant Plain,Warren,Standard
+45164,Port William,Clinton,P.O. Box
+45166,Reesville,Clinton,P.O. Box
+45167,Ripley,Brown,Standard
+45168,Russellville,Brown,Standard
+45169,Sabina,Clinton,Standard
+45171,Sardinia,Brown,Standard
+45172,Sinking Spring,Highland,P.O. Box
+45174,Terrace Park,Hamilton,Standard
+45176,Williamsburg,Clermont,Standard
+45177,Wilmington,Clinton,Standard
+45201,Cincinnati,Hamilton,P.O. Box
+45202,Cincinnati,Hamilton,Standard
+45203,Cincinnati,Hamilton,Standard
+45204,Cincinnati,Hamilton,Standard
+45205,Cincinnati,Hamilton,Standard
+45206,Cincinnati,Hamilton,Standard
+45207,Cincinnati,Hamilton,Standard
+45208,Cincinnati,Hamilton,Standard
+45209,Cincinnati,Hamilton,Standard
+45211,Cincinnati,Hamilton,Standard
+45212,Cincinnati,Hamilton,Standard
+45213,Cincinnati,Hamilton,Standard
+45214,Cincinnati,Hamilton,Standard
+45215,Cincinnati,Hamilton,Standard
+45216,Cincinnati,Hamilton,Standard
+45217,Cincinnati,Hamilton,Standard
+45218,Cincinnati,Hamilton,Standard
+45219,Cincinnati,Hamilton,Standard
+45220,Cincinnati,Hamilton,Standard
+45221,Cincinnati,Hamilton,Unique
+45222,Cincinnati,Hamilton,P.O. Box
+45223,Cincinnati,Hamilton,Standard
+45224,Cincinnati,Hamilton,Standard
+45225,Cincinnati,Hamilton,Standard
+45226,Cincinnati,Hamilton,Standard
+45227,Cincinnati,Hamilton,Standard
+45229,Cincinnati,Hamilton,Standard
+45230,Cincinnati,Hamilton,Standard
+45231,Cincinnati,Hamilton,Standard
+45232,Cincinnati,Hamilton,Standard
+45233,Cincinnati,Hamilton,Standard
+45234,Cincinnati,Hamilton,Standard
+45235,Cincinnati,Hamilton,Standard
+45236,Cincinnati,Hamilton,Standard
+45237,Cincinnati,Hamilton,Standard
+45238,Cincinnati,Hamilton,Standard
+45239,Cincinnati,Hamilton,Standard
+45240,Cincinnati,Hamilton,Standard
+45241,Cincinnati,Hamilton,Standard
+45242,Cincinnati,Hamilton,Standard
+45243,Cincinnati,Hamilton,Standard
+45244,Cincinnati,Hamilton,Standard
+45245,Cincinnati,Clermont,Standard
+45246,Cincinnati,Hamilton,Standard
+45247,Cincinnati,Hamilton,Standard
+45248,Cincinnati,Hamilton,Standard
+45249,Cincinnati,Hamilton,Standard
+45250,Cincinnati,Hamilton,P.O. Box
+45251,Cincinnati,Hamilton,Standard
+45252,Cincinnati,Hamilton,Standard
+45253,Cincinnati,Hamilton,P.O. Box
+45254,Cincinnati,Hamilton,P.O. Box
+45255,Cincinnati,Hamilton,Standard
+45258,Cincinnati,Hamilton,P.O. Box
+45262,Cincinnati,Hamilton,P.O. Box
+45263,Cincinnati,Hamilton,Unique
+45264,Cincinnati,Hamilton,Unique
+45267,Cincinnati,Hamilton,Unique
+45268,Cincinnati,Hamilton,Unique
+45269,Cincinnati,Hamilton,Unique
+45270,Cincinnati,Hamilton,Unique
+45271,Cincinnati,Hamilton,Unique
+45273,Cincinnati,Hamilton,Unique
+45274,Cincinnati,Hamilton,Unique
+45275,Cincinnati,Hamilton,P.O. Box
+45277,Cincinnati,Hamilton,Unique
+45280,Cincinnati,Hamilton,P.O. Box
+45296,Cincinnati,Hamilton,Unique
+45298,Cincinnati,Hamilton,Unique
+45299,Cincinnati,Hamilton,Unique
+45301,Alpha,Greene,P.O. Box
+45302,Anna,Shelby,Standard
+45303,Ansonia,Darke,Standard
+45304,Arcanum,Darke,Standard
+45305,Bellbrook,Greene,Standard
+45306,Botkins,Shelby,Standard
+45307,Bowersville,Greene,P.O. Box
+45308,Bradford,Miami,Standard
+45309,Brookville,Montgomery,Standard
+45310,Burkettsville,Mercer,P.O. Box
+45311,Camden,Preble,Standard
+45312,Casstown,Miami,Standard
+45314,Cedarville,Greene,Standard
+45315,Clayton,Montgomery,Standard
+45316,Clifton,Greene,P.O. Box
+45317,Conover,Miami,Standard
+45318,Covington,Miami,Standard
+45319,Donnelsville,Clark,P.O. Box
+45320,Eaton,Preble,Standard
+45321,Eldorado,Preble,Standard
+45322,Englewood,Montgomery,Standard
+45323,Enon,Clark,Standard
+45324,Fairborn,Greene,Standard
+45325,Farmersville,Montgomery,Standard
+45326,Fletcher,Miami,Standard
+45327,Germantown,Montgomery,Standard
+45328,Gettysburg,Darke,P.O. Box
+45330,Gratis,Preble,P.O. Box
+45331,Greenville,Darke,Standard
+45332,Hollansburg,Darke,Standard
+45333,Houston,Shelby,Standard
+45334,Jackson Center,Shelby,Standard
+45335,Jamestown,Greene,Standard
+45336,Kettlersville,Shelby,P.O. Box
+45337,Laura,Miami,Standard
+45338,Lewisburg,Preble,Standard
+45339,Ludlow Falls,Miami,Standard
+45340,Maplewood,Shelby,Standard
+45341,Medway,Clark,Standard
+45342,Miamisburg,Montgomery,Standard
+45343,Miamisburg,Montgomery,P.O. Box
+45344,New Carlisle,Clark,Standard
+45345,New Lebanon,Montgomery,Standard
+45346,New Madison,Darke,Standard
+45347,New Paris,Preble,Standard
+45348,New Weston,Darke,Standard
+45349,North Hampton,Clark,P.O. Box
+45350,North Star,Darke,P.O. Box
+45351,Osgood,Darke,P.O. Box
+45352,Palestine,Darke,P.O. Box
+45353,Pemberton,Shelby,P.O. Box
+45354,Phillipsburg,Montgomery,P.O. Box
+45356,Piqua,Miami,Standard
+45358,Pitsburg,Darke,P.O. Box
+45359,Pleasant Hill,Miami,Standard
+45360,Port Jefferson,Shelby,P.O. Box
+45361,Potsdam,Miami,P.O. Box
+45362,Rossburg,Darke,Standard
+45363,Russia,Shelby,Standard
+45365,Sidney,Shelby,Standard
+45367,Sidney,Shelby,Unique
+45368,South Charleston,Clark,Standard
+45369,South Vienna,Clark,Standard
+45370,Spring Valley,Greene,Standard
+45371,Tipp City,Miami,Standard
+45372,Tremont City,Clark,P.O. Box
+45373,Troy,Miami,Standard
+45374,Troy,Miami,Unique
+45377,Vandalia,Montgomery,Standard
+45378,Verona,Preble,P.O. Box
+45380,Versailles,Darke,Standard
+45381,West Alexandria,Preble,Standard
+45382,West Manchester,Preble,Standard
+45383,West Milton,Miami,Standard
+45384,Wilberforce,Greene,P.O. Box
+45385,Xenia,Greene,Standard
+45387,Yellow Springs,Greene,Standard
+45388,Yorkshire,Darke,Standard
+45389,Christiansburg,Champaign,P.O. Box
+45390,Union City,Darke,Standard
+45401,Dayton,Montgomery,P.O. Box
+45402,Dayton,Montgomery,Standard
+45403,Dayton,Montgomery,Standard
+45404,Dayton,Montgomery,Standard
+45405,Dayton,Montgomery,Standard
+45406,Dayton,Montgomery,Standard
+45409,Dayton,Montgomery,Standard
+45410,Dayton,Montgomery,Standard
+45412,Dayton,Montgomery,Unique
+45413,Dayton,Montgomery,P.O. Box
+45414,Dayton,Montgomery,Standard
+45415,Dayton,Montgomery,Standard
+45416,Dayton,Montgomery,Standard
+45417,Dayton,Montgomery,Standard
+45419,Dayton,Montgomery,Standard
+45420,Dayton,Montgomery,Standard
+45422,Dayton,Montgomery,Unique
+45423,Dayton,Montgomery,Standard
+45424,Dayton,Montgomery,Standard
+45426,Dayton,Montgomery,Standard
+45428,Dayton,Montgomery,P.O. Box
+45429,Dayton,Montgomery,Standard
+45430,Dayton,Montgomery,Standard
+45431,Dayton,Greene,Standard
+45432,Dayton,Greene,Standard
+45433,Dayton,Greene,Standard
+45434,Dayton,Greene,Standard
+45435,Dayton,Greene,Unique
+45437,Dayton,Montgomery,P.O. Box
+45439,Dayton,Montgomery,Standard
+45440,Dayton,Montgomery,Standard
+45441,Dayton,Montgomery,P.O. Box
+45448,Dayton,Montgomery,Unique
+45449,Dayton,Montgomery,Standard
+45458,Dayton,Montgomery,Standard
+45459,Dayton,Montgomery,Standard
+45469,Dayton,Montgomery,Unique
+45470,Dayton,Montgomery,Unique
+45475,Dayton,Montgomery,P.O. Box
+45479,Dayton,Montgomery,Standard
+45481,Dayton,Montgomery,Unique
+45482,Dayton,Montgomery,Unique
+45490,Dayton,Montgomery,P.O. Box
+45501,Springfield,Clark,P.O. Box
+45502,Springfield,Clark,Standard
+45503,Springfield,Clark,Standard
+45504,Springfield,Clark,Standard
+45505,Springfield,Clark,Standard
+45506,Springfield,Clark,Standard
+45601,Chillicothe,Ross,Standard
+45612,Bainbridge,Ross,Standard
+45613,Beaver,Pike,Standard
+45614,Bidwell,Gallia,Standard
+45616,Blue Creek,Adams,Standard
+45617,Bourneville,Ross,P.O. Box
+45618,Cherry Fork,Adams,P.O. Box
+45619,Chesapeake,Lawrence,Standard
+45620,Cheshire,Gallia,Standard
+45621,Coalton,Jackson,P.O. Box
+45622,Creola,Vinton,Standard
+45623,Crown City,Gallia,Standard
+45624,Cynthiana,Pike,P.O. Box
+45628,Frankfort,Ross,Standard
+45629,Franklin Furnace,Scioto,Standard
+45630,Friendship,Scioto,P.O. Box
+45631,Gallipolis,Gallia,Standard
+45633,Hallsville,Ross,P.O. Box
+45634,Hamden,Vinton,Standard
+45636,Haverhill,Scioto,P.O. Box
+45638,Ironton,Lawrence,Standard
+45640,Jackson,Jackson,Standard
+45642,Jasper,Pike,P.O. Box
+45643,Kerr,Gallia,P.O. Box
+45644,Kingston,Ross,Standard
+45645,Kitts Hill,Lawrence,Standard
+45646,Latham,Pike,Standard
+45647,Londonderry,Ross,Standard
+45648,Lucasville,Scioto,Standard
+45650,Lynx,Adams,Standard
+45651,Mc Arthur,Vinton,Standard
+45652,Mc Dermott,Scioto,Standard
+45653,Minford,Scioto,Standard
+45654,New Plymouth,Vinton,Standard
+45656,Oak Hill,Jackson,Standard
+45657,Otway,Scioto,Standard
+45658,Patriot,Gallia,Standard
+45659,Pedro,Lawrence,Standard
+45660,Peebles,Adams,Standard
+45661,Piketon,Pike,Standard
+45662,Portsmouth,Scioto,Standard
+45663,West Portsmouth,Scioto,Standard
+45669,Proctorville,Lawrence,Standard
+45671,Rarden,Scioto,Standard
+45672,Ray,Vinton,Standard
+45673,Richmond Dale,Ross,Standard
+45674,Rio Grande,Gallia,P.O. Box
+45675,Rock Camp,Lawrence,P.O. Box
+45677,Scioto Furnace,Scioto,P.O. Box
+45678,Scottown,Lawrence,Standard
+45679,Seaman,Adams,Standard
+45680,South Point,Lawrence,Standard
+45681,South Salem,Ross,Standard
+45682,South Webster,Scioto,Standard
+45683,Stockdale,Pike,P.O. Box
+45684,Stout,Adams,Standard
+45685,Thurman,Gallia,Standard
+45686,Vinton,Gallia,Standard
+45687,Wakefield,Pike,P.O. Box
+45688,Waterloo,Lawrence,Standard
+45690,Waverly,Pike,Standard
+45692,Wellston,Jackson,Standard
+45693,West Union,Adams,Standard
+45694,Wheelersburg,Scioto,Standard
+45695,Wilkesville,Vinton,Standard
+45696,Willow Wood,Lawrence,Standard
+45697,Winchester,Adams,Standard
+45698,Zaleski,Vinton,P.O. Box
+45699,Lucasville,Scioto,Unique
+45701,Athens,Athens,Standard
+45710,Albany,Athens,Standard
+45711,Amesville,Athens,Standard
+45712,Barlow,Washington,P.O. Box
+45713,Bartlett,Washington,P.O. Box
+45714,Belpre,Washington,Standard
+45715,Beverly,Washington,Standard
+45716,Buchtel,Athens,P.O. Box
+45717,Carbondale,Athens,P.O. Box
+45719,Chauncey,Athens,P.O. Box
+45720,Chester,Meigs,P.O. Box
+45721,Coal Run,Washington,Standard
+45723,Coolville,Athens,Standard
+45724,Cutler,Washington,Standard
+45727,Dexter City,Noble,Standard
+45729,Fleming,Washington,Standard
+45732,Glouster,Athens,Standard
+45734,Graysville,Monroe,Standard
+45735,Guysville,Athens,Standard
+45739,Hockingport,Athens,P.O. Box
+45740,Jacksonville,Athens,P.O. Box
+45741,Langsville,Meigs,Standard
+45742,Little Hocking,Washington,Standard
+45743,Long Bottom,Meigs,Standard
+45744,Lowell,Washington,Standard
+45745,Lower Salem,Washington,Standard
+45746,Macksburg,Washington,Standard
+45750,Marietta,Washington,Standard
+45760,Middleport,Meigs,Standard
+45761,Millfield,Athens,Standard
+45764,Nelsonville,Athens,Standard
+45766,New Marshfield,Athens,Standard
+45767,New Matamoras,Washington,Standard
+45768,Newport,Washington,Standard
+45769,Pomeroy,Meigs,Standard
+45770,Portland,Meigs,Standard
+45771,Racine,Meigs,Standard
+45772,Reedsville,Meigs,Standard
+45773,Reno,Washington,Standard
+45775,Rutland,Meigs,Standard
+45776,Shade,Athens,Standard
+45777,Sharpsburg,Athens,P.O. Box
+45778,Stewart,Athens,Standard
+45779,Syracuse,Meigs,P.O. Box
+45780,The Plains,Athens,Standard
+45782,Trimble,Athens,P.O. Box
+45783,Tuppers Plains,Meigs,P.O. Box
+45784,Vincent,Washington,Standard
+45786,Waterford,Washington,Standard
+45787,Watertown,Washington,P.O. Box
+45788,Whipple,Washington,Standard
+45789,Wingett Run,Washington,Standard
+45801,Lima,Allen,Standard
+45802,Lima,Allen,P.O. Box
+45804,Lima,Allen,Standard
+45805,Lima,Allen,Standard
+45806,Lima,Allen,Standard
+45807,Lima,Allen,Standard
+45808,Beaverdam,Allen,Standard
+45809,Gomer,Allen,Standard
+45810,Ada,Hardin,Standard
+45812,Alger,Hardin,Standard
+45813,Antwerp,Paulding,Standard
+45814,Arlington,Hancock,Standard
+45815,Belmore,Putnam,P.O. Box
+45816,Benton Ridge,Hancock,P.O. Box
+45817,Bluffton,Allen,Standard
+45819,Buckland,Auglaize,Standard
+45820,Cairo,Allen,P.O. Box
+45821,Cecil,Paulding,Standard
+45822,Celina,Mercer,Standard
+45826,Chickasaw,Mercer,P.O. Box
+45827,Cloverdale,Putnam,Standard
+45828,Coldwater,Mercer,Standard
+45830,Columbus Grove,Putnam,Standard
+45831,Continental,Putnam,Standard
+45832,Convoy,Van Wert,Standard
+45833,Delphos,Allen,Standard
+45835,Dola,Hardin,Standard
+45836,Dunkirk,Hardin,Standard
+45837,Dupont,Putnam,P.O. Box
+45838,Elgin,Van Wert,P.O. Box
+45839,Findlay,Hancock,P.O. Box
+45840,Findlay,Hancock,Standard
+45841,Jenera,Hancock,Standard
+45843,Forest,Hardin,Standard
+45844,Fort Jennings,Putnam,Standard
+45845,Fort Loramie,Shelby,Standard
+45846,Fort Recovery,Mercer,Standard
+45848,Glandorf,Putnam,P.O. Box
+45849,Grover Hill,Paulding,Standard
+45850,Harrod,Allen,Standard
+45851,Haviland,Paulding,Standard
+45853,Kalida,Putnam,P.O. Box
+45854,Lafayette,Allen,P.O. Box
+45855,Latty,Paulding,P.O. Box
+45856,Leipsic,Putnam,Standard
+45858,Mc Comb,Hancock,Standard
+45859,Mc Guffey,Hardin,P.O. Box
+45860,Maria Stein,Mercer,Standard
+45861,Melrose,Paulding,P.O. Box
+45862,Mendon,Mercer,Standard
+45863,Middle Point,Van Wert,Standard
+45864,Miller City,Putnam,P.O. Box
+45865,Minster,Auglaize,Standard
+45866,Montezuma,Mercer,P.O. Box
+45867,Mount Blanchard,Hancock,Standard
+45868,Mount Cory,Hancock,Standard
+45869,New Bremen,Auglaize,Standard
+45870,New Hampshire,Auglaize,P.O. Box
+45871,New Knoxville,Auglaize,Standard
+45872,North Baltimore,Wood,Standard
+45873,Oakwood,Paulding,Standard
+45874,Ohio City,Van Wert,Standard
+45875,Ottawa,Putnam,Standard
+45876,Ottoville,Putnam,P.O. Box
+45877,Pandora,Putnam,Standard
+45879,Paulding,Paulding,Standard
+45880,Payne,Paulding,Standard
+45881,Rawson,Hancock,Standard
+45882,Rockford,Mercer,Standard
+45883,Saint Henry,Mercer,Standard
+45884,Saint Johns,Auglaize,P.O. Box
+45885,Saint Marys,Auglaize,Standard
+45886,Scott,Van Wert,Standard
+45887,Spencerville,Allen,Standard
+45888,Uniopolis,Auglaize,P.O. Box
+45889,Van Buren,Hancock,Standard
+45890,Vanlue,Hancock,Standard
+45891,Van Wert,Van Wert,Standard
+45893,Vaughnsville,Putnam,P.O. Box
+45894,Venedocia,Van Wert,Standard
+45895,Wapakoneta,Auglaize,Standard
+45896,Waynesfield,Auglaize,Standard
+45897,Williamstown,Hancock,Standard
+45898,Willshire,Van Wert,Standard
+45899,Wren,Van Wert,P.O. Box
+45999,Cincinnati,Hamilton,Unique

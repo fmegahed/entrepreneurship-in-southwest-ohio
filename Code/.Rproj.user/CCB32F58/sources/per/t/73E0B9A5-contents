@@ -1,0 +1,94 @@
+---
+title: "Understanding and Quantifying Impactful Research Published in JQT"
+date:  "`r format(Sys.time(), '%B %d, %Y')`"
+author:
+  - name: "Greg Niemesh ^[Email: niemesgt@miamioh.edu | Phone: +1-513-529-42150 | Website: <a href=\"https://miamioh.edu/fsb/directory/?up=/directory/niemesgt\">Miami University Official</a> ]"
+    affiliation: Farmer School of Business, Miami University
+  - name: "Fadel M. Megahed ^[Email: fmegahed@miamioh.edu | Phone: +1-513-529-4185 | Website: <a href=\"https://miamioh.edu/fsb/directory/?up=/directory/megahefm\">Miami University Official</a>]"
+    affiliation: Farmer School of Business, Miami University
+bibliography: refs.bib
+link-citations: yes
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    df_print: paged
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      cache = TRUE,
+                      out.width = "100%",
+                      warning = FALSE,
+                      message = FALSE,
+                      results = "asis") 
+```
+
+---
+
+This Markdown document is intended to serve <span style="text-decoration:underline">three</span> main purposes:
+
+* Provides the data and code that we used in our analysis. We believe that providing the code is an important step in ensuring that our analysis can be easily reproduced, which:
+  - is an important pillar of the scientific method since it facilitates the evaluation/validation of our analysis.
+  - encourages future work in this area.
+* Provides the results that we have obtained for each stage of the analysis.
+* Allows for reusing our code and reproducing our results, which in our view is a major limitation in the majority of the published literature since they do not provide code and it is often unclear what are some of the decision made in terms of data preprocessing and modeling.
+
+To navigate this Markdown, please feel free to use the navigation bar at the left. The reader can **show** any code chunk by clicking on the code button. We chose to make the default for the code hidden since we: (a) wanted to improve the readability of this document; and (b) assumed that the readers will not be interested in reading every code chunk. In addition, we use hyperlinks to document: (a) data sources used in the analysis, (b) repository for where we saved the results, and (c) relevant **R** and/or **Python** programming resources.
+
+
+# Data Extraction {.tabset .tabset-fade}
+
+The snippet below documents the list of **R** packages and functions that were used in this research. For convenience, we used the `pacman` package since it allows for installing/loading the needed packages in one step. Please make sure that the package is installed on your system using the command `install.packages("pacman")` before running this code chunk.
+
+```{r packages, cache=FALSE, results='hide'}
+rm(list = ls()) # clear global environment
+graphics.off() # close all graphics
+library(pacman) # needs to be installed first
+# p_load is equivalent to combining both install.packages() and library()
+p_load(RCurl, jsonlite, reticulate,
+  readxl, tidyverse, RColorBrewer, plotly,
+  tools, DT, formattable)
+```
+
+In the code chunk below, we will connect to the [Security Trails API](https://securitytrails.com/) to obtain information on websites that originate from Cincinnati. The request was made using *Python Programming Language*. 
+
+```{python securitytrails}
+import requests
+import pickle
+
+def save_object(obj, filename):
+    with open(filename, 'wb') as output:
+        pickle.dump(obj, output, pickle.HIGHEST_PROTOCOL)
+
+# https://docs.securitytrails.com/reference
+url = "https://api.securitytrails.com/v1/domains/list"
+
+querystring = {"apikey":"7GpQJYMryiL24bulfUWmqiQgeRrExUKx"}
+
+payload = "{\"filter\":{\"whois_city\":\"cincinnati\"}}"
+response = requests.request("POST", url, data=payload, params=querystring)
+
+filename = "../Data/cincyWebsites.pkl"
+save_object(response.text, filename)
+```
+
+```{r response.read}
+source_python("pickle_reader.py")
+df <- read_pickle_file("../Data/cincyWebsites.pkl") %>%
+  fromJSON()
+df <- df[["records"]]
+
+# Formatting is somewhat weird since the resulting data frame has
+# Two data frames within it (which is making indexing a bit weird)
+# Therefore, we create two temp dfs and then merge them using cbind
+temp1 <- df[,1] # This is a data frame of 3 columns
+temp2 <- df[,2:6]
+df <- cbind(temp1, temp2)
+colTypes <- sapply(df, class)
+colNums <- which(colTypes %in% c("data.frame","list"))
+df[colNums] <- sapply(df, as.vector)
+df %>% formattable() %>% as.datatable()
+```
