@@ -197,16 +197,67 @@ records_file.close()
 
 
 # Domain Histories
-Based on Section (1), we know have the domain names for approximately 131,723 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the [Wayback Machine API](https://web.archive.org/).
+Based on Section (1), we know have the domain names for approximately 131,723 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the [Wayback Machine API](https://web.archive.org/). Specifically, we can obtain the number of unique archives for a given webpage using the [waybackpack](https://github.com/jsvine/waybackpack) python-based package for the Wayback Machine API.
 
-## Content History
+## Number of Changes and Archived URLs
+As a first step to understanding the domain histories, we capitalized on the [waybackpack](https://github.com/jsvine/waybackpack) to obtain the number of changes for given hostname and the archieved URLs corresponding to unique pages. *For now, we are hypothesizing that the number of changes correspond to growth/economic activity.* **Obviously, we can parse the changes to obtain changes per year or month (we will do this in a future time).** The results from this analysis step are stored in: []()
+```{python num_changes, eval=F}
+# In this next block of code, we do the following:
+# (A) Open the records.csv file from the previous chunk
+# (B) Remove links for companies that has more than one link to reduce computational time (with exception of None, NA since it is used for multiple companies)
+# (C) Save the resulting data cleaning in: records_unique.csv
+with open('../Data/records.csv','r') as in_file, open('../Data/records_unique.csv','w') as out_file:
+    seen = set() # set for fast O(1) amortized lookup
+    
+    for line in in_file:
+        cur_company = line.split(",")[5].strip()
+        if cur_company in seen: continue # skip duplicate
+        if cur_company.lower() != "none" and cur_company is not "NA" and len(cur_company) > 2:
+            seen.add(cur_company)
+        
+        out_file.write(line)
 
-```{r mementos, eval= F}
-df <- read.csv("../Data/records.csv", stringsAsFactors = F) %>%
-  subset(select= c(2:5))
-scraped.content.
-for (record in 1:nrow(df)) {
-  
-}
-rss <- get_mementos(df[5,2])
+out_file.close()
+in_file.close()
+
+# In the next code block, we will capitalize on the subprocess package to run comman line processes so we can capitalize on some of the functionality of the wayback python interface (from the aforementioned GitHub link)
+
+
+from subprocess import check_output
+
+with open('../Data/records_unique.csv','r') as in_file, open('../Data/wayback_changes.csv','w') as out_file:
+    out_file.write("URL, created date, expires date, num changes, wayback URLs\n")
+    for line in in_file:
+         # Obtaining hostname and dates from records_unique.csv
+         url = line.split(",")[2].strip()
+         created_date = line.split(",")[3].strip()
+         expires_date = line.split(",")[4].strip()
+         
+         # Ignoring the header
+         if  line.split(",")[2].strip() == "hostName":
+             continue
+         # Running command line using the check_output
+         wayback_unique_list = check_output("waybackpack " + url + " --list --uniques-only", shell=True)
+         wayback_list = wayback_unique_list.decode('ASCII').strip()
+         
+         out_file.write(url + "," + created_date + "," + expires_date + ",")
+         
+         # If we get a URL for the archieve, then we store it and #changes
+         if len(wayback_list) != 0:
+            wayback_list_as_list = wayback_list.split("\n")
+            no_changes = str(len(wayback_list_as_list))
+            out_file.write(no_changes + ",")
+            # For loop to seperare multiple URLS with semi column
+            for wayback_data in wayback_list_as_list:
+                 out_file.write(wayback_data.strip() + ";")
+            out_file.write("\n")
+         else: # #changes equal zero
+            out_file.write("0\n")
+            
+out_file.close()
+in_file.close()
 ```
+
+## Momentos (TBC)
+The next step we will explore getting the content of the pages using the ```get_memento()``` function in **R** or the [waybackpack](https://github.com/jsvine/waybackpack) in Python.
+

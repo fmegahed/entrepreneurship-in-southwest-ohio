@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2019-04-30" />
+<meta name="date" content="2019-05-02" />
 
 <title>Understanding and Quantifying Impactful Research Published in JQT</title>
 
@@ -2893,7 +2893,7 @@ div.tocify {
 <address class="author_afil">
 Farmer School of Business, Miami University<br><h4 class="author">Fadel M. Megahed<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></h4>
 <address class="author_afil">
-Farmer School of Business, Miami University<br><h4 class="date">April 30, 2019</h4>
+Farmer School of Business, Miami University<br><h4 class="date">May 02, 2019</h4>
 
 </div>
 
@@ -3062,11 +3062,68 @@ records_file.close()</code></pre>
 </div>
 <div id="domain-histories" class="section level1">
 <h1><span class="header-section-number">2</span> Domain Histories</h1>
-<p>Based on Section (1), we know have the domain names for approximately 131,723 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the <a href="https://web.archive.org/">Wayback Machine API</a>.</p>
-<div id="content-history" class="section level2">
-<h2><span class="header-section-number">2.1</span> Content History</h2>
-<pre class="r"><code>southwest_oh_sites &lt;- read.csv(&quot;../Data/records.csv&quot;) %&gt;% na.omit()
-rss &lt;- get_mementos(southwest_oh_sites[,3])</code></pre>
+<p>Based on Section (1), we know have the domain names for approximately 131,723 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the <a href="https://web.archive.org/">Wayback Machine API</a>. Specifically, we can obtain the number of unique archives for a given webpage using the <a href="https://github.com/jsvine/waybackpack">waybackpack</a> python-based package for the Wayback Machine API.</p>
+<div id="number-of-changes-and-archived-urls" class="section level2">
+<h2><span class="header-section-number">2.1</span> Number of Changes and Archived URLs</h2>
+<p>As a first step to understanding the domain histories, we capitalized on the <a href="https://github.com/jsvine/waybackpack">waybackpack</a> to obtain the number of changes for given hostname and the archieved URLs corresponding to unique pages. <em>For now, we are hypothesizing that the number of changes correspond to growth/economic activity.</em> <strong>Obviously, we can parse the changes to obtain changes per year or month (we will do this in a future time).</strong> The results from this analysis step are stored in: <a href></a></p>
+<pre class="python"><code># In this next block of code, we do the following:
+# (A) Open the records.csv file from the previous chunk
+# (B) Remove links for companies that has more than one link to reduce computational time (with exception of None, NA since it is used for multiple companies)
+# (C) Save the resulting data cleaning in: records_unique.csv
+with open('../Data/records.csv','r') as in_file, open('../Data/records_unique.csv','w') as out_file:
+    seen = set() # set for fast O(1) amortized lookup
+    
+    for line in in_file:
+        cur_company = line.split(&quot;,&quot;)[5].strip()
+        if cur_company in seen: continue # skip duplicate
+        if cur_company.lower() != &quot;none&quot; and cur_company is not &quot;NA&quot; and len(cur_company) &gt; 2:
+            seen.add(cur_company)
+        
+        out_file.write(line)
+
+out_file.close()
+in_file.close()
+
+# In the next code block, we will capitalize on the subprocess package to run comman line processes so we can capitalize on some of the functionality of the wayback python interface (from the aforementioned GitHub link)
+
+
+from subprocess import check_output
+
+with open('../Data/records_unique.csv','r') as in_file, open('../Data/wayback_changes.csv','w') as out_file:
+    out_file.write(&quot;URL, created date, expires date, num changes, wayback URLs\n&quot;)
+    for line in in_file:
+         # Obtaining hostname and dates from records_unique.csv
+         url = line.split(&quot;,&quot;)[2].strip()
+         created_date = line.split(&quot;,&quot;)[3].strip()
+         expires_date = line.split(&quot;,&quot;)[4].strip()
+         
+         # Ignoring the header
+         if  line.split(&quot;,&quot;)[2].strip() == &quot;hostName&quot;:
+             continue
+         # Running command line using the check_output
+         wayback_unique_list = check_output(&quot;waybackpack &quot; + url + &quot; --list --uniques-only&quot;, shell=True)
+         wayback_list = wayback_unique_list.decode('ASCII').strip()
+         
+         out_file.write(url + &quot;,&quot; + created_date + &quot;,&quot; + expires_date + &quot;,&quot;)
+         
+         # If we get a URL for the archieve, then we store it and #changes
+         if len(wayback_list) != 0:
+            wayback_list_as_list = wayback_list.split(&quot;\n&quot;)
+            no_changes = str(len(wayback_list_as_list))
+            out_file.write(no_changes + &quot;,&quot;)
+            # For loop to seperare multiple URLS with semi column
+            for wayback_data in wayback_list_as_list:
+                 out_file.write(wayback_data.strip() + &quot;;&quot;)
+            out_file.write(&quot;\n&quot;)
+         else: # #changes equal zero
+            out_file.write(&quot;0\n&quot;)
+            
+out_file.close()
+in_file.close()</code></pre>
+</div>
+<div id="momentos-tbc" class="section level2">
+<h2><span class="header-section-number">2.2</span> Momentos (TBC)</h2>
+<p>The next step we will explore getting the content of the pages using the <code>get_memento()</code> function in <strong>R</strong> or the <a href="https://github.com/jsvine/waybackpack">waybackpack</a> in Python.</p>
 </div>
 </div>
 <div class="footnotes">
