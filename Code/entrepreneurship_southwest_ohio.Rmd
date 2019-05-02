@@ -36,7 +36,7 @@ This Markdown document is intended to serve <span style="text-decoration:underli
 * Provides the results that we have obtained for each stage of the analysis.
 * Allows for reusing our code and reproducing our results, which in our view is a major limitation in the majority of the published literature since they do not provide code and it is often unclear what are some of the decision made in terms of data preprocessing and modeling.
 
-To navigate this Markdown, please feel free to use the navigation bar at the left. The reader can **hide** any code chunk by clicking on the code button. We use hyperlinks to document: (a) data sources used in the analysis, (b) repository for where we saved the results, and (c) relevant **R** and/or **Python** programming resources.
+To navigate this Markdown, please feel free to use the navigation bar at the left. The reader can **hide** any code chunk by clicking on the hide button. We use hyperlinks to document: (a) data sources used in the analysis, (b) repository for where we saved the results, and (c) relevant **R** and/or **Python** programming resources.
 
 
 # Data Extraction
@@ -63,13 +63,13 @@ p_load(httr, rvest,
 ## Zip Codes in Southwest Ohio {.tabset .tabset-fade}
 To obtain the list of Zip Codes in Southwest Ohio, we have done the following:
 
-1. We downloaded all 1415 Zip Codes in Ohio from [zip-codes.com](https://www.zip-codes.com/state/oh.asp) and stored the result as a csv (where we modified the first column data asfollows: ZIP Code XXXXX -> XXXX);
+1. We downloaded all 1415 Zip Codes in Ohio from [zip-codes.com](https://www.zip-codes.com/state/oh.asp) and stored the result in [ohioZipCodes.csv](https://github.com/fmegahed/entrepreneurship-in-southwest-ohio/blob/master/Data/ohioZipCodes.csv) (where we modified the first column data as follows: ZIP Code XXXXX -> XXXX);
 2. We have identified the 16 counties capturing Southwest Ohio from the [Southwest Ohio Wikipedia Page](https://wikitravel.org/en/Southwest_Ohio). The county names were stored in our R program using the vector named ```county_names```;
 3. Using R, we have subseted the CSV file using the following two rules:
 - Restricting zip codes to those having a County Identifier in ```county_names```.
 - Restricting zip codes to non P.O. Boxes
 
-From our code, we have obtained 220 unique zip codes capturing the 16 counties of Southwest Ohio. These were stored in a CSV titled: "SouthwestOhioZips.csv".
+From our code, we have obtained 220 unique zip codes capturing the 16 counties of Southwest Ohio. These were stored in [SouthwestOhioZips.csv](https://github.com/fmegahed/entrepreneurship-in-southwest-ohio/tree/master/Data).
 
 
 ```{r zipCodes}
@@ -86,90 +86,127 @@ ZIPs <- as.character(oh_ZipCodes[,1])
 write.csv(ZIPs, "../Data/SouthwestOhioZips.csv", row.names = FALSE)
 ```
 
-## Identifying the Domains Associated with these Zip Codes
+## Scraping Domain Information Associated with these Zip Codes
+In the code chunk below, we will connect to the [Security Trails API](https://securitytrails.com/) to create the following two comma seperated value (CSV) files:
 
-### Scraping Domain Information
-In the code chunk below, we will connect to the [Security Trails API](https://securitytrails.com/) to obtain information on the top 500 websites per each Zip Code. Since it was not obvious how to identify the number of domains per website using the API, we have selected 500 since it:
+  (A) [meta.csv](https://github.com/fmegahed/entrepreneurship-in-southwest-ohio/blob/master/Data/meta.csv), which stores the following meta data related to our API queries:
+  
+  * **scrape_date:** Date when we scrapped the WhoIs database using the Security Trails API;
+  * **post_code:** The postal code for which websites were being scraped;
+  * **record_count:** Number of websites/domain names that are registered for that postal code; 
+  * **max_page:** Number of page results on Security Trails that we have to iterate through for this post code. Not that if there are 6 pages, the first five pages will each contain 100 records and the sixth will contain up to 100 records.
+  (B) [records.csv](https://github.com/fmegahed/entrepreneurship-in-southwest-ohio/blob/master/Data/records.csv), which stores information in the following variables:
+  
+  * **scrape_date:** Date when we scrapped the WhoIs database using the Security Trails API;
+  * **post_code:** The postal code for which websites were being scraped;
+  * **hostName:** domain name for the website; 
+  * **createdDate:** when was the website created; 
+  * **expiresDate:** when does the current regiseration for the website expire; 
+  * **companyName:** this is computed from the WhoIS information, and thus, it is not always exact and contains a lot of *None*.
 
-* Is a large enough number, i.e. 500 business per Zip Code will exceed the number of businesses located in most of these zip codes
-* Allows us to be under the 1500 queries limit, which would require a more expensive API subscription, which for the purpose of this initial analysis seemed to be not necessary.
-
-The requests were made using *Python Programming Language*. The files were saved using a JSON file structure and stored in a text file titled: *ohioWebsites.JSON*.
+The requests were made using *Python Programming Language*, as shown in the code snippet below. Note that we were able to use country as a part of our filter search since we had a **Professional Subscription account**.
 
 ```{python securitytrails, eval=F}
+# Loading required libraries
 import requests
-import pickle
+import json
+from datetime import datetime
 
-def save_object(obj, filename):
-    with open(filename, 'a+', encoding='utf-8') as file:
-        file.write(obj)
 
-# https://docs.securitytrails.com/reference
+# Function to overcome errors in printing Nones
+def xstr(s):
+    return '' if s is None else str(s)
+
+
+# Defining how the files will be saved into csv
+meta_data_file = open('../Data/meta_data.csv','w')
+meta_data_file.write("scrape_date ,post_code ,record_count ,max_page\n")   
+records_file = open('../Data/records.csv','w')
+records_file.write("scrape_date ,post_code , hostName ,createdDate ,expiresDate ,companyName \n" )
+
+
+# URL and post codes
 url = "https://api.securitytrails.com/v1/domains/list"
-
 # Zip Codes: Pasted from the CSV using text editor for our convenience 
 postcodes = ["43101", "43103", "43106", "43113", "43115", "43116", "43117", "43128", "43142", "43145", "43146", "43156", "43160", "43164", "45001", "45002", "45003", "45004", "45005", "45011", "45012", "45013", "45014", "45015", "45018", "45030", "45032", "45033", "45034", "45036", "45039", "45040", "45041", "45042", "45044", "45050", "45051", "45052", "45053", "45054", "45055", "45056", "45061", "45062", "45063", "45064", "45065", "45066", "45067", "45068", "45069", "45070", "45071", "45101", "45102", "45103", "45105", "45106", "45107", "45111", "45112", "45113", "45114", "45115", "45118", "45119", "45120", "45121", "45122", "45123", "45130", "45131", "45132", "45133", "45135", "45140", "45142", "45144", "45146", "45147", "45148", "45150", "45152", "45153", "45154", "45155", "45156", "45157", "45158", "45159", "45160", "45162", "45164", "45166", "45167", "45168", "45169", "45171", "45172", "45174", "45176", "45177", "45201", "45202", "45203", "45204", "45205", "45206", "45207", "45208", "45209", "45211", "45212", "45213", "45214", "45215", "45216", "45217", "45218", "45219", "45220", "45221", "45222", "45223", "45224", "45225", "45226", "45227", "45229", "45230", "45231", "45232", "45233", "45234", "45235", "45236", "45237", "45238", "45239", "45240", "45241", "45242", "45243", "45244", "45245", "45246", "45247", "45248", "45249", "45250", "45251", "45252", "45253", "45254", "45255", "45258", "45262", "45263", "45264", "45267", "45268", "45269", "45270", "45271", "45273", "45274", "45275", "45277", "45280", "45296", "45298", "45299", "45301", "45305", "45307", "45309", "45311", "45314", "45315", "45316", "45320", "45321", "45322", "45324", "45325", "45327", "45330", "45335", "45338", "45342", "45343", "45345", "45347", "45354", "45370", "45377", "45378", "45381", "45382", "45384", "45385", "45387", "45401", "45402", "45403", "45404", "45405", "45406", "45409", "45410", "45412", "45413", "45414", "45415", "45416", "45417", "45419", "45420", "45422", "45423", "45424", "45426", "45428", "45429", "45430", "45431", "45432", "45433", "45434", "45435", "45437", "45439", "45440", "45441", "45448", "45449", "45458", "45459", "45469", "45470", "45475", "45479", "45481", "45482", "45490", "45601", "45612", "45613", "45616", "45617", "45618", "45624", "45628", "45629", "45630", "45633", "45636", "45642", "45644", "45646", "45647", "45648", "45650", "45652", "45653", "45657", "45660", "45661", "45662", "45663", "45671", "45673", "45677", "45679", "45681", "45682", "45683", "45684", "45687", "45690", "45693", "45694", "45697", "45699", "45999"]
+# API key for Security Trails
+querystring = {"apikey":"7GpQJYMryiL24bulfUWmqiQgeRrExUKx"}
 
-for postcode in postcodes:
-    for x in range(1,6):
-        querystring = {"apikey":"7GpQJYMryiL24bulfUWmqiQgeRrExUKx", "page":str(x)}
-        payload = "{\"filter\":{\"whois_postalCode\":\"" + postcode +"\"}}"
-        response = requests.request("POST", url, data=payload, params=querystring)
-        filename = "../Data/ohioWebsites.JSON"
-        save_object(response.text, filename)
 
-        # filename = "../Data/ohioWebsites"+postcode+"P"+str(x)+".pickle"
-        # save_object(response.text, filename)
+# Querying the API
+for postcode in postcodes:    
+    payload = "{\"query\":\"whois_country='united states' and  whois_postalCode='" + postcode + "'\"}"
+    response = requests.request("POST", url, data=payload, params=querystring)
+    json_data = json.loads(response.text)
+    
+#   Obtaining meta data to identify number of pages and records per postal code
+    if 'meta' in json_data:
+        max_page = json_data["meta"]["max_page"]
+        record_count = json_data['record_count']
+        meta_data_file.write(xstr(datetime.today().strftime('%Y-%m-%d')) + "," + xstr(postcode) +"," + xstr(record_count) + "," + xstr(max_page) +"\n") 
+    
+#   Inner loop --> Going through first page
+    if 'records' in json_data:
+        for i in range(0, len(json_data['records'])):
+            companyName = str(json_data['records'][i]['computed']['company_name']).replace(",", "").replace("/t", "")
+            hostName = json_data['records'][i]['hostname']
+            expiresDate = json_data['records'][i]['whois']['expiresDate']
+            if expiresDate is not None:
+                expiresDate = expiresDate * 0.001
+                expiresDate = xstr(datetime.utcfromtimestamp(expiresDate).strftime('%Y-%m-%d'))
+            else:
+                expiresDate = "NA"
+                
+            createdDate = json_data['records'][i]['whois']['createdDate']
+            if createdDate is not None:
+                createdDate = createdDate * 0.001
+                createdDate = xstr(datetime.utcfromtimestamp(createdDate).strftime('%Y-%m-%d'))
+            else:
+                createdDate = "NA"
+            records_file.write(xstr(datetime.today().strftime('%Y-%m-%d')) + "," + xstr(postcode) + "," + xstr(hostName) + "," + createdDate + "," + expiresDate +"," + xstr(companyName) + "\n" )
+#    If pages > 1 --> iterate through remaining pages and records
+        if max_page > 1:    
+            for pageno in range(2, max_page+1):
+                querystring = {"apikey":"7GpQJYMryiL24bulfUWmqiQgeRrExUKx", "page":str(pageno)}
+                payload = "{\"query\":\"whois_country='united states' and  whois_postalCode='" + postcode + "'\"}"
+                response = requests.request("POST", url, data=payload, params=querystring)
+                
+                for i in range(0, len(json_data['records'])):
+                    companyName = json_data['records'][i]['computed']['company_name']
+                    hostName = json_data['records'][i]['hostname']
+                    expiresDate = json_data['records'][i]['whois']['expiresDate']
+                    if expiresDate is not None:
+                        expiresDate = expiresDate * 0.001
+                        expiresDate = xstr(datetime.utcfromtimestamp(expiresDate).strftime('%Y-%m-%d'))
+                    else:
+                        expiresDate = "NA"
+                        
+                    createdDate = json_data['records'][i]['whois']['createdDate']
+                    if createdDate is not None:
+                        createdDate = createdDate * 0.001
+                        createdDate = xstr(datetime.utcfromtimestamp(createdDate).strftime('%Y-%m-%d'))
+                    else:
+                        createdDate = "NA"
+                    records_file.write(xstr(datetime.today().strftime('%Y-%m-%d')) + "," + xstr(postcode) + "," + xstr(hostName) + "," + createdDate + "," + expiresDate +"," + xstr(companyName) + "\n" )
+                
+meta_data_file.close()
+records_file.close()
 ```
 
 
-### Extracting Information from Scraped Data
-Based on the analysis above, we have chosen to store all the data in one file.  While this is convenient, it creates the problem of having different (JSON) structures stored within our JSON file, which means it cannot be read using existing packages in either R or JSON. For the purpose of our analysis, this is not important since we only care about the following information within the file:
-
-* **Hostname:** This represents the domain for the website.
-* **Created Date:** When was the website first created.
-* **Expires Date:** When will the website expire.
-* **Alexa Ranking:** The popularity of the website as determined with the Alexa ranking system (which accounts for traffic/ no. of visitors).
-
-The chunk of code below provides the following functionality:
-
-1. Extracting the aforementioned four features for all the southwestern ohio websites.
-2. "Prettifying" the data by storing it in a typical CSV format for future analysis.
-
-Note that by just having the domain name, we can extract all the whois information for free using the R package [domaintools](https://github.com/hrbrmstr/domaintools). Thus, if any of the information that we did not extract is needed, we should be able to obtain it using the aforementioned package.
-
-```{r ETL}
-messy_json_data <- readLines("../Data/ohioWebsites.JSON")
-
-# Using regular expressions to extract hostname (domain name), created date, expiration date and alexa website popularity data from the messy JSON file
-hostname <- strapplyc(messy_json_data, '\"hostname\": "(.+)"', 
-                                     simplify = rbind) %>% as.data.frame() 
-createdDate <- strapplyc(messy_json_data, '\"createdDate\": (.*)',
-                                       simplify = rbind) %>%  as.data.frame()
-expiresDate <- strapplyc(messy_json_data, '\"expiresDate\": (.*?),',
-                                       simplify = rbind) %>% as.data.frame()
-alexarank <- strapplyc(messy_json_data, '\"alexa_rank\": (.*)',
-                                       simplify = rbind) %>% as.data.frame()
-
-# Converting Nulls to NAs to allow for converting the matrices to numeric
-createdDate[createdDate=="null"] = NA
-expiresDate[expiresDate=="null"] = NA
-alexarank[alexarank =="null"] = NA
-hostname[hostname=="null"] = NA
-
-# Converting from Unix Milliseconds to Understandable Dates
-as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}
-createdDate <- unlist(createdDate) %>% as.numeric.factor() %>% multiply_by(0.001) %>% 
-  anydate() %>% as.data.frame()
-expiresDate <- unlist(expiresDate) %>% as.numeric.factor() %>% multiply_by(0.001) %>% 
-  anydate() %>% as.data.frame()
-
-# Making a table from all four variables and storing the results as a CSV for future processing
-websiteTable <- cbind(hostname, createdDate, expiresDate, alexarank) %>%  as.data.frame()
-colnames(websiteTable) <- c("hostName", "createdDate", "expiresDate", "alexarank")
-write.csv(websiteTable, file = "../Data/CleanedOhioWebsites.csv", row.names = F)
-```
 
 
 # Domain Histories
-Based on Section (1), we know have the domain names for approximately 83450 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the [Wayback Machine API](https://web.archive.org/).
+Based on Section (1), we know have the domain names for approximately 131,723 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the [Wayback Machine API](https://web.archive.org/).
+
+## Content History
+
+```{r mementos, eval= F}
+df <- read.csv("../Data/records.csv", stringsAsFactors = F) %>%
+  subset(select= c(2:5))
+scraped.content.
+for (record in 1:nrow(df)) {
+  
+}
+rss <- get_mementos(df[5,2])
+```

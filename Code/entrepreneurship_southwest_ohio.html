@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2019-04-17" />
+<meta name="date" content="2019-04-30" />
 
 <title>Understanding and Quantifying Impactful Research Published in JQT</title>
 
@@ -2893,7 +2893,7 @@ div.tocify {
 <address class="author_afil">
 Farmer School of Business, Miami University<br><h4 class="author">Fadel M. Megahed<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></h4>
 <address class="author_afil">
-Farmer School of Business, Miami University<br><h4 class="date">April 17, 2019</h4>
+Farmer School of Business, Miami University<br><h4 class="date">April 30, 2019</h4>
 
 </div>
 
@@ -2909,7 +2909,7 @@ Farmer School of Business, Miami University<br><h4 class="date">April 17, 2019</
 <li>Provides the results that we have obtained for each stage of the analysis.</li>
 <li>Allows for reusing our code and reproducing our results, which in our view is a major limitation in the majority of the published literature since they do not provide code and it is often unclear what are some of the decision made in terms of data preprocessing and modeling.</li>
 </ul>
-<p>To navigate this Markdown, please feel free to use the navigation bar at the left. The reader can <strong>hide</strong> any code chunk by clicking on the code button. We use hyperlinks to document: (a) data sources used in the analysis, (b) repository for where we saved the results, and (c) relevant <strong>R</strong> and/or <strong>Python</strong> programming resources.</p>
+<p>To navigate this Markdown, please feel free to use the navigation bar at the left. The reader can <strong>hide</strong> any code chunk by clicking on the hide button. We use hyperlinks to document: (a) data sources used in the analysis, (b) repository for where we saved the results, and (c) relevant <strong>R</strong> and/or <strong>Python</strong> programming resources.</p>
 <div id="data-extraction" class="section level1">
 <h1><span class="header-section-number">1</span> Data Extraction</h1>
 <p>The snippet below documents the list of <strong>R</strong> packages and functions that were used in this research. For convenience, we used the <code>pacman</code> package since it allows for installing/loading the needed packages in one step. Please make sure that the package is installed on your system using the command <code>install.packages(&quot;pacman&quot;)</code> before running this code chunk.</p>
@@ -2929,7 +2929,7 @@ p_load(httr, rvest,
 <h2><span class="header-section-number">1.1</span> Zip Codes in Southwest Ohio</h2>
 <p>To obtain the list of Zip Codes in Southwest Ohio, we have done the following:</p>
 <ol style="list-style-type: decimal">
-<li>We downloaded all 1415 Zip Codes in Ohio from <a href="https://www.zip-codes.com/state/oh.asp">zip-codes.com</a> and stored the result as a csv (where we modified the first column data asfollows: ZIP Code XXXXX -&gt; XXXX);</li>
+<li>We downloaded all 1415 Zip Codes in Ohio from <a href="https://www.zip-codes.com/state/oh.asp">zip-codes.com</a> and stored the result in <a href="https://github.com/fmegahed/entrepreneurship-in-southwest-ohio/blob/master/Data/ohioZipCodes.csv">ohioZipCodes.csv</a> (where we modified the first column data as follows: ZIP Code XXXXX -&gt; XXXX);</li>
 <li>We have identified the 16 counties capturing Southwest Ohio from the <a href="https://wikitravel.org/en/Southwest_Ohio">Southwest Ohio Wikipedia Page</a>. The county names were stored in our R program using the vector named <code>county_names</code>;</li>
 <li>Using R, we have subseted the CSV file using the following two rules:</li>
 </ol>
@@ -2937,7 +2937,7 @@ p_load(httr, rvest,
 <li>Restricting zip codes to those having a County Identifier in <code>county_names</code>.</li>
 <li>Restricting zip codes to non P.O. Boxes</li>
 </ul>
-<p>From our code, we have obtained 220 unique zip codes capturing the 16 counties of Southwest Ohio. These were stored in a CSV titled: “SouthwestOhioZips.csv”.</p>
+<p>From our code, we have obtained 220 unique zip codes capturing the 16 counties of Southwest Ohio. These were stored in <a href="https://github.com/fmegahed/entrepreneurship-in-southwest-ohio/tree/master/Data">SouthwestOhioZips.csv</a>.</p>
 <pre class="r"><code># County names in Southwest Ohio Per Wiki Travel
 county_names &lt;- c(&quot;Adams&quot;, &quot;Brown&quot;,&quot;Butler&quot;, &quot;Clermont&quot;, &quot;Clinton&quot;,
                   &quot;Fayette&quot;, &quot;Greene&quot;, &quot;Hamilton&quot;, &quot;Highland&quot;, &quot;Montgomery&quot;,
@@ -2950,90 +2950,124 @@ oh_ZipCodes &lt;- read.csv(&quot;../Data/ohioZipCodes.csv&quot;, stringsAsFactor
 ZIPs &lt;- as.character(oh_ZipCodes[,1])
 write.csv(ZIPs, &quot;../Data/SouthwestOhioZips.csv&quot;, row.names = FALSE)</code></pre>
 </div>
-<div id="identifying-the-domains-associated-with-these-zip-codes" class="section level2">
-<h2><span class="header-section-number">1.2</span> Identifying the Domains Associated with these Zip Codes</h2>
-<div id="scraping-domain-information" class="section level3">
-<h3><span class="header-section-number">1.2.1</span> Scraping Domain Information</h3>
-<p>In the code chunk below, we will connect to the <a href="https://securitytrails.com/">Security Trails API</a> to obtain information on the top 500 websites per each Zip Code. Since it was not obvious how to identify the number of domains per website using the API, we have selected 500 since it:</p>
+<div id="scraping-domain-information-associated-with-these-zip-codes" class="section level2">
+<h2><span class="header-section-number">1.2</span> Scraping Domain Information Associated with these Zip Codes</h2>
+<p>In the code chunk below, we will connect to the <a href="https://securitytrails.com/">Security Trails API</a> to create the following two comma seperated value (CSV) files:</p>
+<ol style="list-style-type: upper-alpha">
+<li><a href="https://github.com/fmegahed/entrepreneurship-in-southwest-ohio/blob/master/Data/meta.csv">meta.csv</a>, which stores the following meta data related to our API queries:</li>
+</ol>
 <ul>
-<li>Is a large enough number, i.e. 500 business per Zip Code will exceed the number of businesses located in most of these zip codes</li>
-<li>Allows us to be under the 1500 queries limit, which would require a more expensive API subscription, which for the purpose of this initial analysis seemed to be not necessary.</li>
+<li><strong>scrape_date:</strong> Date when we scrapped the WhoIs database using the Security Trails API;</li>
+<li><strong>post_code:</strong> The postal code for which websites were being scraped;</li>
+<li><strong>record_count:</strong> Number of websites/domain names that are registered for that postal code;</li>
+<li><strong>max_page:</strong> Number of page results on Security Trails that we have to iterate through for this post code. Not that if there are 6 pages, the first five pages will each contain 100 records and the sixth will contain up to 100 records.</li>
 </ul>
-<p>The requests were made using <em>Python Programming Language</em>. The files were saved using a JSON file structure and stored in a text file titled: <em>ohioWebsites.JSON</em>.</p>
-<pre class="python"><code>import requests
-import pickle
+<ol start="2" style="list-style-type: upper-alpha">
+<li><a href="https://github.com/fmegahed/entrepreneurship-in-southwest-ohio/blob/master/Data/records.csv">records.csv</a>, which stores information in the following variables:</li>
+</ol>
+<ul>
+<li><strong>scrape_date:</strong> Date when we scrapped the WhoIs database using the Security Trails API;</li>
+<li><strong>post_code:</strong> The postal code for which websites were being scraped;</li>
+<li><strong>hostName:</strong> domain name for the website;</li>
+<li><strong>createdDate:</strong> when was the website created;</li>
+<li><strong>expiresDate:</strong> when does the current regiseration for the website expire;</li>
+<li><strong>companyName:</strong> this is computed from the WhoIS information, and thus, it is not always exact and contains a lot of <em>None</em>.</li>
+</ul>
+<p>The requests were made using <em>Python Programming Language</em>, as shown in the code snippet below. Note that we were able to use country as a part of our filter search since we had a <strong>Professional Subscription account</strong>.</p>
+<pre class="python"><code># Loading required libraries
+import requests
+import json
+from datetime import datetime
 
-def save_object(obj, filename):
-    with open(filename, 'a+', encoding='utf-8') as file:
-        file.write(obj)
 
-# https://docs.securitytrails.com/reference
+# Function to overcome errors in printing Nones
+def xstr(s):
+    return '' if s is None else str(s)
+
+
+# Defining how the files will be saved into csv
+meta_data_file = open('../Data/meta_data.csv','w')
+meta_data_file.write(&quot;scrape_date ,post_code ,record_count ,max_page\n&quot;)   
+records_file = open('../Data/records.csv','w')
+records_file.write(&quot;scrape_date ,post_code , hostName ,createdDate ,expiresDate ,companyName \n&quot; )
+
+
+# URL and post codes
 url = &quot;https://api.securitytrails.com/v1/domains/list&quot;
-
 # Zip Codes: Pasted from the CSV using text editor for our convenience 
 postcodes = [&quot;43101&quot;, &quot;43103&quot;, &quot;43106&quot;, &quot;43113&quot;, &quot;43115&quot;, &quot;43116&quot;, &quot;43117&quot;, &quot;43128&quot;, &quot;43142&quot;, &quot;43145&quot;, &quot;43146&quot;, &quot;43156&quot;, &quot;43160&quot;, &quot;43164&quot;, &quot;45001&quot;, &quot;45002&quot;, &quot;45003&quot;, &quot;45004&quot;, &quot;45005&quot;, &quot;45011&quot;, &quot;45012&quot;, &quot;45013&quot;, &quot;45014&quot;, &quot;45015&quot;, &quot;45018&quot;, &quot;45030&quot;, &quot;45032&quot;, &quot;45033&quot;, &quot;45034&quot;, &quot;45036&quot;, &quot;45039&quot;, &quot;45040&quot;, &quot;45041&quot;, &quot;45042&quot;, &quot;45044&quot;, &quot;45050&quot;, &quot;45051&quot;, &quot;45052&quot;, &quot;45053&quot;, &quot;45054&quot;, &quot;45055&quot;, &quot;45056&quot;, &quot;45061&quot;, &quot;45062&quot;, &quot;45063&quot;, &quot;45064&quot;, &quot;45065&quot;, &quot;45066&quot;, &quot;45067&quot;, &quot;45068&quot;, &quot;45069&quot;, &quot;45070&quot;, &quot;45071&quot;, &quot;45101&quot;, &quot;45102&quot;, &quot;45103&quot;, &quot;45105&quot;, &quot;45106&quot;, &quot;45107&quot;, &quot;45111&quot;, &quot;45112&quot;, &quot;45113&quot;, &quot;45114&quot;, &quot;45115&quot;, &quot;45118&quot;, &quot;45119&quot;, &quot;45120&quot;, &quot;45121&quot;, &quot;45122&quot;, &quot;45123&quot;, &quot;45130&quot;, &quot;45131&quot;, &quot;45132&quot;, &quot;45133&quot;, &quot;45135&quot;, &quot;45140&quot;, &quot;45142&quot;, &quot;45144&quot;, &quot;45146&quot;, &quot;45147&quot;, &quot;45148&quot;, &quot;45150&quot;, &quot;45152&quot;, &quot;45153&quot;, &quot;45154&quot;, &quot;45155&quot;, &quot;45156&quot;, &quot;45157&quot;, &quot;45158&quot;, &quot;45159&quot;, &quot;45160&quot;, &quot;45162&quot;, &quot;45164&quot;, &quot;45166&quot;, &quot;45167&quot;, &quot;45168&quot;, &quot;45169&quot;, &quot;45171&quot;, &quot;45172&quot;, &quot;45174&quot;, &quot;45176&quot;, &quot;45177&quot;, &quot;45201&quot;, &quot;45202&quot;, &quot;45203&quot;, &quot;45204&quot;, &quot;45205&quot;, &quot;45206&quot;, &quot;45207&quot;, &quot;45208&quot;, &quot;45209&quot;, &quot;45211&quot;, &quot;45212&quot;, &quot;45213&quot;, &quot;45214&quot;, &quot;45215&quot;, &quot;45216&quot;, &quot;45217&quot;, &quot;45218&quot;, &quot;45219&quot;, &quot;45220&quot;, &quot;45221&quot;, &quot;45222&quot;, &quot;45223&quot;, &quot;45224&quot;, &quot;45225&quot;, &quot;45226&quot;, &quot;45227&quot;, &quot;45229&quot;, &quot;45230&quot;, &quot;45231&quot;, &quot;45232&quot;, &quot;45233&quot;, &quot;45234&quot;, &quot;45235&quot;, &quot;45236&quot;, &quot;45237&quot;, &quot;45238&quot;, &quot;45239&quot;, &quot;45240&quot;, &quot;45241&quot;, &quot;45242&quot;, &quot;45243&quot;, &quot;45244&quot;, &quot;45245&quot;, &quot;45246&quot;, &quot;45247&quot;, &quot;45248&quot;, &quot;45249&quot;, &quot;45250&quot;, &quot;45251&quot;, &quot;45252&quot;, &quot;45253&quot;, &quot;45254&quot;, &quot;45255&quot;, &quot;45258&quot;, &quot;45262&quot;, &quot;45263&quot;, &quot;45264&quot;, &quot;45267&quot;, &quot;45268&quot;, &quot;45269&quot;, &quot;45270&quot;, &quot;45271&quot;, &quot;45273&quot;, &quot;45274&quot;, &quot;45275&quot;, &quot;45277&quot;, &quot;45280&quot;, &quot;45296&quot;, &quot;45298&quot;, &quot;45299&quot;, &quot;45301&quot;, &quot;45305&quot;, &quot;45307&quot;, &quot;45309&quot;, &quot;45311&quot;, &quot;45314&quot;, &quot;45315&quot;, &quot;45316&quot;, &quot;45320&quot;, &quot;45321&quot;, &quot;45322&quot;, &quot;45324&quot;, &quot;45325&quot;, &quot;45327&quot;, &quot;45330&quot;, &quot;45335&quot;, &quot;45338&quot;, &quot;45342&quot;, &quot;45343&quot;, &quot;45345&quot;, &quot;45347&quot;, &quot;45354&quot;, &quot;45370&quot;, &quot;45377&quot;, &quot;45378&quot;, &quot;45381&quot;, &quot;45382&quot;, &quot;45384&quot;, &quot;45385&quot;, &quot;45387&quot;, &quot;45401&quot;, &quot;45402&quot;, &quot;45403&quot;, &quot;45404&quot;, &quot;45405&quot;, &quot;45406&quot;, &quot;45409&quot;, &quot;45410&quot;, &quot;45412&quot;, &quot;45413&quot;, &quot;45414&quot;, &quot;45415&quot;, &quot;45416&quot;, &quot;45417&quot;, &quot;45419&quot;, &quot;45420&quot;, &quot;45422&quot;, &quot;45423&quot;, &quot;45424&quot;, &quot;45426&quot;, &quot;45428&quot;, &quot;45429&quot;, &quot;45430&quot;, &quot;45431&quot;, &quot;45432&quot;, &quot;45433&quot;, &quot;45434&quot;, &quot;45435&quot;, &quot;45437&quot;, &quot;45439&quot;, &quot;45440&quot;, &quot;45441&quot;, &quot;45448&quot;, &quot;45449&quot;, &quot;45458&quot;, &quot;45459&quot;, &quot;45469&quot;, &quot;45470&quot;, &quot;45475&quot;, &quot;45479&quot;, &quot;45481&quot;, &quot;45482&quot;, &quot;45490&quot;, &quot;45601&quot;, &quot;45612&quot;, &quot;45613&quot;, &quot;45616&quot;, &quot;45617&quot;, &quot;45618&quot;, &quot;45624&quot;, &quot;45628&quot;, &quot;45629&quot;, &quot;45630&quot;, &quot;45633&quot;, &quot;45636&quot;, &quot;45642&quot;, &quot;45644&quot;, &quot;45646&quot;, &quot;45647&quot;, &quot;45648&quot;, &quot;45650&quot;, &quot;45652&quot;, &quot;45653&quot;, &quot;45657&quot;, &quot;45660&quot;, &quot;45661&quot;, &quot;45662&quot;, &quot;45663&quot;, &quot;45671&quot;, &quot;45673&quot;, &quot;45677&quot;, &quot;45679&quot;, &quot;45681&quot;, &quot;45682&quot;, &quot;45683&quot;, &quot;45684&quot;, &quot;45687&quot;, &quot;45690&quot;, &quot;45693&quot;, &quot;45694&quot;, &quot;45697&quot;, &quot;45699&quot;, &quot;45999&quot;]
+# API key for Security Trails
+querystring = {&quot;apikey&quot;:&quot;7GpQJYMryiL24bulfUWmqiQgeRrExUKx&quot;}
 
-for postcode in postcodes:
-    for x in range(1,6):
-        querystring = {&quot;apikey&quot;:&quot;7GpQJYMryiL24bulfUWmqiQgeRrExUKx&quot;, &quot;page&quot;:str(x)}
-        payload = &quot;{\&quot;filter\&quot;:{\&quot;whois_postalCode\&quot;:\&quot;&quot; + postcode +&quot;\&quot;}}&quot;
-        response = requests.request(&quot;POST&quot;, url, data=payload, params=querystring)
-        filename = &quot;../Data/ohioWebsites.JSON&quot;
-        save_object(response.text, filename)
 
-        # filename = &quot;../Data/ohioWebsites&quot;+postcode+&quot;P&quot;+str(x)+&quot;.pickle&quot;
-        # save_object(response.text, filename)</code></pre>
-</div>
-<div id="extracting-information-from-scraped-data" class="section level3">
-<h3><span class="header-section-number">1.2.2</span> Extracting Information from Scraped Data</h3>
-<p>Based on the analysis above, we have chosen to store all the data in one file. While this is convenient, it creates the problem of having different (JSON) structures stored within our JSON file, which means it cannot be read using existing packages in either R or JSON. For the purpose of our analysis, this is not important since we only care about the following information within the file:</p>
-<ul>
-<li><strong>Hostname:</strong> This represents the domain for the website.</li>
-<li><strong>Created Date:</strong> When was the website first created.</li>
-<li><strong>Expires Date:</strong> When will the website expire.</li>
-<li><strong>Alexa Ranking:</strong> The popularity of the website as determined with the Alexa ranking system (which accounts for traffic/ no. of visitors).</li>
-</ul>
-<p>The chunk of code below provides the following functionality:</p>
-<ol style="list-style-type: decimal">
-<li>Extracting the aforementioned four features for all the southwestern ohio websites.</li>
-<li>“Prettifying” the data by storing it in a typical CSV format for future analysis.</li>
-</ol>
-<p>Note that by just having the domain name, we can extract all the whois information for free using the R package <a href="https://github.com/hrbrmstr/domaintools">domaintools</a>. Thus, if any of the information that we did not extract is needed, we should be able to obtain it using the aforementioned package.</p>
-<pre class="r"><code>messy_json_data &lt;- readLines(&quot;../Data/ohioWebsites.JSON&quot;)
-
-# Using regular expressions to extract hostname (domain name), created date, expiration date and alexa website popularity data from the messy JSON file
-hostname &lt;- strapplyc(messy_json_data, '\&quot;hostname\&quot;: &quot;(.+)&quot;', 
-                                     simplify = rbind) %&gt;% as.data.frame() 
-createdDate &lt;- strapplyc(messy_json_data, '\&quot;createdDate\&quot;: (.*)',
-                                       simplify = rbind) %&gt;%  as.data.frame()
-expiresDate &lt;- strapplyc(messy_json_data, '\&quot;expiresDate\&quot;: (.*?),',
-                                       simplify = rbind) %&gt;% as.data.frame()
-alexarank &lt;- strapplyc(messy_json_data, '\&quot;alexa_rank\&quot;: (.*)',
-                                       simplify = rbind) %&gt;% as.data.frame()
-
-# Converting Nulls to NAs to allow for converting the matrices to numeric
-createdDate[createdDate==&quot;null&quot;] = NA
-expiresDate[expiresDate==&quot;null&quot;] = NA
-alexarank[alexarank ==&quot;null&quot;] = NA
-hostname[hostname==&quot;null&quot;] = NA
-
-# Converting from Unix Milliseconds to Understandable Dates
-as.numeric.factor &lt;- function(x) {as.numeric(levels(x))[x]}
-createdDate &lt;- unlist(createdDate) %&gt;% as.numeric.factor() %&gt;% multiply_by(0.001) %&gt;% 
-  anydate() %&gt;% as.data.frame()
-expiresDate &lt;- unlist(expiresDate) %&gt;% as.numeric.factor() %&gt;% multiply_by(0.001) %&gt;% 
-  anydate() %&gt;% as.data.frame()
-
-# Making a table from all four variables and storing the results as a CSV for future processing
-websiteTable &lt;- cbind(hostname, createdDate, expiresDate, alexarank) %&gt;%  as.data.frame()
-colnames(websiteTable) &lt;- c(&quot;hostName&quot;, &quot;createdDate&quot;, &quot;expiresDate&quot;, &quot;alexarank&quot;)
-write.csv(websiteTable, file = &quot;../Data/CleanedOhioWebsites.csv&quot;, row.names = F)</code></pre>
-</div>
+# Querying the API
+for postcode in postcodes:    
+    payload = &quot;{\&quot;query\&quot;:\&quot;whois_country='united states' and  whois_postalCode='&quot; + postcode + &quot;'\&quot;}&quot;
+    response = requests.request(&quot;POST&quot;, url, data=payload, params=querystring)
+    json_data = json.loads(response.text)
+    
+#   Obtaining meta data to identify number of pages and records per postal code
+    if 'meta' in json_data:
+        max_page = json_data[&quot;meta&quot;][&quot;max_page&quot;]
+        record_count = json_data['record_count']
+        meta_data_file.write(xstr(datetime.today().strftime('%Y-%m-%d')) + &quot;,&quot; + xstr(postcode) +&quot;,&quot; + xstr(record_count) + &quot;,&quot; + xstr(max_page) +&quot;\n&quot;) 
+    
+#   Inner loop --&gt; Going through first page
+    if 'records' in json_data:
+        for i in range(0, len(json_data['records'])):
+            companyName = str(json_data['records'][i]['computed']['company_name']).replace(&quot;,&quot;, &quot;&quot;).replace(&quot;/t&quot;, &quot;&quot;)
+            hostName = json_data['records'][i]['hostname']
+            expiresDate = json_data['records'][i]['whois']['expiresDate']
+            if expiresDate is not None:
+                expiresDate = expiresDate * 0.001
+                expiresDate = xstr(datetime.utcfromtimestamp(expiresDate).strftime('%Y-%m-%d'))
+            else:
+                expiresDate = &quot;NA&quot;
+                
+            createdDate = json_data['records'][i]['whois']['createdDate']
+            if createdDate is not None:
+                createdDate = createdDate * 0.001
+                createdDate = xstr(datetime.utcfromtimestamp(createdDate).strftime('%Y-%m-%d'))
+            else:
+                createdDate = &quot;NA&quot;
+            records_file.write(xstr(datetime.today().strftime('%Y-%m-%d')) + &quot;,&quot; + xstr(postcode) + &quot;,&quot; + xstr(hostName) + &quot;,&quot; + createdDate + &quot;,&quot; + expiresDate +&quot;,&quot; + xstr(companyName) + &quot;\n&quot; )
+#    If pages &gt; 1 --&gt; iterate through remaining pages and records
+        if max_page &gt; 1:    
+            for pageno in range(2, max_page+1):
+                querystring = {&quot;apikey&quot;:&quot;7GpQJYMryiL24bulfUWmqiQgeRrExUKx&quot;, &quot;page&quot;:str(pageno)}
+                payload = &quot;{\&quot;query\&quot;:\&quot;whois_country='united states' and  whois_postalCode='&quot; + postcode + &quot;'\&quot;}&quot;
+                response = requests.request(&quot;POST&quot;, url, data=payload, params=querystring)
+                
+                for i in range(0, len(json_data['records'])):
+                    companyName = json_data['records'][i]['computed']['company_name']
+                    hostName = json_data['records'][i]['hostname']
+                    expiresDate = json_data['records'][i]['whois']['expiresDate']
+                    if expiresDate is not None:
+                        expiresDate = expiresDate * 0.001
+                        expiresDate = xstr(datetime.utcfromtimestamp(expiresDate).strftime('%Y-%m-%d'))
+                    else:
+                        expiresDate = &quot;NA&quot;
+                        
+                    createdDate = json_data['records'][i]['whois']['createdDate']
+                    if createdDate is not None:
+                        createdDate = createdDate * 0.001
+                        createdDate = xstr(datetime.utcfromtimestamp(createdDate).strftime('%Y-%m-%d'))
+                    else:
+                        createdDate = &quot;NA&quot;
+                    records_file.write(xstr(datetime.today().strftime('%Y-%m-%d')) + &quot;,&quot; + xstr(postcode) + &quot;,&quot; + xstr(hostName) + &quot;,&quot; + createdDate + &quot;,&quot; + expiresDate +&quot;,&quot; + xstr(companyName) + &quot;\n&quot; )
+                
+meta_data_file.close()
+records_file.close()</code></pre>
 </div>
 </div>
 <div id="domain-histories" class="section level1">
 <h1><span class="header-section-number">2</span> Domain Histories</h1>
-<p>Based on Section (1), we know have the domain names for approximately 83450 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the <a href="https://web.archive.org/">Wayback Machine API</a>.</p>
+<p>Based on Section (1), we know have the domain names for approximately 131,723 websites that are registered under one of the zip codes corresponding to the counties we explored. In this section, we will explore how each of these domains have changed over time using information from the <a href="https://web.archive.org/">Wayback Machine API</a>.</p>
+<div id="content-history" class="section level2">
+<h2><span class="header-section-number">2.1</span> Content History</h2>
+<pre class="r"><code>southwest_oh_sites &lt;- read.csv(&quot;../Data/records.csv&quot;) %&gt;% na.omit()
+rss &lt;- get_mementos(southwest_oh_sites[,3])</code></pre>
+</div>
 </div>
 <div class="footnotes">
 <hr />
