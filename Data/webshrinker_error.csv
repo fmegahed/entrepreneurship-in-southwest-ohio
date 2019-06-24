@@ -1,0 +1,2301 @@
+url, Error
+http://www.isfahn.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.joycelyn.top,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.lightsonpublisher.com,HTTPConnectionPool(host='www.lightsonpublisher.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03C875F0>; 'Connection to www.lightsonpublisher.com timed out. (connect timeout=10)'))
+http://www.ominousentertainment.com,HTTPConnectionPool(host='www.ominousentertainment.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03C87630>; 'Connection to www.ominousentertainment.com timed out. (connect timeout=10)'))
+http://www.24daystart.com,HTTPConnectionPool(host='www.advocare.com'; port=80): Read timed out. (read timeout=10)
+http://www.3d-innovations.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.alliedfireservice.com, 403
+http://www.allwaterhauling.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.alphadogsitter.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.aubreesbooks.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.beautifullycustomboutique.com,HTTPConnectionPool(host='www.beautifullycustomboutique.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D6C250>; 'Connection to www.beautifullycustomboutique.com timed out. (connect timeout=10)'))
+http://www.blueberryvalley.net,HTTPConnectionPool(host='www.blueberryvalley.net'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D67E30>; 'Connection to www.blueberryvalley.net timed out. (connect timeout=10)'))
+http://www.canasigns.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.colind.us,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.columbuscorpcoach.com,uncategorized
+http://www.columbuscorporatecar.com,uncategorized
+http://www.columbuscorporatecoach.com,uncategorized
+http://www.columbusturf.com,HTTPConnectionPool(host='www.columbusturf.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D67C90>; 'Connection to www.columbusturf.com timed out. (connect timeout=10)'))
+http://www.columbuswedding-photography.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.columbusweddingdj.love,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.congressionalswampgas.com,uncategorized
+http://www.corncriblogic.us,uncategorized
+http://www.crevmc.net,('Connection aborted.'; error(10061; 'No connection could be made because the target machine actively refused it'))
+http://www.crosscreekmeadowsapts.com,uncategorized
+http://www.crossestobare.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.crosswoodflags.com, 406
+http://www.cuireavecamour.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cupphotography.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cuppphotography.com,uncategorized
+http://www.danoverholt.net,uncategorized
+http://www.danstockham.mobi,uncategorized
+http://www.danstockham.net,uncategorized
+http://www.danstockham.org,uncategorized
+http://www.danstockham.biz,uncategorized
+http://www.danstockham.info,uncategorized
+http://www.danwiththeplan.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dashanimalrescue.org,uncategorized
+http://www.davecordle.com,uncategorized
+http://www.daystarfoh.org, 406
+http://www.dbsec-it.com,uncategorized
+http://www.deadanomalist.com,uncategorized
+http://www.delphosseniorapts.com,uncategorized
+http://www.divalashes.us,uncategorized
+http://www.europeanbeads.biz,uncategorized
+http://www.excalibur-outdoors.com,uncategorized
+http://www.fakeoutcallerid.com,HTTPConnectionPool(host='www.fakeoutcallerid.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA0330>; 'Connection to www.fakeoutcallerid.com timed out. (connect timeout=10)'))
+http://www.fastemails.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.fhmotorsports.com,uncategorized
+http://www.fieldingsreview.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.flightsonline.us,HTTPConnectionPool(host='www.flightsonline.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D73270>; 'Connection to www.flightsonline.us timed out. (connect timeout=10)'))
+http://www.floridaccp.com,uncategorized
+http://www.foxandsoncomputers.com,uncategorized
+http://www.freekn.com,uncategorized
+http://www.fsqiv.com,uncategorized
+http://www.fuzetechnologysolutions.com,uncategorized
+http://www.gaypridemusic.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.giftformedicalprofessionals.com,uncategorized
+http://www.globalcharming.com,uncategorized
+http://www.globaltransmissionparts.net,uncategorized
+http://www.globaltransmissionparts.info,uncategorized
+http://www.globaltransmissionparts.org,uncategorized
+http://www.globaltransmissionparts.us,uncategorized
+http://www.globaltransparts.com,uncategorized
+http://www.gmtransmissionparts.net,uncategorized
+http://www.gmtransmissionparts.org,uncategorized
+http://www.gmtransmissionparts.info,uncategorized
+http://www.gonja.us,uncategorized
+http://www.goodguys.live,uncategorized
+http://www.gpstrackersimcard.com,hostname 'gpstrackersimcards.com' doesn't match either of '*.web-hosting.com'; 'web-hosting.com'
+http://www.gpstrackersimcards.com,uncategorized
+http://www.gracech.com, 403
+http://www.graceforethiopia.com, 406
+http://www.greatdaneconstruction.net,uncategorized
+http://www.guesthouses.us,HTTPConnectionPool(host='www.guesthouses.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E72A10>; 'Connection to www.guesthouses.us timed out. (connect timeout=10)'))
+http://www.halloffameclc.com,uncategorized
+http://www.halloffametracker.com,uncategorized
+http://www.hammelandmccrady.com,uncategorized
+http://www.harmeetchawla.com,uncategorized
+http://www.harvestcentercog.org,uncategorized
+http://www.hazard975.us,HTTPConnectionPool(host='www.hazard975.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D94DF0>; 'Connection to www.hazard975.us timed out. (connect timeout=10)'))
+http://www.healthingrace.com,uncategorized
+http://www.heartofohiocounseling.com, 406
+http://www.heathenscomedy.com,uncategorized
+http://www.heritagenaz.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.hishealingsolution.com,uncategorized
+http://www.hockingcabins.net,uncategorized
+http://www.hockinghillsoh.net,uncategorized
+http://www.hockinhillsguides.com,uncategorized
+http://www.hometowncp.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.hoofprintfarm.com,uncategorized
+http://www.hotelesbaratos.us,HTTPConnectionPool(host='www.hotelesbaratos.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8A650>; 'Connection to www.hotelesbaratos.us timed out. (connect timeout=10)'))
+http://www.hoteleseconomicos.us,HTTPConnectionPool(host='www.hoteleseconomicos.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA0770>; 'Connection to www.hoteleseconomicos.us timed out. (connect timeout=10)'))
+http://www.hotelsonline.us,HTTPConnectionPool(host='www.hotelsonline.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA07B0>; 'Connection to www.hotelsonline.us timed out. (connect timeout=10)'))
+http://www.houseofcardsgaming.com,uncategorized
+http://www.howdoyoumark.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.huffsconstruction.com,uncategorized
+http://www.illinoistransmissionparts.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ilsejacobsenboots.com,uncategorized
+http://www.ind-surplus.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.indenterprises.com, 403
+http://www.interchangeable.com, 404
+http://www.intergalaticenterprises.com,uncategorized
+http://www.inventorymanagementsolutions.net,uncategorized
+http://www.downhomedesigns.net,uncategorized
+http://www.drifitapparel.com,uncategorized
+http://www.dryfit.org,uncategorized
+http://www.emusselmanphotodesign.com,uncategorized
+http://www.endangeredcocktails.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.eversonlawfirm.com,uncategorized
+http://www.everydaysunday.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.faithcolumbus.org,uncategorized
+http://www.faithcolumbus.net,uncategorized
+http://www.firstpersonsermons.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.fletchmarketing.com, 404
+http://www.foundationchurchohio.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.foundationfarmsent.com, 403
+http://www.franklintondistrict.com,uncategorized
+http://www.fyrwoodtools.com,uncategorized
+http://www.ganjacopters.info,uncategorized
+http://www.ganjacopters.org,uncategorized
+http://www.ganjacopters.com,uncategorized
+http://www.gatosfoods.com,uncategorized
+http://www.gatosjams.com,uncategorized
+http://www.gflight360.com,uncategorized
+http://www.ght3.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.gibsonphotographics.com,uncategorized
+http://www.glassfancy.com,uncategorized
+http://www.glassfancy.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.godwillsupply.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.goso.us,('Connection aborted.'; BadStatusLine("''";))
+http://www.gregsmoths.com, 406
+http://www.harnessracingrocks.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.hawkinspw.com,uncategorized
+http://www.hbusinesssolutions.net,uncategorized
+http://www.hillfarmstrucking.com,uncategorized
+http://www.howdidthishappen.net,uncategorized
+http://www.hstwohionetwork.com, 406
+http://www.huffmantransportation.com,uncategorized
+http://www.irsauctioneer.info,uncategorized
+http://www.irsauctioneer.net,uncategorized
+http://www.janshannonfortreasurer.com, 404
+http://www.jayceeparking.com, 406
+http://www.jeanettebays.com,uncategorized
+http://www.jeffreyrussellmusic.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.jessicasevert.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.jigglingdicks.com,uncategorized
+http://www.jimjamproductions.biz,uncategorized
+http://www.jimjamproductions.com,uncategorized
+http://www.jimjamproductions.org,uncategorized
+http://www.jimjamproductions.us,uncategorized
+http://www.jimjamproductions.info,uncategorized
+http://www.jimjamproductions.net,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.jimjamproductions.mobi,uncategorized
+http://www.jonrhill.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.karmasmokehouse.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.kcdesigns.biz,uncategorized
+http://www.keatronevans.org,uncategorized
+http://www.keatronevans.info,uncategorized
+http://www.keatronevans.net,uncategorized
+http://www.keetonflyingservices.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.kelly-printing.com, 406
+http://www.ketokandy.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.kineticsecuritysolutions.info,uncategorized
+http://www.kineticsecuritysolutions.com,uncategorized
+http://www.kpingeniring.pro,hostname 'www.kpingeniring.pro' doesn't match 'kpingeniring.pro'
+http://www.kvadratparnas.com,hostname 'www.kvadratparnas.com' doesn't match 'kvadratparnas.com'
+http://www.kwcphotos.com, 404
+http://www.lambertmotorsalescom.com,uncategorized
+http://www.leroyandkurtconstruction.com,uncategorized
+http://www.lowestvape.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.m4myanmar.com,uncategorized
+http://www.madeintheus.mobi,uncategorized
+http://www.madeintheus.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.madeintheus.biz,uncategorized
+http://www.markieshollands.com,uncategorized
+http://www.jonathan-nickoson.com,uncategorized
+http://www.joshuataylorhamilton.com,uncategorized
+http://www.jyccustoms.com,HTTPConnectionPool(host='www.jyccustoms.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E72D90>; 'Connection to www.jyccustoms.com timed out. (connect timeout=10)'))
+http://www.karleconcrete.com,uncategorized
+http://www.karma-armor.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.kdwproperties.net,HTTPConnectionPool(host='www.KDWPROPERTIES.COM'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D94F70>; 'Connection to www.KDWPROPERTIES.COM timed out. (connect timeout=10)'))
+http://www.keencorvette.com,uncategorized
+http://www.keenparts.net,uncategorized
+http://www.kenaddison.com,('Connection aborted.'; error(10061; 'No connection could be made because the target machine actively refused it'))
+http://www.kierstingriffin.com,uncategorized
+http://www.konaicetruck.com,uncategorized
+http://www.kristinmoreno.archi,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.lanelawncare.com,uncategorized
+http://www.laurenmeister.com,uncategorized
+http://www.lawlessracing.com,uncategorized
+http://www.leakinfoundationcincinnati.com,uncategorized
+http://www.leisganggroup.com,uncategorized
+http://www.lesvann.com,uncategorized
+http://www.lesvann.tv,uncategorized
+http://www.limitlessconsult.com,uncategorized
+http://www.lindseysshavedice.com,uncategorized
+http://www.loganscholtes.com,uncategorized
+http://www.lookingtowardsthecross.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.lsp-atrium.com, 404
+http://www.luxuryridetransportation.com,uncategorized
+http://www.mackegolf.com,uncategorized
+http://www.madani-writing.net,uncategorized
+http://www.mail2.college,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mansguide.com,uncategorized
+http://www.martythompson.com, 403
+http://www.masterminds.college,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mastermindz.college,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mastermyndz.xyz,uncategorized
+http://www.mastermyndz.college,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mckenziescapes.com, 406
+http://www.mcmahon76.com,uncategorized
+http://www.medl.co,uncategorized
+http://www.michaelgillum.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.midwestwanderer.net,uncategorized
+http://www.motchjewlerscovington.com,uncategorized
+http://www.mtscents.com,uncategorized
+http://www.mxenginestands.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mystreamspot.net,uncategorized
+http://www.nancydoyle.org,uncategorized
+http://www.nationwideprescriptionconnection.net, 404
+http://www.nationwideprescriptionconnection.info, 404
+http://www.nationwideprescriptionconnection.org, 404
+http://www.nationwideprescriptionconnection.us, 404
+http://www.naturenook.net, 403
+http://www.naturenook.florist, 403
+http://www.naturenookweddings.com, 403
+http://www.nerda.org,uncategorized
+http://www.nickscarpet.com,uncategorized
+http://www.nyc-rr.com,HTTPConnectionPool(host='www.nyc-rr.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8EEF0>; 'Connection to www.nyc-rr.com timed out. (connect timeout=10)'))
+http://www.officialfrostyboii.website,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ohhwander.com,uncategorized
+http://www.ohioandindianarealestate.com,uncategorized
+http://www.ohiobondprogram.com,uncategorized
+http://www.ohiorecovers.org, 406
+http://www.one80.xyz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.opps.college,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.outsiderdiet.com,uncategorized
+http://www.paknyak.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.parkperfect.us,uncategorized
+http://www.performanceclassicsinc.com, 500
+http://www.peterkobak.com,uncategorized
+http://www.pintobyte.com,uncategorized
+http://www.pitchfordproperties.com,uncategorized
+http://www.plan-an-event.com, 404
+http://www.postayardsale.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.premiumflavorsystems.com,uncategorized
+http://www.gehringvending.com,uncategorized
+http://www.genesishairreplacement.com, 406
+http://www.gerkewildcats.com,uncategorized
+http://www.getallthreecreditreports.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.getwelltelecare.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ggwgapp.com,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+http://www.girlsbestlife.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.gmwarranty.com,uncategorized
+http://www.goaledge.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.gogreengofar.com,uncategorized
+http://www.goldenyearshangout.com,uncategorized
+http://www.googlemenow.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.gracefullyflawedblog.com,uncategorized
+http://www.grandrapidsdental.biz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.gratisfire.com,uncategorized
+http://www.gratissafety.com,uncategorized
+http://www.grdental.biz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greatmiamileveedeck.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greenairbarrier.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greendrainageboard.com,HTTPConnectionPool(host='www.greendrainageboard.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8AA50>; 'Connection to www.greendrainageboard.com timed out. (connect timeout=10)'))
+http://www.greendrainboard.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greenfoundationwaterproofing.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greenwaterproof.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greenwaterproofingsolutions.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.gregdearth.com,uncategorized
+http://www.grindshoptraining.com,uncategorized
+http://www.guelphhouseprices.com,HTTPConnectionPool(host='www.guelphhouseprices.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7AF90>; 'Connection to www.guelphhouseprices.com timed out. (connect timeout=10)'))
+http://www.gunvoterguide.mobi,uncategorized
+http://www.gunvoterguide.com,uncategorized
+http://www.h7evolve.com,uncategorized
+http://www.hacknation.net,uncategorized
+http://www.hairstylesbyginger.com, 404
+http://www.hampsterblade.com, 404
+http://www.haneshouse2home.com,uncategorized
+http://www.harbisonfamilywebsite.com,uncategorized
+http://www.harbisonhosting.com,uncategorized
+http://www.hdreamcenter.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.hdreamcenter.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.head-janitor.com,uncategorized
+http://www.headjanitor.net,uncategorized
+http://www.healthychik.com,uncategorized
+http://www.heatherbettsrealtor.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.help4dogs.com,uncategorized
+http://www.highpowerenergy.com,uncategorized
+http://www.hikeincampout.com, 402
+http://www.hilltopobgyn.net,uncategorized
+http://www.homecaremattress.net,uncategorized
+http://www.homecaresalesconsultants.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.homerentalpage.com, 412
+http://www.hope24-7.org,uncategorized
+http://www.howardmob.com,uncategorized
+http://www.humanottion.com,uncategorized
+http://www.hustlinhomes4u.com,uncategorized
+http://www.i-preplan.info,uncategorized
+http://www.i75piersoncollisioncenter.com,uncategorized
+http://www.i75piersonparts.com,uncategorized
+http://www.i75piersonservice.com,uncategorized
+http://www.iamkevinjohnson.com, 406
+http://www.iamreddoor.com,uncategorized
+http://www.icantfindyou.com,uncategorized
+http://www.ihatemikejudy.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.ihgcorp.com,uncategorized
+http://www.iliasmith.com, 406
+http://www.impactfulart33company.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.internetsafetyday.org,uncategorized
+http://www.intertexit.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.investdaytonproperties.com,uncategorized
+http://www.ipre-plan.info,uncategorized
+http://www.hairbyjanicet.com,HTTPConnectionPool(host='www.hairbyjanicet.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D94DF0>; 'Connection to www.hairbyjanicet.com timed out. (connect timeout=10)'))
+http://www.babyboomerretirement.tips,uncategorized
+http://www.backyardassembly.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bagoffucks.com,uncategorized
+http://www.bakersfieldeastblvd.com,uncategorized
+http://www.balancedtoheal.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.barnonephotography.com,HTTPConnectionPool(host='www.barnonephotography.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D94970>; 'Connection to www.barnonephotography.com timed out. (connect timeout=10)'))
+http://www.barrettglassworks.com,uncategorized
+http://www.bbbpc.ca, 403
+http://www.be316.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bear-pro.com, 406
+http://www.beautybyhailey.com,uncategorized
+http://www.beautybyleeanngentry.com,uncategorized
+http://www.beckettrunwinningcolors.com,uncategorized
+http://www.bellavita-photo.com,uncategorized
+http://www.bellybuttonbabydolls.com,uncategorized
+http://www.bengrowlandscaping.us,uncategorized
+http://www.bestvaluerental.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bettychilders.com,uncategorized
+http://www.bigcityrebellion.com,uncategorized
+http://www.bigmikemeehan.com,uncategorized
+http://www.bigoldhouseinrossforsale.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bigtinetaxidermy.net,uncategorized
+http://www.billlittleford.com,uncategorized
+http://www.bin77wine.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bipolar-reflections.com, 406
+http://www.bitbaz.biz,uncategorized
+http://www.bitbaz.com,uncategorized
+http://www.bitbaz.net,uncategorized
+http://www.blacksigns.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.blessmybags.com,uncategorized
+http://www.blindsbyhartford.com,uncategorized
+http://www.blognebula.com,uncategorized
+http://www.blueklik.com,uncategorized
+http://www.bobsmetertesting.com,uncategorized
+http://www.boccaorganics.com, 404
+http://www.bocopeland.org,uncategorized
+http://www.bocopeland.com,uncategorized
+http://www.bonehealth.us,uncategorized
+http://www.bookwormvagabond.com,uncategorized
+http://www.boringbitches.com,uncategorized
+http://www.bossertcpa.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bourbonstreetbartending.com, 406
+http://www.bowlonsundays.com,uncategorized
+http://www.bowsandtiesjubilee.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.brandoneberning.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.brandysellsohio.com,uncategorized
+http://www.branscumfamily.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.breakingaddictions.org,uncategorized
+http://www.brewermccoyphoto.com,uncategorized
+http://www.brianbridge.me,uncategorized
+http://www.bridalpanteez.com,uncategorized
+http://www.bro-hio.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bronxcountyny.us,uncategorized
+http://www.bryntel.com, 406
+http://www.btatech.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.buckeyeguy.com,uncategorized
+http://www.buckeyeshine.info,uncategorized
+http://www.buckeyeshine.com,uncategorized
+http://www.buckeyeshine.org,uncategorized
+http://www.buckeyeshine.net,uncategorized
+http://www.buckhuber.com, 404
+http://www.buddhagives.com,uncategorized
+http://www.buildyourselfup.com,uncategorized
+http://www.butlerbatterysupply.us,uncategorized
+http://www.butlercountybusiness.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.butlercountyconnect.com,uncategorized
+http://www.butlercountycoupons.info,uncategorized
+http://www.butlercountycoupons.com,uncategorized
+http://www.butlercountycoupons.net,uncategorized
+http://www.butlercountycremations.com,uncategorized
+http://www.butlercountydonuttrail.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.butlercountydonuttrail.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.butlercountydonuttrail.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.butlercountydonuttrail.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.millennialmadman.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mio-memento.com,uncategorized
+http://www.misshapenly.com,uncategorized
+http://www.mitchformayor.net,uncategorized
+http://www.mitchscatalog.net,uncategorized
+http://www.mizpahministry.org, 500
+http://www.mjw2020.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mlsofcincinnati.com,uncategorized
+http://www.mlzperu.com, 406
+http://www.mmibiz.us,uncategorized
+http://www.mobilevee.com,uncategorized
+http://www.monasteryhoa.com,uncategorized
+http://www.morningstarcoffeeco.com,uncategorized
+http://www.motogirlvlogs.com, 500
+http://www.motovlogalliance.com,uncategorized
+http://www.moveoverlawsign.com,uncategorized
+http://www.mrbrandonlroberts.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mthsbsnet.net,uncategorized
+http://www.musicsupply.store,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mwsas.com, 406
+http://www.my-vip.co,uncategorized
+http://www.myancestralorigin.com,uncategorized
+http://www.mycandygifts.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mycinfin.art,uncategorized
+http://www.mycinfin.biz,uncategorized
+http://www.mycinfin.us,uncategorized
+http://www.mycongobuy.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mypersonalgardenerkim.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.myrcselect.com,uncategorized
+http://www.myvip.us,uncategorized
+http://www.myvipproducts.us,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.myviproduct.net,uncategorized
+http://www.myworkstream.com,uncategorized
+http://www.nami-bc.org, 406
+http://www.naomirossman.com, 404
+http://www.nashvilleareahondadealers.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nashvillebourbonbus.com,uncategorized
+http://www.natedge.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nationalcomputerllc.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nationwidesmartcredit.com,uncategorized
+http://www.nealgoodwin.biz,uncategorized
+http://www.netcliser.net,uncategorized
+http://www.netzers.org,uncategorized
+http://www.newharvestmission153.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.newhomesbylandmark.com, 412
+http://www.neworleanslafilmcrew.com,uncategorized
+http://www.nexstepbs.com,uncategorized
+http://www.nguyendentalgroup.com,uncategorized
+http://www.nicklisipainting.com, 500
+http://www.nicknation.org,uncategorized
+http://www.nightowlcleaningservice.com,uncategorized
+http://www.nkyaa.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.normfalick.com, 406
+http://www.northjerseyflooring.com,uncategorized
+http://www.nssnet.com,uncategorized
+http://www.p2pdriveshare.com,uncategorized
+http://www.paleoprimalsweets.com,uncategorized
+http://www.patientaid.us,uncategorized
+http://www.petstorebeds.com,uncategorized
+http://www.preplete.com,uncategorized
+http://www.projectleadersuccess.net,uncategorized
+http://www.projectleadersuccess.info,uncategorized
+http://www.projectleadersuccess.org,uncategorized
+http://www.randomcommas.com, 406
+http://www.rc3students.com,uncategorized
+http://www.rehabmedicalsupplies.com,uncategorized
+http://www.riverscrossing.church,uncategorized
+http://www.riverscrossing.live,uncategorized
+http://www.riverscrossing.online,uncategorized
+http://www.riverscrossingworship.com,uncategorized
+http://www.safeschooltipline.com, 404
+http://www.sanders-home.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.sciencek9.com,uncategorized
+http://www.scientifick9.com,uncategorized
+http://www.sherriminhinnick.com, 404
+http://www.singatkings.com,uncategorized
+http://www.soundproductionsdj.com,uncategorized
+http://www.southernohioproperties.com, 404
+http://www.spiritofthepeople.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.storybasedcoaching.com,uncategorized
+http://www.stylskiadvocare.com,uncategorized
+http://www.sybilyork.com,uncategorized
+http://www.teamjoinup.com,uncategorized
+http://www.teldatasource.com, 404
+http://www.thecervicalsaver.com,uncategorized
+http://www.theinfamouspodcast.com,uncategorized
+http://www.topofmygame.net,uncategorized
+http://www.trumpsmuslimban.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.type-tiques.com,uncategorized
+http://www.visualsourcephotography.com,uncategorized
+http://www.witheos.info,uncategorized
+http://www.witheos.net,uncategorized
+http://www.witheos.org,uncategorized
+http://www.witheos.com,uncategorized
+http://www.you2can.help,uncategorized
+http://www.typetiques.com,uncategorized
+http://www.altioratax.com,uncategorized
+http://www.altiorawealth.com,uncategorized
+http://www.altiorawealthmanagement.com,uncategorized
+http://www.altitrack.us,uncategorized
+http://www.alvinbledsoe.com, 403
+http://www.americanheritagechristianchurch.com,uncategorized
+http://www.americanmadeproductfinder.com,uncategorized
+http://www.amherstmanor.com,uncategorized
+http://www.amyoblak.com, 401
+http://www.andrewpolley.com,uncategorized
+http://www.andrewpurdin.com,uncategorized
+http://www.animalconsumer.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.annamoons.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.annamoons.com,uncategorized
+http://www.anosyn.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ansberry.com,uncategorized
+http://www.anthonymrobertson.com,uncategorized
+http://www.antoninashachar.com,uncategorized
+http://www.anytimerehab.com, 403
+http://www.apainterandhiswife.com,uncategorized
+http://www.apertureproduction.com,uncategorized
+http://www.appalachianpath.com,uncategorized
+http://www.aprilgardnerdoandassociates.com,uncategorized
+http://www.aquariumartisans.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.aquariumstands.com,uncategorized
+http://www.arayofhopeservices.org,uncategorized
+http://www.arayofhopeservices.net,uncategorized
+http://www.arcameraworks.com,uncategorized
+http://www.architecturalanimation.com,HTTPConnectionPool(host='www.architecturalanimation.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8EF30>; 'Connection to www.architecturalanimation.com timed out. (connect timeout=10)'))
+http://www.arconamerica.com,uncategorized
+http://www.arcweds.com,HTTPConnectionPool(host='www.arcweds.com'; port=80): Read timed out. (read timeout=10)
+http://www.areaprogresscouncil.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.aretz.design,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.articorbs.com,uncategorized
+http://www.artoflebanon.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.asccinci.com,uncategorized
+http://www.ashleynicolelittle.com,uncategorized
+http://www.askpanaman.com,uncategorized
+http://www.associationmom.org, 406
+http://www.associationmom.com, 406
+http://www.assuredheritage.com, 404
+http://www.athomeinheels.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.attractiveyou.com, 406
+http://www.austinrreid.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.automatefreedom.com,uncategorized
+http://www.automationcomponent.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.awesomecustomvideos.com,uncategorized
+http://www.awsindustriesinc.com, 412
+http://www.b3redemptionproperties.com,uncategorized
+http://www.backgroundnoisefc.com,uncategorized
+http://www.barterissmarter.com,uncategorized
+http://www.batikfreak.com,uncategorized
+http://www.bcpkentucky.com, 403
+http://www.beautywithamy.net,uncategorized
+http://www.beccablakeauthor.com,uncategorized
+http://www.becomeit.org,uncategorized
+http://www.bedles.com,uncategorized
+http://www.bengalsinteriordesigner.com,uncategorized
+http://www.bestshotpromotions.com, 403
+http://www.bethlarson.realtor,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bhaworth.net,uncategorized
+http://www.bicksdrivingschool.com, 403
+http://www.bidenobama.us,uncategorized
+http://www.bigassestatesale.net,uncategorized
+http://www.bigassestatesales.com,uncategorized
+http://www.bigballbriefs.com,uncategorized
+http://www.bigballsathletic.com,uncategorized
+http://www.bigballsathletics.com,uncategorized
+http://www.bigballsbriefs.com,uncategorized
+http://www.bigballssports.com,uncategorized
+http://www.bigbawl.com,uncategorized
+http://www.bigbawlboxer.com,uncategorized
+http://www.downliteresortbedding.com,uncategorized
+http://www.downlitewholesale.com,uncategorized
+http://www.downtownmade.org,uncategorized
+http://www.dpwray.com, 403
+http://www.dragonkeys.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.dragonmatter.com,uncategorized
+http://www.dramybrenner.com, 403
+http://www.drawinginlightphotography.com,HTTPConnectionPool(host='www.drawinginlightphotography.com'; port=80): Read timed out. (read timeout=10)
+http://www.drawingofthedark.com,uncategorized
+http://www.drcarolblaney.com,uncategorized
+http://www.dreamcapitalmgt.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.dreamdeskmexico.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dreamgreatly.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dreamitseeitbuildit.com,uncategorized
+http://www.dressedtoinvest.com,uncategorized
+http://www.drewboydguitars.com,uncategorized
+http://www.drewriedmanphotography.com,uncategorized
+http://www.drgaryhardin.com,uncategorized
+http://www.dribble-drive-way.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.drivencamp.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.drivr.us,HTTPSConnectionPool(host='www.godrivr.com'; port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x03E7AD50>; 'Connection to www.godrivr.com timed out. (connect timeout=10)'))
+http://www.drpepperup.com,HTTPConnectionPool(host='www.drpepperup.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D75410>; 'Connection to www.drpepperup.com timed out. (connect timeout=10)'))
+http://www.drruhalter.com,uncategorized
+http://www.drtarahardin.com,uncategorized
+http://www.ds-tunes.com, 404
+http://www.dsgroove.com,uncategorized
+http://www.dsjams.com,uncategorized
+http://www.dsmusic.us, 404
+http://www.dsmusic.co, 404
+http://www.dsmusic.rocks,uncategorized
+http://www.dsmusic.mobi,uncategorized
+http://www.dsmusica.com,uncategorized
+http://www.dspublications.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dstakingflight.com,uncategorized
+http://www.dstunes.co,uncategorized
+http://www.ducksinrow.us,uncategorized
+http://www.durbilly.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.durgamantha.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dustoffyourcape.com,uncategorized
+http://www.dwightmillikan.com,uncategorized
+http://www.dynamitepromoproducts.com,uncategorized
+http://www.dynamitepromotionalproducts.com,uncategorized
+http://www.dzibinski.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.e-apexbysunglasshut.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.e-conveyors.com,uncategorized
+http://www.e-deft.com,uncategorized
+http://www.e-govlink.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.e-pearle.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.e-storeusa.com,uncategorized
+http://www.e2speed.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.e3sports.net,uncategorized
+http://www.eaglebrewery.com,uncategorized
+http://www.eaglemotorsohio.com,uncategorized
+http://www.earbugs.us,uncategorized
+http://www.earthbazar.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.eastofall.com,uncategorized
+http://www.eastvhomes.com,uncategorized
+http://www.echofyi.com,uncategorized
+http://www.eclinkhost.com, 404
+http://www.eco-ems.com,uncategorized
+http://www.eco-geotrade.com, 404
+http://www.ecpa.com,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+http://www.fieldsclan.com,uncategorized
+http://www.firstworldproblems.us,uncategorized
+http://www.fitandfree24.com, 403
+http://www.fitnessandsoul.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.fitnesstrackerproducts.com,uncategorized
+http://www.fivestarmexican.com,uncategorized
+http://www.fixaided.net,uncategorized
+http://www.fixaided.com, 500
+http://www.fixthisdamnpc.com,uncategorized
+http://www.flamingocam.com,uncategorized
+http://www.flashshaman.com,uncategorized
+http://www.flatwaterarmory.us,uncategorized
+http://www.fldancestudio.com,uncategorized
+http://www.fleminginsurance.net,uncategorized
+http://www.flipping4orphans.com,uncategorized
+http://www.flippingfororphans.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.floridahearsafe.com,uncategorized
+http://www.foggyz.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.foodtruckmoney.com,uncategorized
+http://www.foreversafememorials.com, 500
+http://www.forsalebyowner-cincy.com,uncategorized
+http://www.foundationsofliteracy.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.foundationsofreading.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.francesroberts.net,uncategorized
+http://www.freckleprints.com,uncategorized
+http://www.freeappraisalreview.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.freecomplexityscore.com,uncategorized
+http://www.freedomcdc.com, 404
+http://www.freefinancialfacts.com, 404
+http://www.freerangepastor.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.freeskydive.us,uncategorized
+http://www.fuelyourgreat.com,uncategorized
+http://www.funnystreet.org,uncategorized
+http://www.futuretigers.com,uncategorized
+http://www.gabbygirlcandles.com,uncategorized
+http://www.gabrielinspirit.com,uncategorized
+http://www.gadgetomic.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ganjaexpos.com,uncategorized
+http://www.garverfarmmarket.com, 404
+http://www.gateslandimprovement.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.gauseforlakota.com, 404
+http://www.gavin.photos,uncategorized
+http://www.gavinbrackett.com,uncategorized
+http://www.gentlemansasquatch.com,Exceeded 30 redirects.
+http://www.getmademgmt.com,uncategorized
+http://www.gillumsgallery.com,uncategorized
+http://www.gitarrenschule-richter.de,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.givemeskivvies.com,uncategorized
+http://www.glampin.blog,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.glampin.life, 403
+http://www.glampinglife.com, 403
+http://www.glampinlife.com, 403
+http://www.glampinlife.blog,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.globalmosaic.us,uncategorized
+http://www.gmvchamber.org,uncategorized
+http://www.gmvchamber.com,uncategorized
+http://www.gmvcoc.org,uncategorized
+http://www.go2.forsale,uncategorized
+http://www.godarkside.com,uncategorized
+http://www.goldentechnow.com,uncategorized
+http://www.goldentechservices.com,uncategorized
+http://www.gorgeoussound.com,uncategorized
+http://www.gornikholdings.net,uncategorized
+http://www.graylanproperties.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greatmiamivalley.org,uncategorized
+http://www.greatmiamivalleycc.com,uncategorized
+http://www.greatmiamivalleycc.org,uncategorized
+http://www.greatmiamivalleychamber.org,uncategorized
+http://www.greentreelawn.com,uncategorized
+http://www.greentreelawncarellc.com,uncategorized
+http://www.gregschmidt.biz,uncategorized
+http://www.gregschmidt.us,uncategorized
+http://www.gregschmidt.name,uncategorized
+http://www.strategicbenefitsrealization.com,uncategorized
+http://www.submeterbilling.com,uncategorized
+http://www.submetering.us,uncategorized
+http://www.swordfish52.net, 500
+http://www.swordfishmin.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.tapemeasure.biz,uncategorized
+http://www.tavizon.com,uncategorized
+http://www.tepenursery.com, 406
+http://www.thankinator.com,uncategorized
+http://www.tharuns.com,uncategorized
+http://www.thelittlerivercafe.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.themustardseedranch.com,uncategorized
+http://www.thevalleytradeandimport.com,uncategorized
+http://www.toomanytriangles.com,uncategorized
+http://www.toscaleplans.com,HTTPConnectionPool(host='www.toscaleplans.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8B110>; 'Connection to www.toscaleplans.com timed out. (connect timeout=10)'))
+http://www.transelonline.com,uncategorized
+http://www.truckercart.com,uncategorized
+http://www.underwaterphoto.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.utilitybiz.com,uncategorized
+http://www.vineyardconstructioncompany.com,uncategorized
+http://www.watermeter.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.wfxr.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.williamitis.com,uncategorized
+http://www.woofwoofvroomvroom.com, 404
+http://www.submeters.us,uncategorized
+http://www.utilityliquidator.com,uncategorized
+http://www.christyquincy.com,uncategorized
+http://www.chuqukankanya.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.churchstflats.com,uncategorized
+http://www.cincinnaticollisioncenter.com,uncategorized
+http://www.cincycares.com,uncategorized
+http://www.cincyorganics.com,uncategorized
+http://www.ckcrentals.com, 403
+http://www.cmpatrick.com,uncategorized
+http://www.coachmygame.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coatsofpaint.com,uncategorized
+http://www.cobblestoneinfo.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coinpros.co,('Connection aborted.'; BadStatusLine("''";))
+http://www.coldwellbankermls.com,uncategorized
+http://www.collegeqanda.com,uncategorized
+http://www.collinz.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coltsauer.com, 403
+http://www.coltsharps.com,uncategorized
+http://www.commercialcutlery.com,uncategorized
+http://www.compromised-net.work,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.compromisednet.work,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.connectplex.com,HTTPConnectionPool(host='www.connectplex.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8B4D0>; 'Connection to www.connectplex.com timed out. (connect timeout=10)'))
+http://www.coolplacestogo.net,uncategorized
+http://www.corneroxford.com,uncategorized
+http://www.cottoncandyusb.com,uncategorized
+http://www.coveru.online,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.creativedepot.rocks,uncategorized
+http://www.creativedreamsrealized.com,uncategorized
+http://www.cronbach.com, 406
+http://www.crowddoctors.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.crs-4u.com,uncategorized
+http://www.csifarm.net,uncategorized
+http://www.cultuvate.us,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.currereexchange.com,uncategorized
+http://www.cybercloudcomputing.com, 406
+http://www.d-kidd.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dallasmarks.com, 403
+http://www.danasaulnier.com,uncategorized
+http://www.danielkidd.us, 404
+http://www.danielleharlow.com,uncategorized
+http://www.danumbstead.com, 405
+http://www.danumstead.com, 405
+http://www.darrsrun.com,uncategorized
+http://www.ddserviceanddesign.com,uncategorized
+http://www.deadelectro.com,uncategorized
+http://www.dealchuck.net,uncategorized
+http://www.dealchuck.com,uncategorized
+http://www.dealchucker.net,uncategorized
+http://www.dealchucker.com,uncategorized
+http://www.debitclearinghouse.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.deliverablestreets.info,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.deliverablestreets.net,uncategorized
+http://www.deliverablestreets.org,uncategorized
+http://www.deltasigco.com,uncategorized
+http://www.deltasigmiamioh.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.depositleap.com,uncategorized
+http://www.dianestemper.com,uncategorized
+http://www.diederichhahn.org,uncategorized
+http://www.dippin.me,uncategorized
+http://www.disneymade.com,uncategorized
+http://www.dizzy25.com, 403
+http://www.djcooper.co,uncategorized
+http://www.doggonedaycare.net,uncategorized
+http://www.dolchstosslegende.com,uncategorized
+http://www.donandcorrine.com,uncategorized
+http://www.dontarrest.me,uncategorized
+http://www.dontcalldontshow.com,uncategorized
+http://www.dotsonstudio.com,uncategorized
+http://www.dragonflyworkshop.org,HTTPConnectionPool(host='www.dragonflyworkshop.org'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8BCF0>; 'Connection to www.dragonflyworkshop.org timed out. (connect timeout=10)'))
+http://www.drangish.com,HTTPConnectionPool(host='www.drangish.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E8BDF0>; 'Connection to www.drangish.com timed out. (connect timeout=10)'))
+http://www.dreamhousewow.com,HTTPConnectionPool(host='www.dreamhousewow.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E8BF50>; 'Connection to www.dreamhousewow.com timed out. (connect timeout=10)'))
+http://www.dreamsweleftbehind.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.drone4aday.com,uncategorized
+http://www.dronealicious.com,uncategorized
+http://www.dronehilda.com,uncategorized
+http://www.droneitup.com,uncategorized
+http://www.dronelicious.com,uncategorized
+http://www.beermetabs.biz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.beingalonesucks.com, 406
+http://www.beitnabala.com,uncategorized
+http://www.bellbrookpizza.com,uncategorized
+http://www.benchmarcs.com,uncategorized
+http://www.bengalsqb.com,uncategorized
+http://www.benjaminfarrell.com,uncategorized
+http://www.benjicarroll.rocks,uncategorized
+http://www.benrangel.com,HTTPConnectionPool(host='benrangel.com'; port=80): Read timed out. (read timeout=10)
+http://www.bep.lol,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bestcoffeemachinereviews.com,uncategorized
+http://www.bestgeekybabynames.net,uncategorized
+http://www.bestgeekybabynames.us,uncategorized
+http://www.besthipaahosting.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bestkindleunlimitedbooks.com,uncategorized
+http://www.bestofwattpad.com,uncategorized
+http://www.betweenproductions.net,uncategorized
+http://www.bindingbids.com,uncategorized
+http://www.biogreenchoicepackaging.com,uncategorized
+http://www.blackpowderbrewing.com,uncategorized
+http://www.blainsonline.com,uncategorized
+http://www.blainsweb.com,uncategorized
+http://www.blazenskye.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bloodymaryshowdown.com,uncategorized
+http://www.bluejeanscentral.com,uncategorized
+http://www.bluemonkeyss.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bmhtechnologies.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.boatwelding.com,uncategorized
+http://www.bobblehatproductions.com,HTTPConnectionPool(host='www.bobblehatproductions.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D7E5D0>; 'Connection to www.bobblehatproductions.com timed out. (connect timeout=10)'))
+http://www.bobbytyra.com, 404
+http://www.bodyparts-express.com,uncategorized
+http://www.boling4homes.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bonfirex.com,uncategorized
+http://www.bootiqueenvie.com, 404
+http://www.bor.land,uncategorized
+http://www.borland-family.com,HTTPConnectionPool(host='www.borland-family.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D7E750>; 'Connection to www.borland-family.com timed out. (connect timeout=10)'))
+http://www.boro200.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.boroblastfootball.com,uncategorized
+http://www.borobulldogs.com,uncategorized
+http://www.borofamilyfest.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.borofamilyfest.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.boropanther.com,uncategorized
+http://www.borowrestlingsite.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bouncehousesoh.com,uncategorized
+http://www.bowsandtoes.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bradallison301.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.brandnewchristian.com,HTTPConnectionPool(host='www.brandnewchristian.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8EDF0>; 'Connection to www.brandnewchristian.com timed out. (connect timeout=10)'))
+http://www.break100.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.brettschindler.com,uncategorized
+http://www.brewan.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.brewandbrews.com, 403
+http://www.briannamilan.com,uncategorized
+http://www.bridaltique.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.broadbandfiles.net,uncategorized
+http://www.broadbandfiles.com,uncategorized
+http://www.broadbandgaming.net,uncategorized
+http://www.brokenpipedayton.com,uncategorized
+http://www.brookedavenportphotography.com,uncategorized
+http://www.bryanbuffington.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bsmotolabs.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.buckeyegreen.com, 406
+http://www.lipaoke.com,uncategorized
+http://www.lynch-auctioneers.com,uncategorized
+http://www.machanalog.com,uncategorized
+http://www.marketerswall.com,uncategorized
+http://www.mediback-tohealth.org, 406
+http://www.medlinfoxredlabs.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.merrisfamily.com, 404
+http://www.michelewhitedove.org,uncategorized
+http://www.michelewhitedove.us,uncategorized
+http://www.michelewhitedove.co.uk,uncategorized
+http://www.michelewhitedove.net,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.michellewhitedove.co.uk,uncategorized
+http://www.mitchellsplumbinginc.com,uncategorized
+http://www.mkweldfab.com, 406
+http://www.mmcohio.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.modernclassicstyles.com,uncategorized
+http://www.morabitosmg.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.myascent.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mycancerlife.com,uncategorized
+http://www.myelectronicdoctor.org,uncategorized
+http://www.mysecretgiftwishes.com,uncategorized
+http://www.myseniorphotos.net,uncategorized
+http://www.newstandarddla.com,uncategorized
+http://www.nflsalarycap.com,uncategorized
+http://www.nikxus.com, 500
+http://www.ninesrule.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nomuda.us,uncategorized
+http://www.ohiodetectoristsassociation.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ohiosauerkrautfestival.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.on-coursefinancialstrategies.com,uncategorized
+http://www.oncolotechprosthesis.com,uncategorized
+http://www.oncoursefs.com,uncategorized
+http://www.osu4u.info,uncategorized
+http://www.osu4u.net,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.pairofnines.com,uncategorized
+http://www.paolettibuilders.com,uncategorized
+http://www.paperwaterbottle.us,HTTPConnectionPool(host='www.paperwaterbottle.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E72A50>; 'Connection to www.paperwaterbottle.us timed out. (connect timeout=10)'))
+http://www.particularscrivener.bid,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.partypartnersaffiliates.com,uncategorized
+http://www.pawsguns.us, 406
+http://www.pbsservices.co,uncategorized
+http://www.pbsservices.net,uncategorized
+http://www.pbsservices.info,uncategorized
+http://www.pcmtutor.com,uncategorized
+http://www.pentair-pool.co,uncategorized
+http://www.phillipspackaginginc.com, 404
+http://www.plasmatv-cabinet.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.potteryforthepeople.com,uncategorized
+http://www.preapprovalforhomeloan.com,uncategorized
+http://www.pretekgroup.us,uncategorized
+http://www.proferoteam.com, 403
+http://www.projecteddreams.com,uncategorized
+http://www.purocleandayton.com,uncategorized
+http://www.rebeccaburrlaw.com,uncategorized
+http://www.redleafcosmetics.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.reelbeauty.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.relaxskincare.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.rememberwhentea.us,uncategorized
+http://www.rentalhousenearme.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.resoundinghounds.com,uncategorized
+http://www.responsivedronesolutions.com,uncategorized
+http://www.resservicesllc.com,uncategorized
+http://www.reynolds-photography.com,HTTPConnectionPool(host='www.reynolds-photography.com'; port=80): Read timed out. (read timeout=10)
+http://www.reynphoto.com,uncategorized
+http://www.richardwojdynski.com,uncategorized
+http://www.ridesinthed.com, 406
+http://www.rightonproducts.com,uncategorized
+http://www.rileycurtis21.com,uncategorized
+http://www.robinmoon.us,uncategorized
+http://www.rotor-wing.info,uncategorized
+http://www.rotor-wing.biz,uncategorized
+http://www.rotor-wing.net,uncategorized
+http://www.rotor-wing.org,uncategorized
+http://www.myelectronicdoctor.info,uncategorized
+http://www.awningdoctorofcincinnati.com,uncategorized
+http://www.axamerica.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.aysetugbasar.com,uncategorized
+http://www.ayurveda-kraeuter-klang.de,uncategorized
+http://www.ayy.co,uncategorized
+http://www.azure-architect.com,uncategorized
+http://www.babysittersoftware.com,uncategorized
+http://www.backdoorband.com,uncategorized
+http://www.backyardblooms.net,uncategorized
+http://www.bailercpa.com,uncategorized
+http://www.bairdsmanual.com,uncategorized
+http://www.bakersbuys.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ballar.design,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ballstate18.com,uncategorized
+http://www.bancreo.com,uncategorized
+http://www.bankbattles.com,uncategorized
+http://www.bankingmobilewebsites.com,uncategorized
+http://www.banksatlanta.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.banksbattles.com,uncategorized
+http://www.bankstore.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bantambistro.com,uncategorized
+http://www.bare2brilliant.com,uncategorized
+http://www.bargosbarandgrill.com,uncategorized
+http://www.barnholtz.com,uncategorized
+http://www.barronegrooaxaca.com,uncategorized
+http://www.barronegropottery.com,uncategorized
+http://www.barterboards.com,uncategorized
+http://www.baseballontheweb.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.basementfinishingcincinnati.com,uncategorized
+http://www.basementremodelcincinnati.com,uncategorized
+http://www.basementremodelingcincinnati.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.bashawfinancial.com,uncategorized
+http://www.batteriesoncall.org,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.batteriesoncall.com,uncategorized
+http://www.batteriesoncall.info,uncategorized
+http://www.batteriesoncall.net,uncategorized
+http://www.batteriesoncall.us,uncategorized
+http://www.batterybackuponcall.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.batteryoncall.org,uncategorized
+http://www.batteryoncall.net,uncategorized
+http://www.batteryoncall.info,uncategorized
+http://www.batteryoncall.com,uncategorized
+http://www.batteryoncall.us,uncategorized
+http://www.battleagent.com,uncategorized
+http://www.battleagents.com,uncategorized
+http://www.battleforcustomers.com,uncategorized
+http://www.battleformybusiness.com,uncategorized
+http://www.battleforthebusiness.com,uncategorized
+http://www.battleforyourbusiness.com,uncategorized
+http://www.battleplannerdoug.com,uncategorized
+http://www.battlesforcustomers.com,uncategorized
+http://www.battlingagents.com,uncategorized
+http://www.bavaria.online,uncategorized
+http://www.baycitymichigan.net,uncategorized
+http://www.bayonet.media,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cornykegs.com,HTTPConnectionPool(host='www.cornykegs.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA2170>; 'Connection to www.cornykegs.com timed out. (connect timeout=10)'))
+http://www.cputrading.com,uncategorized
+http://www.craftersofthegalaxy.com,uncategorized
+http://www.creativeninjas.net, 503
+http://www.crosscountryuniforms.com,uncategorized
+http://www.cunninghamventuresllc.com,uncategorized
+http://www.custommusicsolutions.biz,uncategorized
+http://www.custommusicsolutions.info,uncategorized
+http://www.customunderarmor.com,uncategorized
+http://www.cyncywraps.com,uncategorized
+http://www.danielj.us,uncategorized
+http://www.danielj.co,uncategorized
+http://www.danieljohnson.email,uncategorized
+http://www.danieljohnson.co,uncategorized
+http://www.danieljohnsonjr.onl,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.danielleejohnsonjr.com,uncategorized
+http://www.danjohnsonjr.com,uncategorized
+http://www.dannyjohnson.org,uncategorized
+http://www.dannyleejohnson.com,uncategorized
+http://www.dawsonhoney.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.dayroofingllc.com, 406
+http://www.deborahlthatcher.rocks,uncategorized
+http://www.decal-designs.com,uncategorized
+http://www.dedwardseng.com,uncategorized
+http://www.dentalplanpreview.com,uncategorized
+http://www.discoutapparel.com,uncategorized
+http://www.ditigalmarketingwithchristy.net,uncategorized
+http://www.divisionwinner.com,uncategorized
+http://www.dogwoodsandcattails.com,uncategorized
+http://www.dougedwardspe.com,uncategorized
+http://www.dpowerstech.com,uncategorized
+http://www.dreamwork4u.com,uncategorized
+http://www.dubbadip.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dudethatsmyskull.net,uncategorized
+http://www.dustyweeks.com,uncategorized
+http://www.dwellsigns.com,uncategorized
+http://www.dwighit.com,uncategorized
+http://www.eandudte.com,uncategorized
+http://www.eastgatesportsmall.com,uncategorized
+http://www.eddiegeorgesgrille27.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.educatingbeyond.com,uncategorized
+http://www.educationsitecreator.com,uncategorized
+http://www.eksa-es.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.elyob.net,HTTPConnectionPool(host='www.elyob.net'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E72110>; 'Connection to www.elyob.net timed out. (connect timeout=10)'))
+http://www.emoandscenegirls.com, 406
+http://www.emoteenz.com, 406
+http://www.endurancelifestyles.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.endurancevacations.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.engineball.com,uncategorized
+http://www.engineeringadventures.net,uncategorized
+http://www.ericwestern.com,uncategorized
+http://www.etraffiliates.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.eventsbytg.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.extrafunds.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.extremeautomatics.net,uncategorized
+http://www.f1insights.com,uncategorized
+http://www.fakepw.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.familieswithasd.com,uncategorized
+http://www.fantasticvet.com,uncategorized
+http://www.fastcap.us,uncategorized
+http://www.fengshangmoban.com,uncategorized
+http://www.fessfans.com,uncategorized
+http://www.firemuscle.com,uncategorized
+http://www.firstbornseminary.org,uncategorized
+http://www.fitchreportinginc.com, 404
+http://www.fivethirteen.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.fizzlewater.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.fantastivet.com,uncategorized
+http://www.matrixdryneedlecincinnati.com,uncategorized
+http://www.maus-law.net,uncategorized
+http://www.maus-law.org,uncategorized
+http://www.mayfairofmontgomery.com,uncategorized
+http://www.mccartneybender.com, 406
+http://www.mcwebhosting.com, 406
+http://www.meditatingcomputer.com, 403
+http://www.medtechbillingsvc.com,uncategorized
+http://www.melissaclaireband.com, 404
+http://www.memberwire.com,uncategorized
+http://www.memory-wire-designs.com, 406
+http://www.memoryvacations.com,uncategorized
+http://www.memphisadvertisingconcepts.com,uncategorized
+http://www.mentalillnesses.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.meranda.name,HTTPConnectionPool(host='www.meranda.name'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E72CF0>; 'Connection to www.meranda.name timed out. (connect timeout=10)'))
+http://www.meranda.us,HTTPConnectionPool(host='www.meranda.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E72AD0>; 'Connection to www.meranda.us timed out. (connect timeout=10)'))
+http://www.mercenarypaintball.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mewcrew.com,uncategorized
+http://www.mfgrecruiter.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mgtrans.com,uncategorized
+http://www.michellesyvertsen.com,uncategorized
+http://www.mightimotion.com,uncategorized
+http://www.mike-hon.com,uncategorized
+http://www.mikelholloway.com,HTTPSConnectionPool(host='www.advocare.com'; port=443): Read timed out. (read timeout=10)
+http://www.mimissweetshop.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.mma-fan-nation.com,uncategorized
+http://www.mmtcorp.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mmtpsportal.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mobileautoperfection.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mochalit.com, 404
+http://www.mold-water-fire.com,uncategorized
+http://www.monumentalpromotions.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mootechnologies.com,uncategorized
+http://www.movemetocharleston.com,uncategorized
+http://www.murreymoose.com,uncategorized
+http://www.musicinthemountain.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.muveapp.com,uncategorized
+http://www.mycincyhomes.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mynewgreenrevolution.com,uncategorized
+http://www.mypartybus.net,uncategorized
+http://www.mysticflowmusic.com, 406
+http://www.nate.photos,uncategorized
+http://www.needle-beetle.com,uncategorized
+http://www.newcarreplacementcoverage.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.newsportys.net,uncategorized
+http://www.newsworksmarketinggroup.com,uncategorized
+http://www.newtech-web.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nextstepsoftware.net,uncategorized
+http://www.ningthem.com,uncategorized
+http://www.nlradvocates.com, 406
+http://www.nofencesband.com,uncategorized
+http://www.northafton.com,uncategorized
+http://www.northernkentuckydumpsterrental.com,uncategorized
+http://www.nyicecorppromotionalitems.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.oakhavenrentals.com,uncategorized
+http://www.ohanamusicfest.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ohiomarijuanaedibles.com,uncategorized
+http://www.ohiomedicalmarijuanacards.com,uncategorized
+http://www.ohiomedicalmarijuanadoctor.com,uncategorized
+http://www.oldmotorcycle.com,uncategorized
+http://www.oldstateridge.com,uncategorized
+http://www.opexsvs.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.orbitman.com,Exceeded 30 redirects.
+http://www.outpaw.org,uncategorized
+http://www.ozarkraillogistics.net,uncategorized
+http://www.paradiseofhomes.com,uncategorized
+http://www.paradoxuniversal.com,uncategorized
+http://www.foodtrokiandopr.com,uncategorized
+http://www.foodtruckpr.com,uncategorized
+http://www.foolswhocallthemselveswisemen.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.fourweekbook.com, 406
+http://www.freelancedivers.com, 404
+http://www.frugalexplorer.com, 406
+http://www.gameroomgames.com,uncategorized
+http://www.getsuitable.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.getyourbookstarted.com, 406
+http://www.godshandymanllc.com, 406
+http://www.goshengrind.com,uncategorized
+http://www.goshenhistory.com,uncategorized
+http://www.goshennaz.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.goshenpto.com,uncategorized
+http://www.goshenyouthfootballclub.org,uncategorized
+http://www.greatergoshenstaggemarrfarmersmarket.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greenfaerieproductions.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.greywolfk9academy.com,uncategorized
+http://www.gvi.us,uncategorized
+http://www.happilyhere.co,uncategorized
+http://www.hearingaidadvocate.com,uncategorized
+http://www.hearingaidguidefordummies.com,uncategorized
+http://www.helpmetruckit.com,uncategorized
+http://www.heritagebanquethall.com,Exceeded 30 redirects.
+http://www.honkyourownhorn.com,uncategorized
+http://www.horsethiefdetectives.com,uncategorized
+http://www.howtobuyahearingaid.com,uncategorized
+http://www.imagesbyrayonline.com,HTTPConnectionPool(host='www.imagesbyrayonline.com'; port=80): Read timed out. (read timeout=10)
+http://www.imperialmailbox.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.imperialmailbox.us,uncategorized
+http://www.innovativesoundsllc.com,uncategorized
+http://www.insidersguidetohearingaids.com,uncategorized
+http://www.inthedoghouseracing.com, 406
+http://www.ipbphotography.com,uncategorized
+http://www.jaimeefranco.com, 404
+http://www.jamesthoms.me, 404
+http://www.jamiewatsonqh.com,uncategorized
+http://www.jlwenterprisesllc.com,uncategorized
+http://www.jyzhonghai.com,uncategorized
+http://www.kidwellgd.com, 404
+http://www.kingdompledge.com, 404
+http://www.kscustomsfirearms.com, 403
+http://www.ktoh3rddivision.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.kylecabezas.us,uncategorized
+http://www.legacyquestions.com, 406
+http://www.lena.construction,uncategorized
+http://www.leoni-de.com, 403
+http://www.local100membersfirst.com,uncategorized
+http://www.mammasway-homemade.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.marketinghearingaids.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.meanestmancontest.com,HTTPConnectionPool(host='www.meanestmancontest.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D95BD0>; 'Connection to www.meanestmancontest.com timed out. (connect timeout=10)'))
+http://www.morris5starcleaning.com,uncategorized
+http://www.mpg.catering,uncategorized
+http://www.mydogs.social,uncategorized
+http://www.nancy-lawler.com,uncategorized
+http://www.natirun.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nelcreates.com,uncategorized
+http://www.novelinnovember.com, 406
+http://www.oakssocialmedia.com,uncategorized
+http://www.organicoraclekimberley.com,uncategorized
+http://www.outofperu.com,uncategorized
+http://www.pencilhelp.press,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.photografica.me, 404
+http://www.polebuildingsohio.com,uncategorized
+http://www.prodigalsonblog.com,uncategorized
+http://www.purposebuiltauto.com,uncategorized
+http://www.racethefig.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.rainydaysecret.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.reachholster.com,uncategorized
+http://www.redsunfarm.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.forksunite.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.mypets.social,uncategorized
+http://www.acnefinir.com,uncategorized
+http://www.acryness.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.activeclearance.com, 404
+http://www.acts520.com,uncategorized
+http://www.adamjessen.com,uncategorized
+http://www.adamschaible.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.adaptelligencemusic.com, 530
+http://www.addifam.com, 403
+http://www.addisonparty.com,uncategorized
+http://www.administrativeresolution.com,uncategorized
+http://www.adoptasock.com,uncategorized
+http://www.adsitenow.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.advancedbarbering.academy,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.advocatecollective.com,uncategorized
+http://www.afghanbreeders.com,uncategorized
+http://www.aftercarecompany.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.agingamericaresources.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.agingparentcare.com, 404
+http://www.agingparents.org, 404
+http://www.agingusa.com,uncategorized
+http://www.agraponics.org,uncategorized
+http://www.aguarepel.com,uncategorized
+http://www.ahsdeca.com,uncategorized
+http://www.aichstudent.com,uncategorized
+http://www.aidan-mccracken.com,uncategorized
+http://www.aidanhinds.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.aidenbrehm.com,uncategorized
+http://www.aikidocincy.com, 406
+http://www.airtxinternational.com,HTTPConnectionPool(host='www.airtxinternational.com'; port=80): Read timed out. (read timeout=10)
+http://www.aisp-usa.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ajimportsllc.com,uncategorized
+http://www.ajskl.com,uncategorized
+http://www.alakesales.com,HTTPConnectionPool(host='www.alakesales.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D942F0>; 'Connection to www.alakesales.com timed out. (connect timeout=10)'))
+http://www.alaure.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.alertentertainment.com,uncategorized
+http://www.alexandragrace.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.alexguckert.com,uncategorized
+http://www.alexisbeerman.com,uncategorized
+http://www.alexndr.xyz,uncategorized
+http://www.alexrosner.com,uncategorized
+http://www.alexthio.com, 401
+http://www.alisontavel.com,uncategorized
+http://www.alkypoulias.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.allaboutkitty.com,uncategorized
+http://www.allansholar.com,uncategorized
+http://www.allashtonwoods.com,uncategorized
+http://www.allenosgood.com,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+http://www.alliedcincinnati.net,uncategorized
+http://www.alliedcincinnati.club,uncategorized
+http://www.alliedcincinnati.info,uncategorized
+http://www.alliedcincinnati.org,uncategorized
+http://www.alliedcincinnati.com,uncategorized
+http://www.alliedcincinnatisc.org,uncategorized
+http://www.alliedcincinnatisc.info,uncategorized
+http://www.alliedcincinnatisc.net,uncategorized
+http://www.alliedcincinnatisc.com,uncategorized
+http://www.alliemartincreatives.com,uncategorized
+http://www.allsafeplumbing.com,uncategorized
+http://www.allstarcornholebags.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.allthesauce.com,uncategorized
+http://www.allwarrantyinfo.com,uncategorized
+http://www.allyplm.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.almymedia.com,uncategorized
+http://www.alocalblend.com,uncategorized
+http://www.alosgood.com,uncategorized
+http://www.alteredathletics.com,uncategorized
+http://www.alwaysclearlyfresh.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.alzheimersgpsshoe.com,uncategorized
+http://www.alzheimersshoe.com,uncategorized
+http://www.amandawootonphotography.com,uncategorized
+http://www.amazondeliverpro.com,uncategorized
+http://www.amazondeliverypro.com,uncategorized
+http://www.amazonprodeliver.com,uncategorized
+http://www.amazonprodelivery.com,uncategorized
+http://www.ambajipeta.com, 406
+http://www.amberceleste.com,uncategorized
+http://www.allmanagementjobs.com, 404
+http://www.vendspot.com,uncategorized
+http://www.visitors.me,uncategorized
+http://www.waterfordwildcatpride.com,uncategorized
+http://www.workingmotherof2.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xuthanh24h.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.zombietrucks.com,uncategorized
+http://www.drakestimson.net,uncategorized
+http://www.drakestimson.com,uncategorized
+http://www.drakestimson.info,uncategorized
+http://www.drakestimson.co,uncategorized
+http://www.dronecourierservice.com,uncategorized
+http://www.duelinghemispheres.com,uncategorized
+http://www.eastside-concierge.com,uncategorized
+http://www.elevatedskin.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.emmaworple.com,uncategorized
+http://www.erinandwalt.com, 404
+http://www.facialplastic-surgery.com,uncategorized
+http://www.facialplastic-surgery.org,uncategorized
+http://www.facialsurgery.co,uncategorized
+http://www.fantasyleaguecornhole.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.favoritepens.com,uncategorized
+http://www.finestpracticeammunition.com,uncategorized
+http://www.firefino.com,uncategorized
+http://www.fordtaylortalks.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.franbailey.net,uncategorized
+http://www.franbaileyhealer.com,uncategorized
+http://www.futuremarsastronaut.net,uncategorized
+http://www.getglowingskincare.com,uncategorized
+http://www.getmdc.com,uncategorized
+http://www.getmdresults.com,uncategorized
+http://www.getmdskin.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.getvisibleresults.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.getvisibleresults.com,uncategorized
+http://www.glaws.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.goalsgiveback.com,uncategorized
+http://www.h-g-strategy.com,uncategorized
+http://www.hawkinsunlimited.com, 406
+http://www.hawklacrosse.biz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.hgstrategy.co.uk,uncategorized
+http://www.higginbotham-consulting.org,uncategorized
+http://www.higginbothamgroup.co.uk,uncategorized
+http://www.hntlaw.us,uncategorized
+http://www.hntlaw.net,uncategorized
+http://www.hollyedayton.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.hollykrafft.com,uncategorized
+http://www.homeiswhereilive.com,uncategorized
+http://www.icitnowtech.com,uncategorized
+http://www.icuanalytics.com,uncategorized
+http://www.iehrconsult.com,uncategorized
+http://www.iemrconsult.com,uncategorized
+http://www.independentehrconsultant.com,uncategorized
+http://www.independentehrconsultants.com,uncategorized
+http://www.independentemrconsultant.com,uncategorized
+http://www.independentemrconsultants.com,uncategorized
+http://www.indianasurrogate.com, 404
+http://www.indianhillbraves.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.jacksonsworldofproducts.org,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.jackwoodgallery.xyz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.kellyfine.com,uncategorized
+http://www.la-las.com,uncategorized
+http://www.lasramblings.com,uncategorized
+http://www.lastcup.us,uncategorized
+http://www.lawnscapersinc.com,uncategorized
+http://www.lisabrownpresents.com,uncategorized
+http://www.lisamcdanielbrown.com,uncategorized
+http://www.lookyoungerin5days.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.lovecrush88.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.lowtoe.com,uncategorized
+http://www.ludlowward.com,HTTPConnectionPool(host='www.ludlowward.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7DE50>; 'Connection to www.ludlowward.com timed out. (connect timeout=10)'))
+http://www.lumiceutical.com,uncategorized
+http://www.majorforcelacrosse.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makebreakoutshistory.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makebreakoutshistory.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makebreakoutshistory.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makebreakoutshistory.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makedarkspotshistory.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makedarkspotshistory.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makedarkspotshistory.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makedarkspotshistory.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makespotshistory.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makespotshistory.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makespotshistory.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makespotshistory.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makewrinkleshistory.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makewrinkleshistory.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makewrinkleshistory.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.makewrinkleshistory.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bassfishingky.com,uncategorized
+http://www.bassfishingoh.com,uncategorized
+http://www.bassfishingtechnology.com,uncategorized
+http://www.bassfishingtennessee.com,uncategorized
+http://www.bassohio.com,uncategorized
+http://www.bassohio.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bctotalchimneycare.com,uncategorized
+http://www.believeinwilmington.com, 404
+http://www.bethellanefarms.net,uncategorized
+http://www.betterhomemovies.com, 403
+http://www.bioclinique.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.birdsongboarding.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bloodsweatnotears.com,uncategorized
+http://www.bmwlaw.net,uncategorized
+http://www.bobadkins.com,uncategorized
+http://www.bobatkins.us,uncategorized
+http://www.bone-doc.net,uncategorized
+http://www.bookatonga.com,uncategorized
+http://www.bottegacm.com,uncategorized
+http://www.bowiebostonterriers.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.bradentonfreechecking.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.brauschbrewery.com,uncategorized
+http://www.breakhtroughthinking.com,uncategorized
+http://www.brownpaving.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.btgproav.com,uncategorized
+http://www.buckeyeregionaltech.com, 404
+http://www.burlingtonridgefarm.com,uncategorized
+http://www.busygalshomestead.com,uncategorized
+http://www.busymomzy.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.caesarcreekboatrental.com,uncategorized
+http://www.caesarcreekboatrentals.net,uncategorized
+http://www.caesarcreekboatrentals.org,uncategorized
+http://www.caesarcreekboatrentals.info,uncategorized
+http://www.caesarscreekbk.com,uncategorized
+http://www.cagreeable.com,uncategorized
+http://www.caitapaint.com,uncategorized
+http://www.cargobooking.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.caribousanitation.com,uncategorized
+http://www.carlypconsulting.com,uncategorized
+http://www.ccm-nky.com, 404
+http://www.ccportauthority.com,uncategorized
+http://www.cedconcrete.com,uncategorized
+http://www.centerlinedalmatians.com,uncategorized
+http://www.ceprintdesign.com,uncategorized
+http://www.charlestonadventureguide.com,uncategorized
+http://www.charlestonbarfoodguide.com,uncategorized
+http://www.charlestonbusinessgroup.org,uncategorized
+http://www.charlestoncampusguide.com,uncategorized
+http://www.charlestonchurchguide.com,uncategorized
+http://www.charlestoneventsguide.com,uncategorized
+http://www.charlestonfinediningguide.com,uncategorized
+http://www.charlestonkingstreetguide.com,uncategorized
+http://www.charlestonmarketstreetguide.com,uncategorized
+http://www.charlestonretirementguide.com,uncategorized
+http://www.charlestonsportsguide.com,uncategorized
+http://www.checkoutkay.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.chestertownshipfire.us,uncategorized
+http://www.chuckfun.com,uncategorized
+http://www.chuckfunguide.com,uncategorized
+http://www.cincinnatihomeschoolsoccer.com,uncategorized
+http://www.classicautoappearance.com,uncategorized
+http://www.classicenhancements.com,uncategorized
+http://www.classicfauxfinishes.com,uncategorized
+http://www.clientgrabber.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.clinton-massie.com,HTTPConnectionPool(host='www.clinton-massie.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8E810>; 'Connection to www.clinton-massie.com timed out. (connect timeout=10)'))
+http://www.clintoncountyohio.us,HTTPConnectionPool(host='www.clintoncountyohio.us'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8E210>; 'Connection to www.clintoncountyohio.us timed out. (connect timeout=10)'))
+http://www.clintoncountyohiofoundation.org,uncategorized
+http://www.clintoncountyortho.com,uncategorized
+http://www.clintoncountyorthopaedics.com,uncategorized
+http://www.clintoncountyorthopedics.com,uncategorized
+http://www.biosmartsolar.com,uncategorized
+http://www.alexandrakesman.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.alexisgomes.com,uncategorized
+http://www.alfexec.com,uncategorized
+http://www.alfioscincinnati.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ali-usb.com,uncategorized
+http://www.aliasimaging.com,uncategorized
+http://www.alientocrest.com,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+http://www.alignpro.dk,uncategorized
+http://www.alignpro.de,uncategorized
+http://www.alignpro.co.uk,uncategorized
+http://www.alignprobiotic.ca, 504
+http://www.alldays.dk, 504
+http://www.alldays.at,hostname 'www.alldays.at' doesn't match either of 'alwaysdailies.eu'; 'www.alwaysdailies.eu'
+http://www.alldaysinfo.co.uk,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+http://www.allegiantairarena.com,uncategorized
+http://www.allegori.com,uncategorized
+http://www.allfreewebmail.com,uncategorized
+http://www.allincincinnati.org,uncategorized
+http://www.alllanguagesbank.com,uncategorized
+http://www.alloscapital.com,uncategorized
+http://www.allosventurecapital.com,uncategorized
+http://www.aloisbarreras.com,uncategorized
+http://www.altastudios.com,uncategorized
+http://www.alternative-brush-heads.co.uk,uncategorized
+http://www.alternative-brushheads.co.uk,uncategorized
+http://www.alternativebrushheads.co.uk,uncategorized
+http://www.altogethersurpising.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.altoria.net,uncategorized
+http://www.always.lv,hostname 'www.always.lv' doesn't match either of 'izdevigspirkums.lv'; 'www.izdevigspirkums.lv'
+http://www.always.co.il, 504
+http://www.always.com.hr, 504
+http://www.always.com.gt,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.always-envive.de,HTTPConnectionPool(host='www.always-envive.de'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA2690>; 'Connection to www.always-envive.de timed out. (connect timeout=10)'))
+http://www.always-envive.at,HTTPConnectionPool(host='www.always-envive.at'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA2970>; 'Connection to www.always-envive.at timed out. (connect timeout=10)'))
+http://www.always-envive.co.uk,HTTPConnectionPool(host='www.always-envive.co.uk'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA2E50>; 'Connection to www.always-envive.co.uk timed out. (connect timeout=10)'))
+http://www.always-envive.dk,HTTPConnectionPool(host='www.always-envive.dk'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA2C70>; 'Connection to www.always-envive.dk timed out. (connect timeout=10)'))
+http://www.always-info.de,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+http://www.always-info.dk, 504
+http://www.alwayscanada.ca, 504
+http://www.alwaysdiscreet.ca,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+http://www.alwaysdiscreet.co.il,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.pc-pickup.com,uncategorized
+http://www.peaceatstandingrock.com, 412
+http://www.petertothmusic.com,uncategorized
+http://www.planetplus.net,uncategorized
+http://www.playroye.com,uncategorized
+http://www.pobwriters.com,uncategorized
+http://www.popempire.com,uncategorized
+http://www.possiblemanagement.com, 204
+http://www.powrpac.org, 403
+http://www.powrpac.info,uncategorized
+http://www.powrpac.net,uncategorized
+http://www.predictionperfectionpettynews.com, 403
+http://www.premiervip.club,uncategorized
+http://www.pricehillwill.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.primehrs.com,uncategorized
+http://www.prospectwiz.com, 404
+http://www.ptm.link, 404
+http://www.queencitychamberopera.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.questionsforexperts.com,uncategorized
+http://www.rainielu.com,uncategorized
+http://www.randyandbillie.com,uncategorized
+http://www.realgeeksdorealthings.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.recaldes.com,uncategorized
+http://www.redgingercorner.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.rental-apartments.com,HTTPConnectionPool(host='www.rental-apartments.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03AB3AD0>; 'Connection to www.rental-apartments.com timed out. (connect timeout=10)'))
+http://www.rickymaye.org,uncategorized
+http://www.rkmjr.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.rkmjrfoundation.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.rope.nyc,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.russellbryan.com,uncategorized
+http://www.sandmancincinnati.com, 406
+http://www.seashellsandbells.com, 404
+http://www.seniorfoto.com,uncategorized
+http://www.serenityconsultants.org,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+http://www.sevenpointstitle.com,uncategorized
+http://www.sharonsplace.me,uncategorized
+http://www.shawnb21.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.shellsandbells.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.showboatmajestic.com,uncategorized
+http://www.simchaservice.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.singlessourceproperty.com,uncategorized
+http://www.sixsigmarequirements.com,uncategorized
+http://www.snibbles.net, 406
+http://www.stereoalfarero.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.sweatthinking.com,uncategorized
+http://www.syreenestudios.com,uncategorized
+http://www.tandylist.com,uncategorized
+http://www.tastefullysimplecincinnati.com,uncategorized
+http://www.tcialliance.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.terrastrenua.com,uncategorized
+http://www.terrymath.com, 406
+http://www.thebordley.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.thedaylightportrait.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.thefamilyisfirstproject.com, 412
+http://www.thegeekycoder.org,HTTPConnectionPool(host='www.thegeekycoder.org'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7A410>; 'Connection to www.thegeekycoder.org timed out. (connect timeout=10)'))
+http://www.thegeekycoder.com,uncategorized
+http://www.thegeekycoder.net,HTTPConnectionPool(host='www.thegeekycoder.net'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7A290>; 'Connection to www.thegeekycoder.net timed out. (connect timeout=10)'))
+http://www.thegeekycoder.info,HTTPConnectionPool(host='www.thegeekycoder.info'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D75E30>; 'Connection to www.thegeekycoder.info timed out. (connect timeout=10)'))
+http://www.thegreenllama.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.thegtoths.com,uncategorized
+http://www.thelisteners.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.thetatattack.com,uncategorized
+http://www.thewsj.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.theyummygrub.com,uncategorized
+http://www.threadedexpressions.com,uncategorized
+http://www.tn4gfitness.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.tonycatphotos.com,uncategorized
+http://www.talking-rings.com, 406
+http://www.diversitybridge.net,uncategorized
+http://www.djbandcamp.com, 406
+http://www.djoula.com,uncategorized
+http://www.docuproservices.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dogworldcincinnati.org,uncategorized
+http://www.dogworldcincinnati.info,uncategorized
+http://www.donald-stewartfuneralhome.com,uncategorized
+http://www.donaldandstewart.com,uncategorized
+http://www.donaldandstewartfuneral.com,uncategorized
+http://www.donaldandstewartfuneralhome.com,uncategorized
+http://www.donaldandstewartfunerals.com,uncategorized
+http://www.downnightlife.com,uncategorized
+http://www.dpblackinvestments.com,uncategorized
+http://www.drannepower.com,HTTPConnectionPool(host='www.drannepower.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8E430>; 'Connection to www.drannepower.com timed out. (connect timeout=10)'))
+http://www.dreamingfortheplanet.com, 404
+http://www.drivelockamerica.net,uncategorized
+http://www.drjohnhthomas.com, 403
+http://www.drjohnhthomaspsychologist.com, 403
+http://www.duckettlawfirm.co,uncategorized
+http://www.dwnorrisco.com,uncategorized
+http://www.dylanschuster.com, 999
+http://www.eatgreengo.com,uncategorized
+http://www.eatgreengo.net,uncategorized
+http://www.eathealthyfast.net,uncategorized
+http://www.eathealthyfast.com,uncategorized
+http://www.ecoincollectors.com,uncategorized
+http://www.educationoffreeedom.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.educationoffreeedom.info,uncategorized
+http://www.educationoffreeedom.net,uncategorized
+http://www.educationoffreeedom.org,uncategorized
+http://www.edwinedwards.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.edwinedwards4congress.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.edwinedwards4congress.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ehealthocracy.com,uncategorized
+http://www.electricaltc.com,uncategorized
+http://www.electrolyfehealth.com,uncategorized
+http://www.eliseloveschris.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.eliteexchange.com,uncategorized
+http://www.ellengrahammezzo.com,uncategorized
+http://www.embalmer.co,uncategorized
+http://www.embalmers.co,uncategorized
+http://www.emeryvillageco.com,uncategorized
+http://www.emilyvanwalleghen.com,uncategorized
+http://www.emmeram.com,uncategorized
+http://www.emotionroom.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.endzoneclub.net,hostname 'endzoneclub.net' doesn't match either of 'myshopify.com'; '*.myshopify.com'
+http://www.ericavner.com,uncategorized
+http://www.ericspivak.com,uncategorized
+http://www.ericspivakconsulting.com,uncategorized
+http://www.eugeniacaicedo-insurance.com, 500
+http://www.eventelixir.com,uncategorized
+http://www.everythingweneedisin.us,uncategorized
+http://www.ewhiz.org, 404
+http://www.ewhizinternationaltutoring.org,uncategorized
+http://www.ewhizinternationaltutoring.com,uncategorized
+http://www.executivehealthtrihealth.com,uncategorized
+http://www.executivehealthtrihealth.net,uncategorized
+http://www.exerciseexpertoncall.com,HTTPConnectionPool(host='www.exerciseexpertoncall.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03C72F50>; 'Connection to www.exerciseexpertoncall.com timed out. (connect timeout=10)'))
+http://www.exhaledancetribe.com, 400
+http://www.expertwebconsulting.com,uncategorized
+http://www.familyphotostocongress.us,uncategorized
+http://www.fastlanebroadband.com,uncategorized
+http://www.findafuneral.mobi,uncategorized
+http://www.findafuneral.biz,uncategorized
+http://www.findafuneral.net,uncategorized
+http://www.findafuneral.xyz,uncategorized
+http://www.findafuneral.us,uncategorized
+http://www.findlaystreet.com,uncategorized
+http://www.firstantiochcincinnati.com,uncategorized
+http://www.firstnvrsvs.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.firsttitleagency.com,HTTPConnectionPool(host='www.firsttitleagency.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03AB3590>; 'Connection to www.firsttitleagency.com timed out. (connect timeout=10)'))
+http://www.fischfischer.com,uncategorized
+http://www.fitnesscandor.com,uncategorized
+http://www.extraordinaryhair.com,uncategorized
+http://www.altmix.com,uncategorized
+http://www.amaddayinmidland.com, 404
+http://www.amazoncvg.com,uncategorized
+http://www.amazonlogisticsproviders.us,uncategorized
+http://www.amazontruckingcompanies.us,uncategorized
+http://www.amend.consulting,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.americanagnostic.com,uncategorized
+http://www.americansagainstdonaldtrump.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.americantongue.com,uncategorized
+http://www.amlify.com,uncategorized
+http://www.amsconsultingagency.com,uncategorized
+http://www.amycare.org,uncategorized
+http://www.amywolfelovelace.com,uncategorized
+http://www.amyyoungbloodsportsart.com, 406
+http://www.andersonhomesforsale.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.andreacrabtree.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.andrewjeavons.com,uncategorized
+http://www.andrewspeno.com, 403
+http://www.andygibson.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.angelinaadi.com,uncategorized
+http://www.animalattractionadvertising.com,uncategorized
+http://www.animalattractionmarketing.com,uncategorized
+http://www.animalcestry.us,uncategorized
+http://www.animalinstinctfootage.com,uncategorized
+http://www.animalinstinctproduction.com,uncategorized
+http://www.animalinstinctproductions.com,uncategorized
+http://www.annecastleberry.com,uncategorized
+http://www.annuityandlifesource.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.annuityandlifesourceinc.com,uncategorized
+http://www.annuitylifeupdates.com,uncategorized
+http://www.annuityupdates.com,uncategorized
+http://www.ansi-c119.us,uncategorized
+http://www.ansic119.us,uncategorized
+http://www.anthonymangelo.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.aperfectbundle.us,uncategorized
+http://www.apexminecraft.us,uncategorized
+http://www.aplusretail.com,uncategorized
+http://www.apparitionvodka.info,uncategorized
+http://www.apparitionvodka.us,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.appino.net,uncategorized
+http://www.appsbygregorytewksbury.com,uncategorized
+http://www.apracticalguidetosimplehappiness.com,uncategorized
+http://www.archiform3da.top,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.argentummediasolutions.com,uncategorized
+http://www.arguedasphotography.com, 406
+http://www.ariayahaile.com,uncategorized
+http://www.artisfix.com,uncategorized
+http://www.artofpiano.us,uncategorized
+http://www.aspen5ltd.com,uncategorized
+http://www.aspen5salon.com,uncategorized
+http://www.atelierbyadornusa.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.athomecincy.com, 404
+http://www.athousandsweettangents.com,uncategorized
+http://www.authenticallystrong.info,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.authenticallystrong.com,uncategorized
+http://www.authenticallystrong.net,uncategorized
+http://www.autoinsuresavings.org, 400
+http://www.avatarcomp.us,uncategorized
+http://www.avatarcomp.com,uncategorized
+http://www.aviknow.com,HTTPConnectionPool(host='www.aviknow.com'; port=80): Read timed out. (read timeout=10)
+http://www.avoidastink.com,uncategorized
+http://www.aweighout.info,uncategorized
+http://www.aweighout.org,uncategorized
+http://www.awesomedocs.com,uncategorized
+http://www.axislocation.com,uncategorized
+http://www.babybarretts.com,uncategorized
+http://www.backihair.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.backpackerchick.com,uncategorized
+http://www.backyardplayers.com,uncategorized
+http://www.badgepizazz.com,uncategorized
+http://www.baldmens.com,uncategorized
+http://www.baldpeoples.com,uncategorized
+http://www.ballardseniortransportation.com,uncategorized
+http://www.unbouncer.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.uncaged.software,hostname 'www.uncaged.software' doesn't match either of '*.smartzap.com.br'; 'smartzap.com.br'
+http://www.uncaged-software.com,uncategorized
+http://www.uncagedsystems.com,uncategorized
+http://www.unclegordie.com,uncategorized
+http://www.uniquefitz.com, 402
+http://www.universitytutorz.com,uncategorized
+http://www.unpolished.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.urologygroup.us,uncategorized
+http://www.usawithisrael.com,uncategorized
+http://www.used-booksellers.com,uncategorized
+http://www.usplayingcard.net,uncategorized
+http://www.veeloscience.com,uncategorized
+http://www.verosecurity.com,uncategorized
+http://www.vibemapper.com,uncategorized
+http://www.videoforhumans.com,uncategorized
+http://www.vigilsoaps.com,uncategorized
+http://www.vintagecarscincinnati.com,uncategorized
+http://www.virtuutalent.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.visionblade.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.visualfluency.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.visualfluencydesign.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.vitricmedia.com,uncategorized
+http://www.vizifo.com,uncategorized
+http://www.vj3.com,uncategorized
+http://www.vlthost.com,uncategorized
+http://www.votestith.com,uncategorized
+http://www.wait-time-zero.com,uncategorized
+http://www.waittimezero.com,uncategorized
+http://www.wanted-tuts.com,HTTPConnectionPool(host='www.wanted-tuts.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7D570>; 'Connection to www.wanted-tuts.com timed out. (connect timeout=10)'))
+http://www.wcoopersystems.solutions, 403
+http://www.webcashers.com,uncategorized
+http://www.weightlossideas.biz,uncategorized
+http://www.weissmanins.com, 404
+http://www.weken.org,HTTPConnectionPool(host='www.weken.org'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D8E5F0>; 'Connection to www.weken.org timed out. (connect timeout=10)'))
+http://www.welpartner.com,uncategorized
+http://www.weminuchevalleyranch.com, 406
+http://www.wendysbridalcincy.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.wendyscincinnatibride.com,uncategorized
+http://www.wesleyculpepper.com,uncategorized
+http://www.westsideglow.com,uncategorized
+http://www.whatcatholicsbelieve.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.whatisqonverge.com,uncategorized
+http://www.whenshouldyou.com, 404
+http://www.whittenburg.name,uncategorized
+http://www.whittenburg.mobi,uncategorized
+http://www.whodeylove.com, 404
+http://www.wire-ball.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.wisdomandgracethroughgrief.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.wiseup.technology,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.wolfymozart.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.woodlandfeather.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.woollard.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.workoutwithval.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.workwithdara.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.wotministries.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.wyominggolfclub.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xelagroup.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xelaresearch.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xjosh.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xn--crkn-moa.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xuoffcampus.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xxxentertainment513.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xznear.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yblacklivesmatter.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ycoh.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yodaserver.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yogasavedmylife.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yogawitherikamcclure.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.youngevityshop.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yourtypicalfriends.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yourtypicalfriends.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.youvenyou.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.zachtreister.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.zaklay.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.zbgb.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.slowfoodcincinnati.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.smokesurvey.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.snotsintosmiles.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.sofinasucks.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.soleil-detente.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.solidfoundationsoh.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.solwaygallery.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.songlong.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.speed-co.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.speedymaintenanceservice.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.springdot.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.springitforward.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.starflocorp.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.stellarsystemsinc.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.stemcareerlab.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.stobrandcabletrays.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.stuartcompany.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.suchandsuchshop.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.sunsetjanitorialsupply.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.takethatamerica.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.teachmerealestateinvesting.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.teachmetowholesale.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.tenantadvocacygroup.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.terralittle.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.tevinfarmer.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.the-antiques-warehouse.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.the20thcenturytheater.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.theamericanfirefighters.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.thebalmbomb.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.thebrazengoddess.com, 406
+http://www.thebusinessbehindtheboogie.com,uncategorized
+http://www.theclaimsconsortium.com,uncategorized
+http://www.thedaolife.com,uncategorized
+http://www.thedockcomplex.net,uncategorized
+http://www.theherbalbrew.com,uncategorized
+http://www.thenextincharge.com, 404
+http://www.thepetitebelle.com,uncategorized
+http://www.therookwoodpotteryrestaurant.com,uncategorized
+http://www.theunionsprinter.com,uncategorized
+http://www.thinklikeapro.com, 403
+http://www.thornsofthecarrion.com,uncategorized
+http://www.tiegertracks.com,HTTPConnectionPool(host='www.tiegertracks.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7D830>; 'Connection to www.tiegertracks.com timed out. (connect timeout=10)'))
+http://www.tomstreicher.com,uncategorized
+http://www.tourcac.com,uncategorized
+http://www.trumpamericanparty.com,uncategorized
+http://www.trumpedher2016.com,uncategorized
+http://www.tudxsale.top,uncategorized
+http://www.tymes3.com, 404
+http://www.tyraoldham.org, 406
+http://www.uicrents.net,uncategorized
+http://www.urbanoverlap.com, 406
+http://www.utjejstore.top,uncategorized
+http://www.vernonperson.top,uncategorized
+http://www.waterxpro.com, 403
+http://www.wedelivergroceriestoyou.com, 406
+http://www.weldcoinc.com,uncategorized
+http://www.welding-metal.com,uncategorized
+http://www.wherehealthymeetsbeautiful.us,uncategorized
+http://www.workjury.com,uncategorized
+http://www.congrego.net,uncategorized
+http://www.connectoserve.com,uncategorized
+http://www.connoradams.com,uncategorized
+http://www.consealcarryclass.com,('Connection aborted.'; gaierror(11002; 'getaddrinfo failed'))
+http://www.constellationdata.us,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.construction-store.org,uncategorized
+http://www.corefleetinc.com,uncategorized
+http://www.cornerstonespecialtywoodproducts.com,uncategorized
+http://www.cornhole-boards.com,uncategorized
+http://www.cornishwreck.us,uncategorized
+http://www.corporateequipment.org,uncategorized
+http://www.corycostello.com,uncategorized
+http://www.courtofpublicopinionlive.com,uncategorized
+http://www.courtofpublicopiniononline.com,uncategorized
+http://www.courtwars.com,uncategorized
+http://www.cradledingrace.com,uncategorized
+http://www.craftbeercustoms.com,uncategorized
+http://www.creatingdesire.org,uncategorized
+http://www.creativegirlfriends.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cryofreezer.com,uncategorized
+http://www.cryogenicglove.com,uncategorized
+http://www.cryorack.com,uncategorized
+http://www.ctgcontrols.com, 403
+http://www.ctgffm.com,uncategorized
+http://www.cuemanagment.com,uncategorized
+http://www.customautodesignsgraphics.com,uncategorized
+http://www.customcakesbyterri.com,uncategorized
+http://www.customcraftbeer.com,uncategorized
+http://www.customcraftbeers.com,uncategorized
+http://www.d-has.com,uncategorized
+http://www.daddydaughtersoap.com, 404
+http://www.dadvillage.com,uncategorized
+http://www.danleachart.com, 404
+http://www.danoproductionsllc.com,uncategorized
+http://www.darkpoolgames.net,uncategorized
+http://www.davebrownphotographer.com,uncategorized
+http://www.davidscottlipps.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.davispm.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.daytonserviceheroes.net,uncategorized
+http://www.deangelos30anduphappyhour.com,uncategorized
+http://www.deathknellrecords.com,uncategorized
+http://www.debbieedwards.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.consealcarryclasses.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cornholebox.com,uncategorized
+http://www.corporatemakeover.com,uncategorized
+http://www.cryofreezer.net,uncategorized
+http://www.wickedpacific.com,uncategorized
+http://www.windowspaymentcenter.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.worldpeacelaughter.com, 403
+http://www.xcashcoupons.com,uncategorized
+http://www.ximenafloresart.com,uncategorized
+http://www.yellowhaustudio.com, 406
+http://www.zachsawan.com,uncategorized
+http://www.zortmanracing.com,uncategorized
+http://www.tetraec.com, 403
+http://www.theleals.com, 503
+http://www.themastermindpodcast.com,uncategorized
+http://www.thewebslingers.com,uncategorized
+http://www.thewesolution.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.troop400mulch.com,uncategorized
+http://www.twocent.club,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.tylerbrown.net,uncategorized
+http://www.u-f-g.com,HTTPConnectionPool(host='www.u-f-g.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA2490>; 'Connection to www.u-f-g.com timed out. (connect timeout=10)'))
+http://www.unisondayton.com,uncategorized
+http://www.usamoores.net,uncategorized
+http://www.uttley.top,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.voiceofromance.com,uncategorized
+http://www.voiceoftruthcoaching.com,uncategorized
+http://www.walsh95.net,uncategorized
+http://www.walshgfp.net,uncategorized
+http://www.wdirections.com,uncategorized
+http://www.webbogo.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.whalenllc.com,uncategorized
+http://www.wilhitepublishing.com,uncategorized
+http://www.wtcmtd.com,uncategorized
+http://www.yourhealthislow.com,uncategorized
+http://www.yourmovingcompany.us,uncategorized
+http://www.zejuphoto.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cincinnatisoars.net,uncategorized
+http://www.cincinnatusproductions.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cincisafekids.com,hostname 'www.cincisafekids.com' doesn't match either of 'www.cincinnatichildrens.org'; 'cincinnatichildrens.org'
+http://www.cincycinnabomb.com,uncategorized
+http://www.cincygastro.com, 412
+http://www.cincygrandmansion.com,uncategorized
+http://www.cincyhenna.com,uncategorized
+http://www.cincyhennabelly.com,uncategorized
+http://www.cincylink.com, 403
+http://www.cincymehndi.com,uncategorized
+http://www.cincysupply.com,uncategorized
+http://www.cincywax.com, 404
+http://www.cinnabombs.com,uncategorized
+http://www.ckg-training.com,uncategorized
+http://www.clarityamrein.com,uncategorized
+http://www.clearchoicereviews.com,uncategorized
+http://www.climaxculture.com,uncategorized
+http://www.cloudfrabic.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cluedesignstudio.com,uncategorized
+http://www.cmlallybooks.com,uncategorized
+http://www.cms-theme.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coinphotographer.com,uncategorized
+http://www.collegedirectoryschooltheatre.org,uncategorized
+http://www.colonialgardens-apartments.com,uncategorized
+http://www.compuedinc.biz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.contare.xyz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.continentalmanorcarecenter.com, 403
+http://www.continentalmanornrc.com, 403
+http://www.coopco-op.com,uncategorized
+http://www.createcoins.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.culsu.net,HTTPConnectionPool(host='www.culsu.net'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E766D0>; 'Connection to www.culsu.net timed out. (connect timeout=10)'))
+http://www.cultofsorrow.com,uncategorized
+http://www.curiouscatcentral.com,uncategorized
+http://www.curtainsyousay.com, 404
+http://www.cwucincy.org,uncategorized
+http://www.cypherispi.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dadwears.com,uncategorized
+http://www.dallaspadoven.com,uncategorized
+http://www.danielkdrake.com,uncategorized
+http://www.daniellamp.com,uncategorized
+http://www.dannyvisconti.com,uncategorized
+http://www.danqizeng.com,uncategorized
+http://www.darrellpayneattorneyatlaw.com,uncategorized
+http://www.datazar.info,HTTPConnectionPool(host='www.datazar.info'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E767F0>; 'Connection to www.datazar.info timed out. (connect timeout=10)'))
+http://www.ddlastminute.com,uncategorized
+http://www.deborahheater.net,uncategorized
+http://www.deborahheater.com,uncategorized
+http://www.deborahnetanel.com,uncategorized
+http://www.deliberatelysimple.com,uncategorized
+http://www.designbycaitlin.com,uncategorized
+http://www.designxperts.net, 406
+http://www.destroybedbugs.com, 406
+http://www.digicoremedia.com,uncategorized
+http://www.dininghabits.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dionekuraoka.com,uncategorized
+http://www.dirkelicious.com,uncategorized
+http://www.distinctivepatio.com,uncategorized
+http://www.dleonard.org,uncategorized
+http://www.drfrank.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.drkaufman.com,uncategorized
+http://www.droliver.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.drpaulsohi.com, 406
+http://www.duboisbooks.net,uncategorized
+http://www.dutchfamilyreunion.com,uncategorized
+http://www.cincinnatisoars.org,uncategorized
+http://www.cloudreadynetworks.com,uncategorized
+http://www.compuedinc.com, 403
+http://www.ricardorademacher.biz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ridewithmuse.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.rightsizedesign.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ripplesw.net,HTTPConnectionPool(host='www.ripplesw.net'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E72250>; 'Connection to www.ripplesw.net timed out. (connect timeout=10)'))
+http://www.risecoalition.org, 403
+http://www.rivercorp.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.roanoke-landscaping.com,uncategorized
+http://www.robertconyne.com, 406
+http://www.robertwbabcock.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.robgray-artdept.com,uncategorized
+http://www.robscharf.me,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.roguengineering.net,uncategorized
+http://www.rosebudwraps.com, 404
+http://www.rubs4all.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.rural-innovation.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ruth-and-michal.com,HTTPConnectionPool(host='www.ruth-and-michal.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D7EE70>; 'Connection to www.ruth-and-michal.com timed out. (connect timeout=10)'))
+http://www.ruthieredlips.com,uncategorized
+http://www.ryanfennessey.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.saeide-karimi.com,uncategorized
+http://www.samuelckaye.com, 404
+http://www.santomo.net, 403
+http://www.santoshkumar.us, 404
+http://www.scandinavian-art-handicraft.com,uncategorized
+http://www.schnappspops.com,uncategorized
+http://www.scifp.com,uncategorized
+http://www.seamus.co,uncategorized
+http://www.securityrnd.com,uncategorized
+http://www.sethtwalsh.com,uncategorized
+http://www.setyourlook.com,uncategorized
+http://www.sfd.org, 404
+http://www.sg1archive.net,HTTPConnectionPool(host='www.sg1archive.net'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7A190>; 'Connection to www.sg1archive.net timed out. (connect timeout=10)'))
+http://www.shashankmodi.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.sherryjoy.net,uncategorized
+http://www.sherryjoyyoga.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.shesgotsomethingtosay.org,uncategorized
+http://www.shopcaviarofswitzerland.us,uncategorized
+http://www.shortvinejournal.com, 406
+http://www.siavash-yansori.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.siddsouza.com, 404
+http://www.sidfrancis.com,uncategorized
+http://www.sidkamath.com,uncategorized
+http://www.sidneywoolley.com,uncategorized
+http://www.siliconemenstrualcup.us,uncategorized
+http://www.sinclairconstruction.us,uncategorized
+http://www.sizemore.us,uncategorized
+http://www.sizemorepropertygroup.com,uncategorized
+http://www.skysuniquecollection.com, 403
+http://www.slingaboo.com,uncategorized
+http://www.solotopia.org,uncategorized
+http://www.somonative.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.southernohiopathologyconsultants.com,uncategorized
+http://www.squarecontacts.com,uncategorized
+http://www.sreekhar.info,uncategorized
+http://www.starcashcoupons.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.stellarsnapsastrophotography.com,uncategorized
+http://www.stenogopher.com,uncategorized
+http://www.stephencosco.com,uncategorized
+http://www.stephshirley.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.stewartgoldman.com,uncategorized
+http://www.stitch9.com,uncategorized
+http://www.stjohnsuu.net,uncategorized
+http://www.stolenvalorclothing.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.storiesbuilding.net,uncategorized
+http://www.storiesbuilding.info,uncategorized
+http://www.storiesbuilding.org,uncategorized
+http://www.story-builder.org,uncategorized
+http://www.story-building.org,uncategorized
+http://www.storybuilder.co,uncategorized
+http://www.storybuilders.info,uncategorized
+http://www.storybuilders.co,uncategorized
+http://www.storybuilding.us,uncategorized
+http://www.writerslivetwice.com,uncategorized
+http://www.wyomingveterinaryclinic.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.wyvetclinic.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.xeal.us,uncategorized
+http://www.xtyl.us,uncategorized
+http://www.yayers.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yeahicandothat.com,uncategorized
+http://www.yourfavoritemaid.com, 403
+http://www.yourfellowship.net, 404
+http://www.yourfirstdancebybudwalters.com,uncategorized
+http://www.yourhomesolutionnetwork.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yourmomsafan.com,uncategorized
+http://www.zinover.com,uncategorized
+http://www.christinecarli.com, 406
+http://www.chultarsky.xyz,uncategorized
+http://www.chultarsky.mobi,HTTPConnectionPool(host='www.chultarsky.mobi'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7A930>; 'Connection to www.chultarsky.mobi timed out. (connect timeout=10)'))
+http://www.cincibrt.com,hostname 'www.cincibrt.com' doesn't match either of 'barge2rail.com'; 'www.barge2rail.com'
+http://www.cincinnaticancerfoundation.org,uncategorized
+http://www.cincinnatishuffle.com,uncategorized
+http://www.cincinnatispanishinstitute.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cincyadvocare.com,HTTPConnectionPool(host='www.advocare.com'; port=80): Read timed out. (read timeout=10)
+http://www.cinnquip.com, 403
+http://www.cinnquipllc.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.citibakers.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.citythatsings.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.clevelandspanishacademy.com, 403
+http://www.clubepay.com, 500
+http://www.clubessential.ninja,HTTPSConnectionPool(host='www.clubessential.ninja'; port=443): Read timed out. (read timeout=10)
+http://www.coachgreatsoccer.org,uncategorized
+http://www.coachgreatsoccer.net,uncategorized
+http://www.coachgreatsoccer.co.uk,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.coachgreatsoccer.mobi,uncategorized
+http://www.coerver.org,uncategorized
+http://www.coerver.co,uncategorized
+http://www.coerver-coaching.com,uncategorized
+http://www.coerver-coaching.net,uncategorized
+http://www.coerver-coaching-dvds.com, 406
+http://www.coerver-football-training.com,uncategorized
+http://www.coerver-soccer-drills.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coerver-soccer-strategy.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coerver-soccer-training.com,uncategorized
+http://www.coerver-youth-soccer-drills.com,uncategorized
+http://www.coerver5v5challengecup.com,uncategorized
+http://www.coervercoachingdrills.com, 406
+http://www.coervercoachingdvds.com, 406
+http://www.coerverfootballtraining.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coervermethod.com,uncategorized
+http://www.coerveronline.com, 401
+http://www.coerverpracticeideas.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coervers.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coerverskillscamps.com,uncategorized
+http://www.coerversoccertraining.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.coerverusa.com,HTTPConnectionPool(host='www.coerverusa.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D95A10>; 'Connection to www.coerverusa.com timed out. (connect timeout=10)'))
+http://www.coerveryouthsoccerdrills.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.collaboratives.com,uncategorized
+http://www.compaironline.com,HTTPConnectionPool(host='www.compaironline.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E76AF0>; 'Connection to www.compaironline.com timed out. (connect timeout=10)'))
+http://www.computersecurityviruses.com,uncategorized
+http://www.connectingnaturallycuisine.com,uncategorized
+http://www.consignly.us,uncategorized
+http://www.consumin.com, 403
+http://www.contemporaryabstractdecor.com,uncategorized
+http://www.contourwear.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.contractorconfidence.com,uncategorized
+http://www.controlguns.com,uncategorized
+http://www.contxtblog.com,uncategorized
+http://www.corneallenslab.com,HTTPConnectionPool(host='www.corneallenslab.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03CA2DB0>; 'Connection to www.corneallenslab.com timed out. (connect timeout=10)'))
+http://www.coronadoclub.tel,uncategorized
+http://www.crackingtheglassdarkly.com,uncategorized
+http://www.cramerhall.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.createyourownfinishline.com,uncategorized
+http://www.creativesbusinessacademy.com, 404
+http://www.crichmd.com, 404
+http://www.cryptranx.xyz,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cuteandglittery.com,uncategorized
+http://www.daltonroofing.com, 401
+http://www.dancefix.org,uncategorized
+http://www.danceguy.net,uncategorized
+http://www.danceguy.com,uncategorized
+http://www.clubeqa.com,('Connection aborted.'; error(10061; 'No connection could be made because the target machine actively refused it'))
+http://www.myplusblue.com, 403
+http://www.myrubbermaidhome.tv,uncategorized
+http://www.myseniorsurvey.org,uncategorized
+http://www.myultimatesportslist.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.myyardparty.com,uncategorized
+http://www.nami-wc.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nationalpavementmaintenance.org,uncategorized
+http://www.nationalpavementmaintenance.com,uncategorized
+http://www.nationalpavementmaintenance.net,uncategorized
+http://www.nationalrepairmonth.com,uncategorized
+http://www.nationwidehotleads.com,uncategorized
+http://www.neighborlandhomes.com,uncategorized
+http://www.newbrandday.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.newmandevelopmentgroup.com,uncategorized
+http://www.newsshopbuy.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nextcar123.com,uncategorized
+http://www.niceshopfull.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nick.ceo,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.nickjevic.com,uncategorized
+http://www.ninamdot.com,uncategorized
+http://www.nitram.com,HTTPConnectionPool(host='www.nitram.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7DB70>; 'Connection to www.nitram.com timed out. (connect timeout=10)'))
+http://www.nkubmw.com,uncategorized
+http://www.nltbiblecollegeabidjanbranch.org,uncategorized
+http://www.nofeardentist.co,uncategorized
+http://www.nofeardentistcincinnati.co,uncategorized
+http://www.nofeardentistofcincinnati.co,uncategorized
+http://www.norrisproducts.com, 403
+http://www.now-what.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.oakleycycles.com,uncategorized
+http://www.offbeatmommy.com,uncategorized
+http://www.officialleahmarried.com,uncategorized
+http://www.ohio-eldercare-pro.info,uncategorized
+http://www.ohiochiropracticconnection.com,uncategorized
+http://www.ohiovalleycameraclub.com,uncategorized
+http://www.ohiovalleyflooring.com, 404
+http://www.okeeffes-company.co.uk,uncategorized
+http://www.okfashionenjoy.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.omegaleadership.com, 403
+http://www.onemilechallenge.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.onestopprintsolutions.net,uncategorized
+http://www.operatorfitness.com,uncategorized
+http://www.originalblindfactory.com,uncategorized
+http://www.ourcatholiclife.net,uncategorized
+http://www.ourmadisonville.org,uncategorized
+http://www.ourvetcommunity.com,uncategorized
+http://www.outdoorlightsdepot.com,uncategorized
+http://www.outdoorpreschoolstore.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.outofself.org,uncategorized
+http://www.overheadbag.com,uncategorized
+http://www.overthehumpmessages.com, 404
+http://www.pabloart.org,hostname 'www.pabloart.org' doesn't match 'pabloart.org'
+http://www.pabloyoga.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.pabloyoga.com,hostname 'www.pabloyoga.com' doesn't match 'pabloyoga.com'
+http://www.paperlessmanufacturingtechnology.com,uncategorized
+http://www.paperlessmfg.com,uncategorized
+http://www.paperlessshopfloor.com,uncategorized
+http://www.papernoise.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.paperxplane.com,uncategorized
+http://www.parsonsandprows.com,HTTPConnectionPool(host='www.parsonsandprows.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7D230>; 'Connection to www.parsonsandprows.com timed out. (connect timeout=10)'))
+http://www.pathwaysbook.com,uncategorized
+http://www.paul-ludwig.com,uncategorized
+http://www.paulludwig.com,uncategorized
+http://www.paulwright.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.pavementconnect.net,uncategorized
+http://www.pavementconnection.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.pavementlayer.net,uncategorized
+http://www.pavementlayers.net,uncategorized
+http://www.pavementmadesimple.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.pavementmadesimple.net,HTTPConnectionPool(host='www.pavementmadesimple.net'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D94A70>; 'Connection to www.pavementmadesimple.net timed out. (connect timeout=10)'))
+http://www.pavementprojects.com,uncategorized
+http://www.pavementprojects.net,uncategorized
+http://www.pavingmadesimple.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.myseniorsurvey.com,uncategorized
+http://www.ohio-eldercare-pro.net,uncategorized
+http://www.heathercordova.com,uncategorized
+http://www.helenahugo.com,uncategorized
+http://www.hightlist.net,uncategorized
+http://www.hilaryferguson.com,HTTPConnectionPool(host='msig.med.utah.edu'; port=80): Max retries exceeded with url: /bryceandhilary/index.cfm (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03D95030>; 'Connection to msig.med.utah.edu timed out. (connect timeout=10)'))
+http://www.hilois.com,uncategorized
+http://www.hirameast.com, 403
+http://www.hjclassring.com,HTTPConnectionPool(host='www.hjclassring.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E8E1B0>; 'Connection to www.hjclassring.com timed out. (connect timeout=10)'))
+http://www.hobiekayakguide.com,uncategorized
+http://www.hobojourney.com,uncategorized
+http://www.hofmann.cloud,uncategorized
+http://www.hollyjoskitchen.com,uncategorized
+http://www.homecarevoice.com,uncategorized
+http://www.homehearthcommunities.com,uncategorized
+http://www.homehearthcommunity.com,uncategorized
+http://www.homeschoolassessments.com, 403
+http://www.honesttummy.com,uncategorized
+http://www.honeyevents.co,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.hopeforamericasfuture.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.hopeforamericasfuture.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.hotandmighty.us,uncategorized
+http://www.hotandmightychemical.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.hotandmightychemicals.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.housingourhomeless.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.howproseisthat.com,uncategorized
+http://www.howthewealthyinvest.info,uncategorized
+http://www.hubdor.com,uncategorized
+http://www.humanedrugs.com,uncategorized
+http://www.hummingbirdfeeders.com,uncategorized
+http://www.ibptech.com,uncategorized
+http://www.icannotretireyet.com,uncategorized
+http://www.icanovercomenarcabuse.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.icftb.com,('Connection aborted.'; BadStatusLine("''";))
+http://www.idealusedmachinery.com,uncategorized
+http://www.idocarpentry.com,uncategorized
+http://www.idopartybus.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.imprintdesign.com,uncategorized
+http://www.imustrefrain.com,uncategorized
+http://www.incaliforniawetrust.com, 404
+http://www.infinite.digital,uncategorized
+http://www.infinitybank24.com,uncategorized
+http://www.infinitybankonline.com,uncategorized
+http://www.influenceforlife.net,HTTPConnectionPool(host='www.influenceforlife.net'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03AB3DD0>; 'Connection to www.influenceforlife.net timed out. (connect timeout=10)'))
+http://www.infpotential.com, 406
+http://www.infpotential.org,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.inkncraft.com,uncategorized
+http://www.inmobiliariafabredi.com,uncategorized
+http://www.innovationsbydesign.net, 404
+http://www.integritylifecoaching.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.intensiflyhobbies.com,uncategorized
+http://www.intermodalsurvey.com,uncategorized
+http://www.internetmarketingblueprint.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.investblueskies.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.investyourfaith.com,uncategorized
+http://www.invitechain.com,uncategorized
+http://www.intergenial.com,uncategorized
+http://www.youroddspot.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yousaveconstruction.com, 404
+http://www.yurban.com,uncategorized
+http://www.yurbangroup.org,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yurbangroup.net,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yurbangroup.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yurbangroup.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yurbangroup.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yurbanventure.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.yurbanventures.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.zabryan.com,uncategorized
+http://www.zerocrank.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.zerosumrecords.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.zipirvinproject.com,uncategorized
+http://www.zocsparcel.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.zoomwebhosting.com,uncategorized
+http://www.zulusound.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.cranetrainingclass.com,uncategorized
+http://www.creepshowapparel.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.curveballclassic.com, 404
+http://www.daytonohiolawfirm.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.dealsinbulk.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.deathpenalty.me,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.delhitruth.com,uncategorized
+http://www.desalesgroup.com,uncategorized
+http://www.diabeticdisney.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.djetrayn.com,uncategorized
+http://www.donnaholtman.com,uncategorized
+http://www.earlywineracingforsale.com, 404
+http://www.earthstapestry.info,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.eglberger.com,('Connection aborted.'; error(10054; 'An existing connection was forcibly closed by the remote host'))
+http://www.ellenggerard.com,uncategorized
+http://www.emilyhofmeyer.com,uncategorized
+http://www.emvonhagen.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.ericfraner.com,uncategorized
+http://www.everyhouseneeds.com,uncategorized
+http://www.exclusiveimagephotography.com,uncategorized
+http://www.fatcatskinnycat.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.feedingmydreams.com,uncategorized
+http://www.fernbankgolfcourse.com, 406
+http://www.fillmeupbuttercup.com, 404
+http://www.fngoodefingers.com,uncategorized
+http://www.foundhervoice.com,uncategorized
+http://www.fredsheadstudio.com,uncategorized
+http://www.freeandcreative.com,uncategorized
+http://www.funnycatvideos.us,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.funonthebun.com,uncategorized
+http://www.gameportalprod.com,HTTPConnectionPool(host='www.gameportalprod.com'; port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03E7A470>; 'Connection to www.gameportalprod.com timed out. (connect timeout=10)'))
+http://www.gameusedstore.com,uncategorized
+http://www.garettmerk.com,uncategorized
+http://www.gatlinburggrandslam.com,uncategorized
+http://www.gerardhomeinspection.com, 406
+http://www.gerardhomeinspections.com, 406
+http://www.glass-to-metalseal.com,('Connection aborted.'; gaierror(11001; 'getaddrinfo failed'))
+http://www.glass2metal.com,uncategorized
+http://www.globalccn.com,uncategorized
+http://www.goodbetterenough.com,uncategorized
+http://www.gpcccaring.com,uncategorized
+http://www.grandpajohn.us,uncategorized

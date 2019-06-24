@@ -28,3 +28,5 @@ devtools
 usethis
 domaintools
 wayback
+lubridate
+geojsonio
